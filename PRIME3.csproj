@@ -1,0 +1,371 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DDA48C31-BA10-4DF7-ACF4-0708A363BF0B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>PRIME3</RootNamespace>
+    <AssemblyName>PRIME3</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="ReaLTaiizor, Version=3.8.0.5, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\ReaLTaiizor.3.8.0.5\lib\net48\ReaLTaiizor.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs" />
+    <Compile Include="Form11.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Form1.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HeaderPoster.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HeaderPoster.Designer.cs">
+      <DependentUpon>HeaderPoster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="home.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="home.Designer.cs">
+      <DependentUpon>home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Loading.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Loading.Designer.cs">
+      <DependentUpon>Loading.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MovieFunction.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MovieFunction.Designer.cs">
+      <DependentUpon>MovieFunction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SignUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SignUp.Designer.cs">
+      <DependentUpon>SignUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Widget.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Widget.Designer.cs">
+      <DependentUpon>Widget.cs</DependentUpon>
+    </Compile>
+    <Compile Include="zzzzZ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="zzzzZ.Designer.cs">
+      <DependentUpon>zzzzZ.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Form11.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HeaderPoster.resx">
+      <DependentUpon>HeaderPoster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="home.resx">
+      <DependentUpon>home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Loading.resx">
+      <DependentUpon>Loading.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MovieFunction.resx">
+      <DependentUpon>MovieFunction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SignUp.resx">
+      <DependentUpon>SignUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Widget.resx">
+      <DependentUpon>Widget.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="zzzzZ.resx">
+      <DependentUpon>zzzzZ.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LOGO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\radioTwo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\basket.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\finalHome.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search222.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\smario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\smart-home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spotlight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tab.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ticket.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\video.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\oppenheimer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ORPAGE SIGNUP.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\radio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rectangle 1034.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shopping-cart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LOADING part.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LOGO1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\madamewebb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask group_GODZILLA.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\notif.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2222radio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Account.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ARROW.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ARROW1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\basket1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bgGodz.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bgGodzilla.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dune.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dune1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ellipsebg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\final box.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\finalHome1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FIRST one.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FIRST PAGE ghlasss.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FIRST PAGE SIGNUP.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FIRST PAGE.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FIRST PAGE1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\godzilla.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\godzilla_x_kong_the_new_empire_ver7 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\godzilla_x_kong_the_new_empire_ver7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\godzilla1212.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GodzillaHeader.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\godzillaPoster.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dune2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\godzilla1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KfPanda.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MWebb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dune3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\godName1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kung fu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mask group_GODZILLA1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hungerG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dune4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Image1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\dune2Named.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\godName.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\kFPandaNamed.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\HeaderImage\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
