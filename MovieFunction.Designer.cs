@@ -37,31 +37,31 @@
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.panel32 = new System.Windows.Forms.Panel();
             this.panel30 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.headerImage = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.usernameData = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
+            this.movieTitle = new System.Windows.Forms.Label();
+            this.showingDate = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.directorName = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
+            this.movieSynopsis = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
             this.starSign = new System.Windows.Forms.Label();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.add2CartText = new System.Windows.Forms.Label();
             this.panel10 = new System.Windows.Forms.Panel();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.BookButton = new ReaLTaiizor.Controls.CyberButton();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.panel31.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.headerImage)).BeginInit();
             this.panel10.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             this.SuspendLayout();
             // 
@@ -121,6 +121,7 @@
             // pictureBox5
             // 
             this.pictureBox5.Dock = System.Windows.Forms.DockStyle.Right;
+            this.pictureBox5.Image = global::PRIME3.Properties.Resources.Account;
             this.pictureBox5.Location = new System.Drawing.Point(1192, 0);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(48, 43);
@@ -145,17 +146,6 @@
             this.panel30.Size = new System.Drawing.Size(1277, 17);
             this.panel30.TabIndex = 11;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Location = new System.Drawing.Point(982, 375);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(153, 226);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 16;
-            this.pictureBox1.TabStop = false;
-            // 
             // panel1
             // 
             this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -163,7 +153,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.panel1.BackColor = System.Drawing.Color.Transparent;
-            this.panel1.Controls.Add(this.pictureBox2);
+            this.panel1.Controls.Add(this.headerImage);
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Controls.Add(this.panel3);
             this.panel1.Location = new System.Drawing.Point(171, 76);
@@ -171,15 +161,16 @@
             this.panel1.Size = new System.Drawing.Size(974, 263);
             this.panel1.TabIndex = 17;
             // 
-            // pictureBox2
+            // headerImage
             // 
-            this.pictureBox2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox2.Location = new System.Drawing.Point(10, 0);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(954, 263);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 13;
-            this.pictureBox2.TabStop = false;
+            this.headerImage.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.headerImage.Image = global::PRIME3.Properties.Resources.GodzillaHeader;
+            this.headerImage.Location = new System.Drawing.Point(10, 0);
+            this.headerImage.Name = "headerImage";
+            this.headerImage.Size = new System.Drawing.Size(954, 263);
+            this.headerImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.headerImage.TabIndex = 13;
+            this.headerImage.TabStop = false;
             // 
             // panel2
             // 
@@ -197,39 +188,37 @@
             this.panel3.Size = new System.Drawing.Size(10, 263);
             this.panel3.TabIndex = 11;
             // 
-            // usernameData
+            // movieTitle
             // 
-            this.usernameData.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.usernameData.AutoSize = true;
-            this.usernameData.BackColor = System.Drawing.Color.Transparent;
-            this.usernameData.Font = new System.Drawing.Font("SF Pro Text", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.usernameData.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(205)))), ((int)(((byte)(205)))));
-            this.usernameData.Location = new System.Drawing.Point(226, 375);
-            this.usernameData.Name = "usernameData";
-            this.usernameData.Size = new System.Drawing.Size(467, 35);
-            this.usernameData.TabIndex = 18;
-            this.usernameData.Tag = "";
-            this.usernameData.Text = "Godzilla x Kong: The New Empire";
+            this.movieTitle.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.movieTitle.AutoSize = true;
+            this.movieTitle.BackColor = System.Drawing.Color.Transparent;
+            this.movieTitle.Font = new System.Drawing.Font("SF Pro Text", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.movieTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(205)))), ((int)(((byte)(205)))));
+            this.movieTitle.Location = new System.Drawing.Point(226, 375);
+            this.movieTitle.Name = "movieTitle";
+            this.movieTitle.Size = new System.Drawing.Size(467, 35);
+            this.movieTitle.TabIndex = 18;
+            this.movieTitle.Tag = "";
+            this.movieTitle.Text = "Godzilla x Kong: The New Empire";
             // 
-            // label8
+            // showingDate
             // 
-            this.label8.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.label8.AutoSize = true;
-            this.label8.BackColor = System.Drawing.Color.Transparent;
-            this.label8.Font = new System.Drawing.Font("SF Pro Text", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(205)))), ((int)(((byte)(205)))));
-            this.label8.Location = new System.Drawing.Point(258, 424);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(104, 16);
-            this.label8.TabIndex = 19;
-            this.label8.Tag = "";
-            this.label8.Text = "March 30, 2024";
+            this.showingDate.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.showingDate.AutoSize = true;
+            this.showingDate.BackColor = System.Drawing.Color.Transparent;
+            this.showingDate.Font = new System.Drawing.Font("SF Pro Text", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.showingDate.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(205)))), ((int)(((byte)(205)))));
+            this.showingDate.Location = new System.Drawing.Point(258, 424);
+            this.showingDate.Name = "showingDate";
+            this.showingDate.Size = new System.Drawing.Size(104, 16);
+            this.showingDate.TabIndex = 19;
+            this.showingDate.Tag = "";
+            this.showingDate.Text = "March 30, 2024";
             // 
             // label1
             // 
-            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("SF Pro Text", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -241,27 +230,23 @@
             this.label1.Tag = "";
             this.label1.Text = "Directed By";
             // 
-            // label2
+            // directorName
             // 
-            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("SF Pro Text", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(205)))), ((int)(((byte)(205)))));
-            this.label2.Location = new System.Drawing.Point(240, 499);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(108, 16);
-            this.label2.TabIndex = 21;
-            this.label2.Tag = "";
-            this.label2.Text = "- Adam Wingard";
+            this.directorName.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.directorName.AutoSize = true;
+            this.directorName.BackColor = System.Drawing.Color.Transparent;
+            this.directorName.Font = new System.Drawing.Font("SF Pro Text", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.directorName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(205)))), ((int)(((byte)(205)))));
+            this.directorName.Location = new System.Drawing.Point(240, 499);
+            this.directorName.Name = "directorName";
+            this.directorName.Size = new System.Drawing.Size(108, 16);
+            this.directorName.TabIndex = 21;
+            this.directorName.Tag = "";
+            this.directorName.Text = "- Adam Wingard";
             // 
             // label3
             // 
-            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label3.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("SF Pro Text", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -273,21 +258,21 @@
             this.label3.Tag = "";
             this.label3.Text = "Synopsis";
             // 
-            // label4
+            // movieSynopsis
             // 
-            this.label4.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.label4.Font = new System.Drawing.Font("SF Pro Text", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(205)))), ((int)(((byte)(205)))));
-            this.label4.Location = new System.Drawing.Point(240, 568);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(363, 91);
-            this.label4.TabIndex = 23;
-            this.label4.Tag = "";
-            this.label4.Text = resources.GetString("label4.Text");
-            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.movieSynopsis.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.movieSynopsis.AutoSize = true;
+            this.movieSynopsis.BackColor = System.Drawing.Color.Transparent;
+            this.movieSynopsis.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.movieSynopsis.Font = new System.Drawing.Font("SF Pro Text", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.movieSynopsis.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(205)))), ((int)(((byte)(205)))));
+            this.movieSynopsis.Location = new System.Drawing.Point(240, 568);
+            this.movieSynopsis.Name = "movieSynopsis";
+            this.movieSynopsis.Size = new System.Drawing.Size(363, 91);
+            this.movieSynopsis.TabIndex = 23;
+            this.movieSynopsis.Tag = "";
+            this.movieSynopsis.Text = resources.GetString("movieSynopsis.Text");
+            this.movieSynopsis.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // panel4
             // 
@@ -300,6 +285,7 @@
             // 
             // starSign
             // 
+            this.starSign.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.starSign.AutoSize = true;
             this.starSign.Cursor = System.Windows.Forms.Cursors.Hand;
             this.starSign.Font = new System.Drawing.Font("SF Pro Text", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -309,16 +295,6 @@
             this.starSign.Size = new System.Drawing.Size(44, 35);
             this.starSign.TabIndex = 30;
             this.starSign.Text = "☆";
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox3.Location = new System.Drawing.Point(3, 0);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(23, 24);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 32;
-            this.pictureBox3.TabStop = false;
             // 
             // add2CartText
             // 
@@ -345,17 +321,16 @@
             this.panel10.Size = new System.Drawing.Size(125, 27);
             this.panel10.TabIndex = 29;
             // 
-            // pictureBox10
+            // pictureBox3
             // 
-            this.pictureBox10.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox10.Location = new System.Drawing.Point(232, 424);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(20, 17);
-            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox10.TabIndex = 31;
-            this.pictureBox10.TabStop = false;
+            this.pictureBox3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox3.Image = global::PRIME3.Properties.Resources.shopping_cart1;
+            this.pictureBox3.Location = new System.Drawing.Point(3, 0);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(23, 24);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 32;
+            this.pictureBox3.TabStop = false;
             // 
             // BookButton
             // 
@@ -399,6 +374,29 @@
             this.BookButton.Timer_Effect_1 = 5;
             this.BookButton.Timer_RGB = 300;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.Image = global::PRIME3.Properties.Resources.godzillaPoster;
+            this.pictureBox1.Location = new System.Drawing.Point(982, 375);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(153, 226);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 16;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox10
+            // 
+            this.pictureBox10.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.pictureBox10.Image = global::PRIME3.Properties.Resources._2222radio;
+            this.pictureBox10.Location = new System.Drawing.Point(232, 424);
+            this.pictureBox10.Name = "pictureBox10";
+            this.pictureBox10.Size = new System.Drawing.Size(20, 17);
+            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox10.TabIndex = 31;
+            this.pictureBox10.TabStop = false;
+            // 
             // MovieFunction
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -411,13 +409,13 @@
             this.Controls.Add(this.panel10);
             this.Controls.Add(this.pictureBox10);
             this.Controls.Add(this.starSign);
-            this.Controls.Add(this.usernameData);
+            this.Controls.Add(this.movieTitle);
             this.Controls.Add(this.panel4);
-            this.Controls.Add(this.label4);
+            this.Controls.Add(this.movieSynopsis);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.directorName);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.label8);
+            this.Controls.Add(this.showingDate);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel34);
             this.Controls.Add(this.panel31);
@@ -428,12 +426,12 @@
             this.panel31.ResumeLayout(false);
             this.panel31.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.headerImage)).EndInit();
             this.panel10.ResumeLayout(false);
             this.panel10.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -450,15 +448,15 @@
         private System.Windows.Forms.Panel panel30;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox headerImage;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Label usernameData;
-        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label movieTitle;
+        private System.Windows.Forms.Label showingDate;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label directorName;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label movieSynopsis;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Label starSign;
         private System.Windows.Forms.PictureBox pictureBox3;

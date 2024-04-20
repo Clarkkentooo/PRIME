@@ -66,7 +66,7 @@ namespace PRIME_FINAL
                 imageNum = 0; // Reset imageNum if it exceeds the array length
             }
 
-            pictureBox8.ImageLocation = "Resources/HeaderImage/" + imageNames[imageNum]; // Assuming the images are located in a folder named "HeaderImage"
+            pictureBox8.ImageLocation = "Resources/" + imageNames[imageNum]; // Assuming the images are located in a folder named "HeaderImage"
 
             imageNum++;
         }

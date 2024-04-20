@@ -117,7 +117,7 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="label4.Text" xml:space="preserve">
+  <data name="movieSynopsis.Text" xml:space="preserve">
     <value>The new installment in the Monsterverse puts the mighty Kong 
 and the fearsome Godzilla against a colossal deadly threat
 hidden within our world that threatens the existence of their 

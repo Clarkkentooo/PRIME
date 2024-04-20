@@ -367,5 +367,8 @@
   <ItemGroup>
     <Folder Include="Resources\HeaderImage\" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shopping-cart1.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

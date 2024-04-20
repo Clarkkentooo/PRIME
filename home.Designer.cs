@@ -254,6 +254,7 @@
             this.pictureBox18.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox18.Image = global::PRIME3.Properties.Resources._2222radio;
             this.pictureBox18.Location = new System.Drawing.Point(4, 127);
             this.pictureBox18.Name = "pictureBox18";
             this.pictureBox18.Size = new System.Drawing.Size(20, 17);
@@ -306,6 +307,7 @@
             // 
             this.mpictureSMario.Cursor = System.Windows.Forms.Cursors.Hand;
             this.mpictureSMario.Dock = System.Windows.Forms.DockStyle.Top;
+            this.mpictureSMario.Image = global::PRIME3.Properties.Resources.smario;
             this.mpictureSMario.Location = new System.Drawing.Point(0, 0);
             this.mpictureSMario.Name = "mpictureSMario";
             this.mpictureSMario.Size = new System.Drawing.Size(166, 94);
@@ -353,6 +355,7 @@
             this.pictureBox11.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox11.Image = global::PRIME3.Properties.Resources._2222radio;
             this.pictureBox11.Location = new System.Drawing.Point(4, 127);
             this.pictureBox11.Name = "pictureBox11";
             this.pictureBox11.Size = new System.Drawing.Size(20, 17);
@@ -404,6 +407,7 @@
             // mpictureOppenH
             // 
             this.mpictureOppenH.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.mpictureOppenH.Image = global::PRIME3.Properties.Resources.oppenheimer;
             this.mpictureOppenH.Location = new System.Drawing.Point(0, 0);
             this.mpictureOppenH.Name = "mpictureOppenH";
             this.mpictureOppenH.Size = new System.Drawing.Size(166, 94);
@@ -451,6 +455,7 @@
             this.pictureBox14.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox14.Image = global::PRIME3.Properties.Resources._2222radio;
             this.pictureBox14.Location = new System.Drawing.Point(4, 127);
             this.pictureBox14.Name = "pictureBox14";
             this.pictureBox14.Size = new System.Drawing.Size(20, 17);
@@ -503,6 +508,7 @@
             // 
             this.mpictureHungerG.Cursor = System.Windows.Forms.Cursors.Hand;
             this.mpictureHungerG.Dock = System.Windows.Forms.DockStyle.Top;
+            this.mpictureHungerG.Image = global::PRIME3.Properties.Resources.hungerG;
             this.mpictureHungerG.Location = new System.Drawing.Point(0, 0);
             this.mpictureHungerG.Name = "mpictureHungerG";
             this.mpictureHungerG.Size = new System.Drawing.Size(166, 94);
@@ -550,6 +556,7 @@
             this.pictureBox16.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox16.Image = global::PRIME3.Properties.Resources._2222radio;
             this.pictureBox16.Location = new System.Drawing.Point(4, 127);
             this.pictureBox16.Name = "pictureBox16";
             this.pictureBox16.Size = new System.Drawing.Size(20, 17);
@@ -602,6 +609,7 @@
             // 
             this.mpictureWeb.Cursor = System.Windows.Forms.Cursors.Hand;
             this.mpictureWeb.Dock = System.Windows.Forms.DockStyle.Top;
+            this.mpictureWeb.Image = global::PRIME3.Properties.Resources.madamewebb;
             this.mpictureWeb.Location = new System.Drawing.Point(0, 0);
             this.mpictureWeb.Name = "mpictureWeb";
             this.mpictureWeb.Size = new System.Drawing.Size(166, 94);
@@ -728,6 +736,7 @@
             this.pictureBox12.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox12.Image = global::PRIME3.Properties.Resources._2222radio;
             this.pictureBox12.Location = new System.Drawing.Point(4, 127);
             this.pictureBox12.Name = "pictureBox12";
             this.pictureBox12.Size = new System.Drawing.Size(20, 17);
@@ -779,6 +788,7 @@
             // mpictureKFPanda
             // 
             this.mpictureKFPanda.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.mpictureKFPanda.Image = global::PRIME3.Properties.Resources.KfPanda;
             this.mpictureKFPanda.Location = new System.Drawing.Point(0, 0);
             this.mpictureKFPanda.Name = "mpictureKFPanda";
             this.mpictureKFPanda.Size = new System.Drawing.Size(166, 94);
@@ -823,9 +833,7 @@
             // 
             // pictureBox10
             // 
-            this.pictureBox10.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox10.Image = global::PRIME3.Properties.Resources._2222radio;
             this.pictureBox10.Location = new System.Drawing.Point(4, 127);
             this.pictureBox10.Name = "pictureBox10";
             this.pictureBox10.Size = new System.Drawing.Size(20, 17);
@@ -878,6 +886,7 @@
             // 
             this.moviePicture.Cursor = System.Windows.Forms.Cursors.Hand;
             this.moviePicture.Dock = System.Windows.Forms.DockStyle.Top;
+            this.moviePicture.Image = global::PRIME3.Properties.Resources.dune1;
             this.moviePicture.Location = new System.Drawing.Point(0, 0);
             this.moviePicture.Name = "moviePicture";
             this.moviePicture.Size = new System.Drawing.Size(166, 94);
@@ -925,6 +934,7 @@
             this.pictureBox9.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox9.Image = global::PRIME3.Properties.Resources._2222radio;
             this.pictureBox9.Location = new System.Drawing.Point(4, 127);
             this.pictureBox9.Name = "pictureBox9";
             this.pictureBox9.Size = new System.Drawing.Size(20, 17);
@@ -977,6 +987,7 @@
             // 
             this.mpictureGodzilla.Cursor = System.Windows.Forms.Cursors.Hand;
             this.mpictureGodzilla.Dock = System.Windows.Forms.DockStyle.Top;
+            this.mpictureGodzilla.Image = global::PRIME3.Properties.Resources.godzilla;
             this.mpictureGodzilla.Location = new System.Drawing.Point(0, 0);
             this.mpictureGodzilla.Name = "mpictureGodzilla";
             this.mpictureGodzilla.Size = new System.Drawing.Size(166, 94);
@@ -1066,6 +1077,7 @@
             // pictureBox8
             // 
             this.pictureBox8.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox8.Image = global::PRIME3.Properties.Resources.godName;
             this.pictureBox8.Location = new System.Drawing.Point(10, 0);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(1257, 317);

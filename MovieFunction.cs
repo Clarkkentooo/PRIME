@@ -23,7 +23,13 @@ namespace PRIME_FINAL
             add2CartText.MouseEnter += label5_MouseEnter;
             add2CartText.MouseLeave += label5_MouseLeave;
         }
+        public Image header { get => headerImage.Image; set => headerImage.Image = value; }
+        public string title { get => movieTitle.Text; set => movieTitle.Text = value; }
+        public string releaseDate { get => showingDate.Text; set => showingDate.Text = value; }
+        public string director { get => directorName.Text; set => directorName.Text = value; }
+        public string synopsis { get => movieSynopsis.Text; set => movieSynopsis.Text = value; }
 
+        
         private void label5_MouseEnter(object sender, EventArgs e)
         {
             add2CartText.Font = new Font(add2CartText.Font, FontStyle.Underline);

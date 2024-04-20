@@ -85,6 +85,7 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.panel30 = new System.Windows.Forms.Panel();
             this.panel31 = new System.Windows.Forms.Panel();
             this.panel33 = new System.Windows.Forms.Panel();
@@ -100,7 +101,6 @@
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.panel42 = new System.Windows.Forms.Panel();
             this.panel41 = new System.Windows.Forms.Panel();
-            this.mainPanel = new System.Windows.Forms.Panel();
             this.panel47 = new System.Windows.Forms.Panel();
             this.MovieBox2 = new System.Windows.Forms.Panel();
             this.panel75 = new System.Windows.Forms.Panel();
@@ -173,7 +173,7 @@
             this.label8 = new System.Windows.Forms.Label();
             this.panel50 = new System.Windows.Forms.Panel();
             this.panel48 = new System.Windows.Forms.Panel();
-            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.mainPanel = new System.Windows.Forms.Panel();
             this.panelHeaderBar.SuspendLayout();
             this.minimizePanel.SuspendLayout();
             this.resizePanel.SuspendLayout();
@@ -209,7 +209,6 @@
             this.panel35.SuspendLayout();
             this.headerPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
-            this.mainPanel.SuspendLayout();
             this.panel47.SuspendLayout();
             this.MovieBox2.SuspendLayout();
             this.panel75.SuspendLayout();
@@ -243,6 +242,7 @@
             this.panel52.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.mpictureGodzilla)).BeginInit();
             this.panel49.SuspendLayout();
+            this.mainPanel.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelHeaderBar
@@ -877,6 +877,12 @@
             this.panel5.Size = new System.Drawing.Size(2, 832);
             this.panel5.TabIndex = 5;
             // 
+            // timer1
+            // 
+            this.timer1.Enabled = true;
+            this.timer1.Interval = 5000;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
             // panel30
             // 
             this.panel30.BackColor = System.Drawing.Color.Transparent;
@@ -1034,22 +1040,6 @@
             this.panel41.Name = "panel41";
             this.panel41.Size = new System.Drawing.Size(10, 241);
             this.panel41.TabIndex = 11;
-            // 
-            // mainPanel
-            // 
-            this.mainPanel.BackColor = System.Drawing.Color.Transparent;
-            this.mainPanel.Controls.Add(this.panel47);
-            this.mainPanel.Controls.Add(this.headerPanel);
-            this.mainPanel.Controls.Add(this.panel38);
-            this.mainPanel.Controls.Add(this.panel35);
-            this.mainPanel.Controls.Add(this.panel34);
-            this.mainPanel.Controls.Add(this.panel31);
-            this.mainPanel.Controls.Add(this.panel30);
-            this.mainPanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.mainPanel.Location = new System.Drawing.Point(237, 37);
-            this.mainPanel.Name = "mainPanel";
-            this.mainPanel.Size = new System.Drawing.Size(655, 832);
-            this.mainPanel.TabIndex = 4;
             // 
             // panel47
             // 
@@ -1928,11 +1918,21 @@
             this.panel48.Size = new System.Drawing.Size(638, 10);
             this.panel48.TabIndex = 17;
             // 
-            // timer1
+            // mainPanel
             // 
-            this.timer1.Enabled = true;
-            this.timer1.Interval = 5000;
-            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            this.mainPanel.BackColor = System.Drawing.Color.Transparent;
+            this.mainPanel.Controls.Add(this.panel47);
+            this.mainPanel.Controls.Add(this.headerPanel);
+            this.mainPanel.Controls.Add(this.panel38);
+            this.mainPanel.Controls.Add(this.panel35);
+            this.mainPanel.Controls.Add(this.panel34);
+            this.mainPanel.Controls.Add(this.panel31);
+            this.mainPanel.Controls.Add(this.panel30);
+            this.mainPanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.mainPanel.Location = new System.Drawing.Point(237, 37);
+            this.mainPanel.Name = "mainPanel";
+            this.mainPanel.Size = new System.Drawing.Size(655, 832);
+            this.mainPanel.TabIndex = 4;
             // 
             // Home
             // 
@@ -1996,7 +1996,6 @@
             this.panel35.PerformLayout();
             this.headerPanel.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
-            this.mainPanel.ResumeLayout(false);
             this.panel47.ResumeLayout(false);
             this.MovieBox2.ResumeLayout(false);
             this.panel75.ResumeLayout(false);
@@ -2046,6 +2045,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.mpictureGodzilla)).EndInit();
             this.panel49.ResumeLayout(false);
             this.panel49.PerformLayout();
+            this.mainPanel.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -2105,6 +2105,8 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel20;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Panel panel40;
         private System.Windows.Forms.Panel panel30;
         private System.Windows.Forms.Panel panel31;
         private System.Windows.Forms.Panel panel33;
@@ -2114,53 +2116,13 @@
         private System.Windows.Forms.Panel panel35;
         private System.Windows.Forms.Label usernameData;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Panel panel25;
         private System.Windows.Forms.Panel panel38;
         private System.Windows.Forms.Panel headerPanel;
         private System.Windows.Forms.PictureBox pictureBox8;
         private System.Windows.Forms.Panel panel42;
         private System.Windows.Forms.Panel panel41;
-        private System.Windows.Forms.Panel mainPanel;
-        private System.Windows.Forms.Panel panel25;
-        private System.Windows.Forms.Timer timer1;
-        private System.Windows.Forms.Panel panel40;
-        private System.Windows.Forms.Panel panel44;
-        private System.Windows.Forms.PictureBox moviePicture;
-        private System.Windows.Forms.Label starSign;
-        private System.Windows.Forms.Panel panel46;
-        private System.Windows.Forms.Label titleMovie;
-        private System.Windows.Forms.PictureBox pictureBox10;
-        private System.Windows.Forms.Label showingDate;
         private System.Windows.Forms.Panel panel47;
-        private System.Windows.Forms.Panel panel51;
-        private System.Windows.Forms.Panel panel49;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Panel panel50;
-        private System.Windows.Forms.Panel panel48;
-        private System.Windows.Forms.Panel panel37;
-        private System.Windows.Forms.Panel panel43;
-        private System.Windows.Forms.Panel panel45;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.PictureBox pictureBox9;
-        private System.Windows.Forms.Panel panel52;
-        private System.Windows.Forms.Label starSign_Godzilla;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.PictureBox mpictureGodzilla;
-        private System.Windows.Forms.Panel panel57;
-        private System.Windows.Forms.Panel panel55;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.PictureBox pictureBox12;
-        private System.Windows.Forms.Panel panel56;
-        private System.Windows.Forms.Label starSign_kFPanda;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.PictureBox mpictureKFPanda;
-        private System.Windows.Forms.Panel panel54;
-        private System.Windows.Forms.Panel panel53;
-        private System.Windows.Forms.Panel panel62;
-        private System.Windows.Forms.Panel panel60;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Panel panel61;
-        private System.Windows.Forms.Panel panel59;
-        private System.Windows.Forms.Panel panel58;
         private System.Windows.Forms.Panel MovieBox2;
         private System.Windows.Forms.Panel panel75;
         private System.Windows.Forms.Label label22;
@@ -2195,5 +2157,43 @@
         private System.Windows.Forms.PictureBox mpictureWeb;
         private System.Windows.Forms.Panel panel72;
         private System.Windows.Forms.Panel panel73;
+        private System.Windows.Forms.Panel panel62;
+        private System.Windows.Forms.Panel panel60;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Panel panel61;
+        private System.Windows.Forms.Panel panel59;
+        private System.Windows.Forms.Panel panel58;
+        private System.Windows.Forms.Panel panel37;
+        private System.Windows.Forms.Panel panel55;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.PictureBox pictureBox12;
+        private System.Windows.Forms.Panel panel56;
+        private System.Windows.Forms.Label starSign_kFPanda;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.PictureBox mpictureKFPanda;
+        private System.Windows.Forms.Panel panel57;
+        private System.Windows.Forms.Panel panel44;
+        private System.Windows.Forms.Label showingDate;
+        private System.Windows.Forms.PictureBox pictureBox10;
+        private System.Windows.Forms.Panel panel46;
+        private System.Windows.Forms.Label starSign;
+        private System.Windows.Forms.Label titleMovie;
+        private System.Windows.Forms.PictureBox moviePicture;
+        private System.Windows.Forms.Panel panel54;
+        private System.Windows.Forms.Panel panel45;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.PictureBox pictureBox9;
+        private System.Windows.Forms.Panel panel52;
+        private System.Windows.Forms.Label starSign_Godzilla;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.PictureBox mpictureGodzilla;
+        private System.Windows.Forms.Panel panel53;
+        private System.Windows.Forms.Panel panel43;
+        private System.Windows.Forms.Panel panel51;
+        private System.Windows.Forms.Panel panel49;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Panel panel50;
+        private System.Windows.Forms.Panel panel48;
+        private System.Windows.Forms.Panel mainPanel;
     }
 }
