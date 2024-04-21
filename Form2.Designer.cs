@@ -174,6 +174,7 @@
             this.panel50 = new System.Windows.Forms.Panel();
             this.panel48 = new System.Windows.Forms.Panel();
             this.mainPanel = new System.Windows.Forms.Panel();
+            this.desktopPanel = new System.Windows.Forms.Panel();
             this.panelHeaderBar.SuspendLayout();
             this.minimizePanel.SuspendLayout();
             this.resizePanel.SuspendLayout();
@@ -1853,6 +1854,7 @@
             this.mpictureGodzilla.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.mpictureGodzilla.TabIndex = 0;
             this.mpictureGodzilla.TabStop = false;
+            this.mpictureGodzilla.Click += new System.EventHandler(this.mpictureGodzilla_Click);
             // 
             // panel53
             // 
@@ -1934,6 +1936,16 @@
             this.mainPanel.Size = new System.Drawing.Size(655, 832);
             this.mainPanel.TabIndex = 4;
             // 
+            // desktopPanel
+            // 
+            this.desktopPanel.AutoScroll = true;
+            this.desktopPanel.BackColor = System.Drawing.Color.Transparent;
+            this.desktopPanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.desktopPanel.Location = new System.Drawing.Point(237, 37);
+            this.desktopPanel.Name = "desktopPanel";
+            this.desktopPanel.Size = new System.Drawing.Size(655, 832);
+            this.desktopPanel.TabIndex = 5;
+            // 
             // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1941,6 +1953,7 @@
             this.BackgroundImage = global::PRIME3.Properties.Resources.finalHome;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1261, 869);
+            this.Controls.Add(this.desktopPanel);
             this.Controls.Add(this.mainPanel);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panelHeaderBar);
@@ -2195,5 +2208,6 @@
         private System.Windows.Forms.Panel panel50;
         private System.Windows.Forms.Panel panel48;
         private System.Windows.Forms.Panel mainPanel;
+        private System.Windows.Forms.Panel desktopPanel;
     }
 }

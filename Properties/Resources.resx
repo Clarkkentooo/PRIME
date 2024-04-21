@@ -211,8 +211,8 @@
   <data name="godzillaPoster" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\godzillaPoster.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="oppenheimer" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\oppenheimer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="godName" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\godName.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="godzilla_x_kong_the_new_empire_ver7 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\godzilla_x_kong_the_new_empire_ver7 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -292,6 +292,9 @@
   <data name="radio" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\radio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="bgbgbg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bgbgbg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="godzilla1212" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\godzilla1212.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -301,11 +304,14 @@
   <data name="Ellipsebg" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Ellipsebg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="godName" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\godName.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="shopping-cart1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shopping-cart1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="search" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\search.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="oppenheimer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\oppenheimer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="search222" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\search222.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -313,7 +319,7 @@
   <data name="Mark" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Mark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="shopping-cart1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\shopping-cart1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="showGradient" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\showGradient.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

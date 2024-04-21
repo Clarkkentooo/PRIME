@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PRIME3;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -8,12 +9,14 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Xml.Linq;
 
 
 namespace PRIME_FINAL
 {
     public partial class Home : Form
     {
+        
         private Size formSize;
         private int borderSize = 1;
 
@@ -25,10 +28,13 @@ namespace PRIME_FINAL
 
         private Size originalSize;
 
+        private Form currentGodzillaForm;
         public Home()
         {
             InitializeComponent();
-            
+            CollapseMenu();
+
+
             this.Padding = new Padding(borderSize); //Border Size
             this.BackColor = Color.FromArgb(3,3,3); //Border Color
 
@@ -65,9 +71,10 @@ namespace PRIME_FINAL
             //Hover Event for Movie Posters in panel
             moviePicture.MouseEnter += Picture_MouseEnter;
             moviePicture.MouseLeave += Picture_MouseLeave;
-
+            desktopPanel.Visible = false;
             mpictureGodzilla.MouseEnter += Picture_MouseEnter;
             mpictureGodzilla.MouseLeave += Picture_MouseLeave;
+            mpictureGodzilla.Click += mpictureGodzilla_Click;
 
             mpictureKFPanda.MouseEnter += Picture_MouseEnter;
             mpictureKFPanda.MouseLeave += Picture_MouseLeave;
@@ -83,11 +90,7 @@ namespace PRIME_FINAL
 
             mpictureSMario.MouseEnter += Picture_MouseEnter;
             mpictureSMario.MouseLeave += Picture_MouseLeave;
-        }
 
-        private void StarSign_MouseLeave(object sender, EventArgs e)
-        {
-            throw new NotImplementedException();
         }
 
         private void LoadNextImage()
@@ -334,6 +337,32 @@ namespace PRIME_FINAL
                     clickedLabel.ForeColor = Color.FromArgb(205, 205, 205); //Default Color
                 }
             }
+        }
+
+        private void mpictureGodzilla_Click(object sender, EventArgs e)
+        {
+            
+
+            // Open FunctionFormbg
+            OpenGodzillaForm(new FunctionFormbg());
+
+            // Show desktopPanel again after FunctionFormbg is closed
+            desktopPanel.Visible = true;
+        }
+        private void OpenGodzillaForm(Form godzillaForm)
+        {
+            if(currentGodzillaForm != null)
+            {
+                currentGodzillaForm.Close();
+            }
+            currentGodzillaForm = godzillaForm;
+            godzillaForm.TopLevel = false;
+            godzillaForm.FormBorderStyle = FormBorderStyle.None;
+            godzillaForm.Dock = DockStyle.Fill;
+            desktopPanel.Controls.Add(godzillaForm);
+            desktopPanel.Tag = godzillaForm;
+            godzillaForm.BringToFront();
+            godzillaForm.Show();
         }
     }
 }

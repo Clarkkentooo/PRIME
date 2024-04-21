@@ -1,6 +1,6 @@
 ﻿namespace PRIME_FINAL
 {
-    partial class HoveVer2
+    partial class HomeVer2
     {
         /// <summary> 
         /// Required designer variable.
@@ -29,250 +29,383 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.backPanel = new System.Windows.Forms.Panel();
-            this.mainPanel = new System.Windows.Forms.Panel();
-            this.panel47 = new System.Windows.Forms.Panel();
-            this.MovieBox2 = new System.Windows.Forms.Panel();
-            this.panel75 = new System.Windows.Forms.Panel();
-            this.label22 = new System.Windows.Forms.Label();
-            this.pictureBox18 = new System.Windows.Forms.PictureBox();
-            this.panel76 = new System.Windows.Forms.Panel();
-            this.starSign_SMario = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
-            this.mpictureSMario = new System.Windows.Forms.PictureBox();
-            this.panel74 = new System.Windows.Forms.Panel();
-            this.panel64 = new System.Windows.Forms.Panel();
-            this.label12 = new System.Windows.Forms.Label();
-            this.pictureBox11 = new System.Windows.Forms.PictureBox();
-            this.panel65 = new System.Windows.Forms.Panel();
-            this.starSign_OppenH = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.mpictureOppenH = new System.Windows.Forms.PictureBox();
-            this.panel66 = new System.Windows.Forms.Panel();
-            this.panel67 = new System.Windows.Forms.Panel();
-            this.label16 = new System.Windows.Forms.Label();
-            this.pictureBox14 = new System.Windows.Forms.PictureBox();
-            this.panel68 = new System.Windows.Forms.Panel();
-            this.starSign_HungerG = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.mpictureHungerG = new System.Windows.Forms.PictureBox();
-            this.panel69 = new System.Windows.Forms.Panel();
-            this.panel70 = new System.Windows.Forms.Panel();
-            this.label19 = new System.Windows.Forms.Label();
-            this.pictureBox16 = new System.Windows.Forms.PictureBox();
-            this.panel71 = new System.Windows.Forms.Panel();
-            this.starSign_mWeb = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.mpictureWeb = new System.Windows.Forms.PictureBox();
-            this.panel72 = new System.Windows.Forms.Panel();
-            this.panel73 = new System.Windows.Forms.Panel();
-            this.panel62 = new System.Windows.Forms.Panel();
-            this.panel60 = new System.Windows.Forms.Panel();
-            this.label9 = new System.Windows.Forms.Label();
-            this.panel61 = new System.Windows.Forms.Panel();
-            this.panel59 = new System.Windows.Forms.Panel();
-            this.panel58 = new System.Windows.Forms.Panel();
-            this.panel37 = new System.Windows.Forms.Panel();
-            this.panel55 = new System.Windows.Forms.Panel();
-            this.label11 = new System.Windows.Forms.Label();
-            this.pictureBox12 = new System.Windows.Forms.PictureBox();
-            this.panel56 = new System.Windows.Forms.Panel();
-            this.starSign_kFPanda = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.mpictureKFPanda = new System.Windows.Forms.PictureBox();
-            this.panel57 = new System.Windows.Forms.Panel();
-            this.panel44 = new System.Windows.Forms.Panel();
-            this.showingDate = new System.Windows.Forms.Label();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
-            this.panel46 = new System.Windows.Forms.Panel();
-            this.starSign = new System.Windows.Forms.Label();
-            this.titleMovie = new System.Windows.Forms.Label();
-            this.moviePicture = new System.Windows.Forms.PictureBox();
-            this.panel54 = new System.Windows.Forms.Panel();
-            this.panel45 = new System.Windows.Forms.Panel();
-            this.label7 = new System.Windows.Forms.Label();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.panel52 = new System.Windows.Forms.Panel();
-            this.starSign_Godzilla = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.mpictureGodzilla = new System.Windows.Forms.PictureBox();
-            this.panel53 = new System.Windows.Forms.Panel();
-            this.panel43 = new System.Windows.Forms.Panel();
-            this.panel51 = new System.Windows.Forms.Panel();
-            this.panel49 = new System.Windows.Forms.Panel();
-            this.label8 = new System.Windows.Forms.Label();
-            this.panel50 = new System.Windows.Forms.Panel();
-            this.panel48 = new System.Windows.Forms.Panel();
-            this.headerPanel = new System.Windows.Forms.Panel();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.panel42 = new System.Windows.Forms.Panel();
-            this.panel41 = new System.Windows.Forms.Panel();
-            this.panel38 = new System.Windows.Forms.Panel();
-            this.panel35 = new System.Windows.Forms.Panel();
-            this.usernameData = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.panel25 = new System.Windows.Forms.Panel();
-            this.panel34 = new System.Windows.Forms.Panel();
-            this.panel31 = new System.Windows.Forms.Panel();
-            this.panel33 = new System.Windows.Forms.Panel();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.panel32 = new System.Windows.Forms.Panel();
-            this.panel30 = new System.Windows.Forms.Panel();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.backPanel.SuspendLayout();
-            this.mainPanel.SuspendLayout();
-            this.panel47.SuspendLayout();
-            this.MovieBox2.SuspendLayout();
-            this.panel75.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
-            this.panel76.SuspendLayout();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.panel8 = new System.Windows.Forms.Panel();
+            this.panel9 = new System.Windows.Forms.Panel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.panel10 = new System.Windows.Forms.Panel();
+            this.panel11 = new System.Windows.Forms.Panel();
+            this.panel12 = new System.Windows.Forms.Panel();
+            this.panel13 = new System.Windows.Forms.Panel();
+            this.panel14 = new System.Windows.Forms.Panel();
+            this.label4 = new System.Windows.Forms.Label();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.panel15 = new System.Windows.Forms.Panel();
+            this.starSign_SMario = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.mpictureSMario = new System.Windows.Forms.PictureBox();
+            this.panel16 = new System.Windows.Forms.Panel();
+            this.panel17 = new System.Windows.Forms.Panel();
+            this.label14 = new System.Windows.Forms.Label();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.panel18 = new System.Windows.Forms.Panel();
+            this.starSign_OppenH = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.mpictureOppenH = new System.Windows.Forms.PictureBox();
+            this.panel19 = new System.Windows.Forms.Panel();
+            this.panel20 = new System.Windows.Forms.Panel();
+            this.label23 = new System.Windows.Forms.Label();
+            this.pictureBox13 = new System.Windows.Forms.PictureBox();
+            this.panel21 = new System.Windows.Forms.Panel();
+            this.starSign_HungerG = new System.Windows.Forms.Label();
+            this.label26 = new System.Windows.Forms.Label();
+            this.mpictureHungerG = new System.Windows.Forms.PictureBox();
+            this.panel22 = new System.Windows.Forms.Panel();
+            this.panel23 = new System.Windows.Forms.Panel();
+            this.label27 = new System.Windows.Forms.Label();
+            this.pictureBox17 = new System.Windows.Forms.PictureBox();
+            this.panel24 = new System.Windows.Forms.Panel();
+            this.label28 = new System.Windows.Forms.Label();
+            this.label29 = new System.Windows.Forms.Label();
+            this.mpictureWeb = new System.Windows.Forms.PictureBox();
+            this.panel26 = new System.Windows.Forms.Panel();
+            this.panel27 = new System.Windows.Forms.Panel();
+            this.panel28 = new System.Windows.Forms.Panel();
+            this.panel29 = new System.Windows.Forms.Panel();
+            this.label30 = new System.Windows.Forms.Label();
+            this.panel36 = new System.Windows.Forms.Panel();
+            this.panel39 = new System.Windows.Forms.Panel();
+            this.panel40 = new System.Windows.Forms.Panel();
+            this.panel63 = new System.Windows.Forms.Panel();
+            this.panel77 = new System.Windows.Forms.Panel();
+            this.label31 = new System.Windows.Forms.Label();
+            this.pictureBox20 = new System.Windows.Forms.PictureBox();
+            this.panel78 = new System.Windows.Forms.Panel();
+            this.starSign_kFPanda = new System.Windows.Forms.Label();
+            this.label33 = new System.Windows.Forms.Label();
+            this.mpictureKFPanda = new System.Windows.Forms.PictureBox();
+            this.panel79 = new System.Windows.Forms.Panel();
+            this.panel80 = new System.Windows.Forms.Panel();
+            this.label34 = new System.Windows.Forms.Label();
+            this.pictureBox22 = new System.Windows.Forms.PictureBox();
+            this.panel81 = new System.Windows.Forms.Panel();
+            this.starSign = new System.Windows.Forms.Label();
+            this.label36 = new System.Windows.Forms.Label();
+            this.moviePicture = new System.Windows.Forms.PictureBox();
+            this.panel82 = new System.Windows.Forms.Panel();
+            this.panel83 = new System.Windows.Forms.Panel();
+            this.label37 = new System.Windows.Forms.Label();
+            this.pictureBox24 = new System.Windows.Forms.PictureBox();
+            this.panel84 = new System.Windows.Forms.Panel();
+            this.starSign_Godzilla = new System.Windows.Forms.Label();
+            this.label39 = new System.Windows.Forms.Label();
+            this.mpictureGodzilla = new System.Windows.Forms.PictureBox();
+            this.panel85 = new System.Windows.Forms.Panel();
+            this.panel86 = new System.Windows.Forms.Panel();
+            this.panel87 = new System.Windows.Forms.Panel();
+            this.panel88 = new System.Windows.Forms.Panel();
+            this.label40 = new System.Windows.Forms.Label();
+            this.panel89 = new System.Windows.Forms.Panel();
+            this.panel90 = new System.Windows.Forms.Panel();
+            this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panel6.SuspendLayout();
+            this.panel9.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.panel12.SuspendLayout();
+            this.panel13.SuspendLayout();
+            this.panel14.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            this.panel15.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.mpictureSMario)).BeginInit();
-            this.panel64.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
-            this.panel65.SuspendLayout();
+            this.panel17.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            this.panel18.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.mpictureOppenH)).BeginInit();
-            this.panel67.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
-            this.panel68.SuspendLayout();
+            this.panel20.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
+            this.panel21.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.mpictureHungerG)).BeginInit();
-            this.panel70.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
-            this.panel71.SuspendLayout();
+            this.panel23.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
+            this.panel24.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.mpictureWeb)).BeginInit();
-            this.panel60.SuspendLayout();
-            this.panel37.SuspendLayout();
-            this.panel55.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
-            this.panel56.SuspendLayout();
+            this.panel29.SuspendLayout();
+            this.panel63.SuspendLayout();
+            this.panel77.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
+            this.panel78.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.mpictureKFPanda)).BeginInit();
-            this.panel44.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
-            this.panel46.SuspendLayout();
+            this.panel80.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).BeginInit();
+            this.panel81.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.moviePicture)).BeginInit();
-            this.panel45.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
-            this.panel52.SuspendLayout();
+            this.panel83.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).BeginInit();
+            this.panel84.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.mpictureGodzilla)).BeginInit();
-            this.panel49.SuspendLayout();
-            this.headerPanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
-            this.panel35.SuspendLayout();
-            this.panel31.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            this.panel88.SuspendLayout();
             this.SuspendLayout();
             // 
-            // backPanel
+            // timer1
             // 
-            this.backPanel.BackColor = System.Drawing.Color.Transparent;
-            this.backPanel.Controls.Add(this.mainPanel);
-            this.backPanel.Location = new System.Drawing.Point(0, 0);
-            this.backPanel.Name = "backPanel";
-            this.backPanel.Size = new System.Drawing.Size(1277, 908);
-            this.backPanel.TabIndex = 0;
+            this.timer1.Enabled = true;
+            this.timer1.Interval = 5000;
             // 
-            // mainPanel
+            // panel1
             // 
-            this.mainPanel.BackColor = System.Drawing.Color.Transparent;
-            this.mainPanel.Controls.Add(this.panel47);
-            this.mainPanel.Controls.Add(this.headerPanel);
-            this.mainPanel.Controls.Add(this.panel38);
-            this.mainPanel.Controls.Add(this.panel35);
-            this.mainPanel.Controls.Add(this.panel34);
-            this.mainPanel.Controls.Add(this.panel31);
-            this.mainPanel.Controls.Add(this.panel30);
-            this.mainPanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.mainPanel.Location = new System.Drawing.Point(0, 0);
-            this.mainPanel.Name = "mainPanel";
-            this.mainPanel.Size = new System.Drawing.Size(1277, 908);
-            this.mainPanel.TabIndex = 5;
+            this.panel1.BackColor = System.Drawing.Color.Transparent;
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1280, 17);
+            this.panel1.TabIndex = 9;
             // 
-            // panel47
+            // panel2
             // 
-            this.panel47.BackColor = System.Drawing.Color.Transparent;
-            this.panel47.Controls.Add(this.MovieBox2);
-            this.panel47.Controls.Add(this.panel62);
-            this.panel47.Controls.Add(this.panel60);
-            this.panel47.Controls.Add(this.panel59);
-            this.panel47.Controls.Add(this.panel58);
-            this.panel47.Controls.Add(this.panel37);
-            this.panel47.Controls.Add(this.panel51);
-            this.panel47.Controls.Add(this.panel49);
-            this.panel47.Controls.Add(this.panel48);
-            this.panel47.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel47.Location = new System.Drawing.Point(0, 468);
-            this.panel47.Name = "panel47";
-            this.panel47.Size = new System.Drawing.Size(1277, 440);
-            this.panel47.TabIndex = 17;
+            this.panel2.Controls.Add(this.panel3);
+            this.panel2.Controls.Add(this.pictureBox1);
+            this.panel2.Controls.Add(this.panel4);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel2.Location = new System.Drawing.Point(0, 17);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(1280, 43);
+            this.panel2.TabIndex = 10;
             // 
-            // MovieBox2
+            // panel3
             // 
-            this.MovieBox2.AutoScroll = true;
-            this.MovieBox2.Controls.Add(this.panel75);
-            this.MovieBox2.Controls.Add(this.panel74);
-            this.MovieBox2.Controls.Add(this.panel64);
-            this.MovieBox2.Controls.Add(this.panel66);
-            this.MovieBox2.Controls.Add(this.panel67);
-            this.MovieBox2.Controls.Add(this.panel69);
-            this.MovieBox2.Controls.Add(this.panel70);
-            this.MovieBox2.Controls.Add(this.panel72);
-            this.MovieBox2.Controls.Add(this.panel73);
-            this.MovieBox2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.MovieBox2.Location = new System.Drawing.Point(0, 303);
-            this.MovieBox2.Name = "MovieBox2";
-            this.MovieBox2.Size = new System.Drawing.Size(1277, 150);
-            this.MovieBox2.TabIndex = 25;
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel3.Location = new System.Drawing.Point(1172, 0);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(23, 43);
+            this.panel3.TabIndex = 10;
             // 
-            // panel75
+            // pictureBox1
             // 
-            this.panel75.Controls.Add(this.label22);
-            this.panel75.Controls.Add(this.pictureBox18);
-            this.panel75.Controls.Add(this.panel76);
-            this.panel75.Controls.Add(this.mpictureSMario);
-            this.panel75.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel75.ForeColor = System.Drawing.Color.Transparent;
-            this.panel75.Location = new System.Drawing.Point(597, 0);
-            this.panel75.Name = "panel75";
-            this.panel75.Size = new System.Drawing.Size(166, 150);
-            this.panel75.TabIndex = 23;
+            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Right;
+            this.pictureBox1.Image = global::PRIME3.Properties.Resources.Account;
+            this.pictureBox1.Location = new System.Drawing.Point(1195, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(48, 43);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 11;
+            this.pictureBox1.TabStop = false;
             // 
-            // label22
+            // panel4
             // 
-            this.label22.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.panel4.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel4.Location = new System.Drawing.Point(1243, 0);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(37, 43);
+            this.panel4.TabIndex = 0;
+            // 
+            // panel5
+            // 
+            this.panel5.BackColor = System.Drawing.Color.Transparent;
+            this.panel5.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel5.Location = new System.Drawing.Point(0, 60);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(1280, 10);
+            this.panel5.TabIndex = 11;
+            // 
+            // panel6
+            // 
+            this.panel6.Controls.Add(this.label1);
+            this.panel6.Controls.Add(this.label3);
+            this.panel6.Controls.Add(this.panel7);
+            this.panel6.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel6.Location = new System.Drawing.Point(0, 70);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(1280, 42);
+            this.panel6.TabIndex = 12;
+            // 
+            // label1
+            // 
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label22.AutoSize = true;
-            this.label22.Font = new System.Drawing.Font("SF Pro Text", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(205)))), ((int)(((byte)(205)))));
-            this.label22.Location = new System.Drawing.Point(27, 130);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(57, 10);
-            this.label22.TabIndex = 4;
-            this.label22.Text = "April 19, 2024";
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("SF Pro Text", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(205)))), ((int)(((byte)(205)))));
+            this.label1.Location = new System.Drawing.Point(186, 3);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(112, 35);
+            this.label1.TabIndex = 14;
+            this.label1.Tag = "";
+            this.label1.Text = "Hacker";
             // 
-            // pictureBox18
+            // label3
             // 
-            this.pictureBox18.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox18.Image = global::PRIME3.Properties.Resources._2222radio;
-            this.pictureBox18.Location = new System.Drawing.Point(4, 127);
-            this.pictureBox18.Name = "pictureBox18";
-            this.pictureBox18.Size = new System.Drawing.Size(20, 17);
-            this.pictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox18.TabIndex = 5;
-            this.pictureBox18.TabStop = false;
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Font = new System.Drawing.Font("SF Pro Text", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(205)))), ((int)(((byte)(205)))));
+            this.label3.Location = new System.Drawing.Point(43, 3);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(150, 35);
+            this.label3.TabIndex = 12;
+            this.label3.Tag = "";
+            this.label3.Text = "Welcome,";
             // 
-            // panel76
+            // panel7
             // 
-            this.panel76.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.panel7.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel7.Location = new System.Drawing.Point(0, 0);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(37, 42);
+            this.panel7.TabIndex = 15;
+            // 
+            // panel8
+            // 
+            this.panel8.BackColor = System.Drawing.Color.Transparent;
+            this.panel8.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel8.Location = new System.Drawing.Point(0, 112);
+            this.panel8.Name = "panel8";
+            this.panel8.Size = new System.Drawing.Size(1280, 10);
+            this.panel8.TabIndex = 13;
+            // 
+            // panel9
+            // 
+            this.panel9.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel76.Controls.Add(this.starSign_SMario);
-            this.panel76.Controls.Add(this.label24);
-            this.panel76.Location = new System.Drawing.Point(0, 100);
-            this.panel76.Name = "panel76";
-            this.panel76.Size = new System.Drawing.Size(166, 24);
-            this.panel76.TabIndex = 2;
+            this.panel9.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.panel9.BackColor = System.Drawing.Color.Transparent;
+            this.panel9.Controls.Add(this.pictureBox2);
+            this.panel9.Controls.Add(this.panel10);
+            this.panel9.Controls.Add(this.panel11);
+            this.panel9.Location = new System.Drawing.Point(192, 128);
+            this.panel9.Name = "panel9";
+            this.panel9.Size = new System.Drawing.Size(1014, 497);
+            this.panel9.TabIndex = 14;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox2.Image = global::PRIME3.Properties.Resources.godName;
+            this.pictureBox2.Location = new System.Drawing.Point(10, 0);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(994, 497);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 13;
+            this.pictureBox2.TabStop = false;
+            // 
+            // panel10
+            // 
+            this.panel10.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel10.Location = new System.Drawing.Point(0, 0);
+            this.panel10.Name = "panel10";
+            this.panel10.Size = new System.Drawing.Size(10, 497);
+            this.panel10.TabIndex = 12;
+            // 
+            // panel11
+            // 
+            this.panel11.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel11.Location = new System.Drawing.Point(1004, 0);
+            this.panel11.Name = "panel11";
+            this.panel11.Size = new System.Drawing.Size(10, 497);
+            this.panel11.TabIndex = 11;
+            // 
+            // panel12
+            // 
+            this.panel12.BackColor = System.Drawing.Color.Transparent;
+            this.panel12.Controls.Add(this.panel13);
+            this.panel12.Controls.Add(this.panel28);
+            this.panel12.Controls.Add(this.panel29);
+            this.panel12.Controls.Add(this.panel39);
+            this.panel12.Controls.Add(this.panel40);
+            this.panel12.Controls.Add(this.panel63);
+            this.panel12.Controls.Add(this.panel87);
+            this.panel12.Controls.Add(this.panel88);
+            this.panel12.Controls.Add(this.panel90);
+            this.panel12.Location = new System.Drawing.Point(3, 511);
+            this.panel12.Name = "panel12";
+            this.panel12.Size = new System.Drawing.Size(1277, 440);
+            this.panel12.TabIndex = 18;
+            // 
+            // panel13
+            // 
+            this.panel13.AutoScroll = true;
+            this.panel13.Controls.Add(this.panel14);
+            this.panel13.Controls.Add(this.panel16);
+            this.panel13.Controls.Add(this.panel17);
+            this.panel13.Controls.Add(this.panel19);
+            this.panel13.Controls.Add(this.panel20);
+            this.panel13.Controls.Add(this.panel22);
+            this.panel13.Controls.Add(this.panel23);
+            this.panel13.Controls.Add(this.panel26);
+            this.panel13.Controls.Add(this.panel27);
+            this.panel13.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel13.Location = new System.Drawing.Point(0, 303);
+            this.panel13.Name = "panel13";
+            this.panel13.Size = new System.Drawing.Size(1277, 150);
+            this.panel13.TabIndex = 25;
+            // 
+            // panel14
+            // 
+            this.panel14.Controls.Add(this.label4);
+            this.panel14.Controls.Add(this.pictureBox3);
+            this.panel14.Controls.Add(this.panel15);
+            this.panel14.Controls.Add(this.mpictureSMario);
+            this.panel14.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel14.ForeColor = System.Drawing.Color.Transparent;
+            this.panel14.Location = new System.Drawing.Point(597, 0);
+            this.panel14.Name = "panel14";
+            this.panel14.Size = new System.Drawing.Size(166, 150);
+            this.panel14.TabIndex = 23;
+            // 
+            // label4
+            // 
+            this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("SF Pro Text", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(205)))), ((int)(((byte)(205)))));
+            this.label4.Location = new System.Drawing.Point(27, 130);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(57, 10);
+            this.label4.TabIndex = 4;
+            this.label4.Text = "April 19, 2024";
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox3.Image = global::PRIME3.Properties.Resources._2222radio;
+            this.pictureBox3.Location = new System.Drawing.Point(4, 127);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(20, 17);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 5;
+            this.pictureBox3.TabStop = false;
+            // 
+            // panel15
+            // 
+            this.panel15.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel15.Controls.Add(this.starSign_SMario);
+            this.panel15.Controls.Add(this.label6);
+            this.panel15.Location = new System.Drawing.Point(0, 100);
+            this.panel15.Name = "panel15";
+            this.panel15.Size = new System.Drawing.Size(166, 24);
+            this.panel15.TabIndex = 2;
             // 
             // starSign_SMario
             // 
@@ -289,19 +422,19 @@
             this.starSign_SMario.TabIndex = 3;
             this.starSign_SMario.Text = "☆";
             // 
-            // label24
+            // label6
             // 
-            this.label24.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.label6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label24.AutoSize = true;
-            this.label24.Font = new System.Drawing.Font("SF Pro Text", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label24.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(205)))), ((int)(((byte)(205)))));
-            this.label24.Location = new System.Drawing.Point(3, 6);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(118, 16);
-            this.label24.TabIndex = 0;
-            this.label24.Text = "Super Mario Bros.";
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("SF Pro Text", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(205)))), ((int)(((byte)(205)))));
+            this.label6.Location = new System.Drawing.Point(3, 6);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(118, 16);
+            this.label6.TabIndex = 0;
+            this.label6.Text = "Super Mario Bros.";
             // 
             // mpictureSMario
             // 
@@ -315,65 +448,65 @@
             this.mpictureSMario.TabIndex = 0;
             this.mpictureSMario.TabStop = false;
             // 
-            // panel74
+            // panel16
             // 
-            this.panel74.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel74.Location = new System.Drawing.Point(587, 0);
-            this.panel74.Name = "panel74";
-            this.panel74.Size = new System.Drawing.Size(10, 150);
-            this.panel74.TabIndex = 22;
+            this.panel16.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel16.Location = new System.Drawing.Point(587, 0);
+            this.panel16.Name = "panel16";
+            this.panel16.Size = new System.Drawing.Size(10, 150);
+            this.panel16.TabIndex = 22;
             // 
-            // panel64
+            // panel17
             // 
-            this.panel64.Controls.Add(this.label12);
-            this.panel64.Controls.Add(this.pictureBox11);
-            this.panel64.Controls.Add(this.panel65);
-            this.panel64.Controls.Add(this.mpictureOppenH);
-            this.panel64.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel64.ForeColor = System.Drawing.Color.Transparent;
-            this.panel64.Location = new System.Drawing.Point(421, 0);
-            this.panel64.Name = "panel64";
-            this.panel64.Size = new System.Drawing.Size(166, 150);
-            this.panel64.TabIndex = 20;
+            this.panel17.Controls.Add(this.label14);
+            this.panel17.Controls.Add(this.pictureBox6);
+            this.panel17.Controls.Add(this.panel18);
+            this.panel17.Controls.Add(this.mpictureOppenH);
+            this.panel17.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel17.ForeColor = System.Drawing.Color.Transparent;
+            this.panel17.Location = new System.Drawing.Point(421, 0);
+            this.panel17.Name = "panel17";
+            this.panel17.Size = new System.Drawing.Size(166, 150);
+            this.panel17.TabIndex = 20;
             // 
-            // label12
+            // label14
             // 
-            this.label12.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.label14.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("SF Pro Text", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(205)))), ((int)(((byte)(205)))));
-            this.label12.Location = new System.Drawing.Point(27, 130);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(55, 10);
-            this.label12.TabIndex = 4;
-            this.label12.Text = "July 19, 2024";
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("SF Pro Text", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(205)))), ((int)(((byte)(205)))));
+            this.label14.Location = new System.Drawing.Point(27, 130);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(55, 10);
+            this.label14.TabIndex = 4;
+            this.label14.Text = "July 19, 2024";
             // 
-            // pictureBox11
+            // pictureBox6
             // 
-            this.pictureBox11.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.pictureBox6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox11.Image = global::PRIME3.Properties.Resources._2222radio;
-            this.pictureBox11.Location = new System.Drawing.Point(4, 127);
-            this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(20, 17);
-            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox11.TabIndex = 5;
-            this.pictureBox11.TabStop = false;
+            this.pictureBox6.Image = global::PRIME3.Properties.Resources._2222radio;
+            this.pictureBox6.Location = new System.Drawing.Point(4, 127);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(20, 17);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox6.TabIndex = 5;
+            this.pictureBox6.TabStop = false;
             // 
-            // panel65
+            // panel18
             // 
-            this.panel65.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.panel18.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel65.Controls.Add(this.starSign_OppenH);
-            this.panel65.Controls.Add(this.label15);
-            this.panel65.Location = new System.Drawing.Point(0, 100);
-            this.panel65.Name = "panel65";
-            this.panel65.Size = new System.Drawing.Size(166, 24);
-            this.panel65.TabIndex = 2;
+            this.panel18.Controls.Add(this.starSign_OppenH);
+            this.panel18.Controls.Add(this.label20);
+            this.panel18.Location = new System.Drawing.Point(0, 100);
+            this.panel18.Name = "panel18";
+            this.panel18.Size = new System.Drawing.Size(166, 24);
+            this.panel18.TabIndex = 2;
             // 
             // starSign_OppenH
             // 
@@ -390,19 +523,19 @@
             this.starSign_OppenH.TabIndex = 3;
             this.starSign_OppenH.Text = "☆";
             // 
-            // label15
+            // label20
             // 
-            this.label15.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.label20.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("SF Pro Text", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(205)))), ((int)(((byte)(205)))));
-            this.label15.Location = new System.Drawing.Point(3, 6);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(89, 16);
-            this.label15.TabIndex = 0;
-            this.label15.Text = "Oppenheimer";
+            this.label20.AutoSize = true;
+            this.label20.Font = new System.Drawing.Font("SF Pro Text", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(205)))), ((int)(((byte)(205)))));
+            this.label20.Location = new System.Drawing.Point(3, 6);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(89, 16);
+            this.label20.TabIndex = 0;
+            this.label20.Text = "Oppenheimer";
             // 
             // mpictureOppenH
             // 
@@ -415,65 +548,65 @@
             this.mpictureOppenH.TabIndex = 0;
             this.mpictureOppenH.TabStop = false;
             // 
-            // panel66
+            // panel19
             // 
-            this.panel66.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel66.Location = new System.Drawing.Point(411, 0);
-            this.panel66.Name = "panel66";
-            this.panel66.Size = new System.Drawing.Size(10, 150);
-            this.panel66.TabIndex = 21;
+            this.panel19.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel19.Location = new System.Drawing.Point(411, 0);
+            this.panel19.Name = "panel19";
+            this.panel19.Size = new System.Drawing.Size(10, 150);
+            this.panel19.TabIndex = 21;
             // 
-            // panel67
+            // panel20
             // 
-            this.panel67.Controls.Add(this.label16);
-            this.panel67.Controls.Add(this.pictureBox14);
-            this.panel67.Controls.Add(this.panel68);
-            this.panel67.Controls.Add(this.mpictureHungerG);
-            this.panel67.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel67.ForeColor = System.Drawing.Color.Transparent;
-            this.panel67.Location = new System.Drawing.Point(245, 0);
-            this.panel67.Name = "panel67";
-            this.panel67.Size = new System.Drawing.Size(166, 150);
-            this.panel67.TabIndex = 16;
+            this.panel20.Controls.Add(this.label23);
+            this.panel20.Controls.Add(this.pictureBox13);
+            this.panel20.Controls.Add(this.panel21);
+            this.panel20.Controls.Add(this.mpictureHungerG);
+            this.panel20.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel20.ForeColor = System.Drawing.Color.Transparent;
+            this.panel20.Location = new System.Drawing.Point(245, 0);
+            this.panel20.Name = "panel20";
+            this.panel20.Size = new System.Drawing.Size(166, 150);
+            this.panel20.TabIndex = 16;
             // 
-            // label16
+            // label23
             // 
-            this.label16.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.label23.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("SF Pro Text", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(205)))), ((int)(((byte)(205)))));
-            this.label16.Location = new System.Drawing.Point(27, 130);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(79, 10);
-            this.label16.TabIndex = 4;
-            this.label16.Text = "November 17, 2024";
+            this.label23.AutoSize = true;
+            this.label23.Font = new System.Drawing.Font("SF Pro Text", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label23.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(205)))), ((int)(((byte)(205)))));
+            this.label23.Location = new System.Drawing.Point(27, 130);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(79, 10);
+            this.label23.TabIndex = 4;
+            this.label23.Text = "November 17, 2024";
             // 
-            // pictureBox14
+            // pictureBox13
             // 
-            this.pictureBox14.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.pictureBox13.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox14.Image = global::PRIME3.Properties.Resources._2222radio;
-            this.pictureBox14.Location = new System.Drawing.Point(4, 127);
-            this.pictureBox14.Name = "pictureBox14";
-            this.pictureBox14.Size = new System.Drawing.Size(20, 17);
-            this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox14.TabIndex = 5;
-            this.pictureBox14.TabStop = false;
+            this.pictureBox13.Image = global::PRIME3.Properties.Resources._2222radio;
+            this.pictureBox13.Location = new System.Drawing.Point(4, 127);
+            this.pictureBox13.Name = "pictureBox13";
+            this.pictureBox13.Size = new System.Drawing.Size(20, 17);
+            this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox13.TabIndex = 5;
+            this.pictureBox13.TabStop = false;
             // 
-            // panel68
+            // panel21
             // 
-            this.panel68.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.panel21.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel68.Controls.Add(this.starSign_HungerG);
-            this.panel68.Controls.Add(this.label18);
-            this.panel68.Location = new System.Drawing.Point(0, 100);
-            this.panel68.Name = "panel68";
-            this.panel68.Size = new System.Drawing.Size(166, 24);
-            this.panel68.TabIndex = 2;
+            this.panel21.Controls.Add(this.starSign_HungerG);
+            this.panel21.Controls.Add(this.label26);
+            this.panel21.Location = new System.Drawing.Point(0, 100);
+            this.panel21.Name = "panel21";
+            this.panel21.Size = new System.Drawing.Size(166, 24);
+            this.panel21.TabIndex = 2;
             // 
             // starSign_HungerG
             // 
@@ -490,19 +623,19 @@
             this.starSign_HungerG.TabIndex = 3;
             this.starSign_HungerG.Text = "☆";
             // 
-            // label18
+            // label26
             // 
-            this.label18.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.label26.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("SF Pro Text", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(205)))), ((int)(((byte)(205)))));
-            this.label18.Location = new System.Drawing.Point(3, 6);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(99, 16);
-            this.label18.TabIndex = 0;
-            this.label18.Text = "Hunger Games";
+            this.label26.AutoSize = true;
+            this.label26.Font = new System.Drawing.Font("SF Pro Text", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label26.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(205)))), ((int)(((byte)(205)))));
+            this.label26.Location = new System.Drawing.Point(3, 6);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(99, 16);
+            this.label26.TabIndex = 0;
+            this.label26.Text = "Hunger Games";
             // 
             // mpictureHungerG
             // 
@@ -516,94 +649,94 @@
             this.mpictureHungerG.TabIndex = 0;
             this.mpictureHungerG.TabStop = false;
             // 
-            // panel69
+            // panel22
             // 
-            this.panel69.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel69.Location = new System.Drawing.Point(235, 0);
-            this.panel69.Name = "panel69";
-            this.panel69.Size = new System.Drawing.Size(10, 150);
-            this.panel69.TabIndex = 19;
+            this.panel22.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel22.Location = new System.Drawing.Point(235, 0);
+            this.panel22.Name = "panel22";
+            this.panel22.Size = new System.Drawing.Size(10, 150);
+            this.panel22.TabIndex = 19;
             // 
-            // panel70
+            // panel23
             // 
-            this.panel70.Controls.Add(this.label19);
-            this.panel70.Controls.Add(this.pictureBox16);
-            this.panel70.Controls.Add(this.panel71);
-            this.panel70.Controls.Add(this.mpictureWeb);
-            this.panel70.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel70.ForeColor = System.Drawing.Color.Transparent;
-            this.panel70.Location = new System.Drawing.Point(69, 0);
-            this.panel70.Name = "panel70";
-            this.panel70.Size = new System.Drawing.Size(166, 150);
-            this.panel70.TabIndex = 17;
+            this.panel23.Controls.Add(this.label27);
+            this.panel23.Controls.Add(this.pictureBox17);
+            this.panel23.Controls.Add(this.panel24);
+            this.panel23.Controls.Add(this.mpictureWeb);
+            this.panel23.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel23.ForeColor = System.Drawing.Color.Transparent;
+            this.panel23.Location = new System.Drawing.Point(69, 0);
+            this.panel23.Name = "panel23";
+            this.panel23.Size = new System.Drawing.Size(166, 150);
+            this.panel23.TabIndex = 17;
             // 
-            // label19
+            // label27
             // 
-            this.label19.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.label27.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("SF Pro Text", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(205)))), ((int)(((byte)(205)))));
-            this.label19.Location = new System.Drawing.Point(27, 130);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(74, 10);
-            this.label19.TabIndex = 4;
-            this.label19.Text = "February 16, 2024";
+            this.label27.AutoSize = true;
+            this.label27.Font = new System.Drawing.Font("SF Pro Text", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label27.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(205)))), ((int)(((byte)(205)))));
+            this.label27.Location = new System.Drawing.Point(27, 130);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(74, 10);
+            this.label27.TabIndex = 4;
+            this.label27.Text = "February 16, 2024";
             // 
-            // pictureBox16
+            // pictureBox17
             // 
-            this.pictureBox16.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.pictureBox17.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox16.Image = global::PRIME3.Properties.Resources._2222radio;
-            this.pictureBox16.Location = new System.Drawing.Point(4, 127);
-            this.pictureBox16.Name = "pictureBox16";
-            this.pictureBox16.Size = new System.Drawing.Size(20, 17);
-            this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox16.TabIndex = 5;
-            this.pictureBox16.TabStop = false;
+            this.pictureBox17.Image = global::PRIME3.Properties.Resources._2222radio;
+            this.pictureBox17.Location = new System.Drawing.Point(4, 127);
+            this.pictureBox17.Name = "pictureBox17";
+            this.pictureBox17.Size = new System.Drawing.Size(20, 17);
+            this.pictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox17.TabIndex = 5;
+            this.pictureBox17.TabStop = false;
             // 
-            // panel71
+            // panel24
             // 
-            this.panel71.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.panel24.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel71.Controls.Add(this.starSign_mWeb);
-            this.panel71.Controls.Add(this.label21);
-            this.panel71.Location = new System.Drawing.Point(0, 100);
-            this.panel71.Name = "panel71";
-            this.panel71.Size = new System.Drawing.Size(166, 24);
-            this.panel71.TabIndex = 2;
+            this.panel24.Controls.Add(this.label28);
+            this.panel24.Controls.Add(this.label29);
+            this.panel24.Location = new System.Drawing.Point(0, 100);
+            this.panel24.Name = "panel24";
+            this.panel24.Size = new System.Drawing.Size(166, 24);
+            this.panel24.TabIndex = 2;
             // 
-            // starSign_mWeb
+            // label28
             // 
-            this.starSign_mWeb.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.label28.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.starSign_mWeb.AutoSize = true;
-            this.starSign_mWeb.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.starSign_mWeb.Font = new System.Drawing.Font("SF Pro Text", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.starSign_mWeb.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(205)))), ((int)(((byte)(205)))));
-            this.starSign_mWeb.Location = new System.Drawing.Point(143, 6);
-            this.starSign_mWeb.Name = "starSign_mWeb";
-            this.starSign_mWeb.Size = new System.Drawing.Size(20, 16);
-            this.starSign_mWeb.TabIndex = 3;
-            this.starSign_mWeb.Text = "☆";
+            this.label28.AutoSize = true;
+            this.label28.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label28.Font = new System.Drawing.Font("SF Pro Text", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label28.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(205)))), ((int)(((byte)(205)))));
+            this.label28.Location = new System.Drawing.Point(143, 6);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(20, 16);
+            this.label28.TabIndex = 3;
+            this.label28.Text = "☆";
             // 
-            // label21
+            // label29
             // 
-            this.label21.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.label29.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label21.AutoSize = true;
-            this.label21.Font = new System.Drawing.Font("SF Pro Text", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(205)))), ((int)(((byte)(205)))));
-            this.label21.Location = new System.Drawing.Point(3, 6);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(89, 16);
-            this.label21.TabIndex = 0;
-            this.label21.Text = "Madame Web";
+            this.label29.AutoSize = true;
+            this.label29.Font = new System.Drawing.Font("SF Pro Text", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label29.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(205)))), ((int)(((byte)(205)))));
+            this.label29.Location = new System.Drawing.Point(3, 6);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(89, 16);
+            this.label29.TabIndex = 0;
+            this.label29.Text = "Madame Web";
             // 
             // mpictureWeb
             // 
@@ -617,144 +750,144 @@
             this.mpictureWeb.TabIndex = 0;
             this.mpictureWeb.TabStop = false;
             // 
-            // panel72
+            // panel26
             // 
-            this.panel72.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel72.Location = new System.Drawing.Point(59, 0);
-            this.panel72.Name = "panel72";
-            this.panel72.Size = new System.Drawing.Size(10, 150);
-            this.panel72.TabIndex = 18;
+            this.panel26.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel26.Location = new System.Drawing.Point(59, 0);
+            this.panel26.Name = "panel26";
+            this.panel26.Size = new System.Drawing.Size(10, 150);
+            this.panel26.TabIndex = 18;
             // 
-            // panel73
+            // panel27
             // 
-            this.panel73.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel73.Location = new System.Drawing.Point(0, 0);
-            this.panel73.Name = "panel73";
-            this.panel73.Size = new System.Drawing.Size(59, 150);
-            this.panel73.TabIndex = 17;
+            this.panel27.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel27.Location = new System.Drawing.Point(0, 0);
+            this.panel27.Name = "panel27";
+            this.panel27.Size = new System.Drawing.Size(59, 150);
+            this.panel27.TabIndex = 17;
             // 
-            // panel62
+            // panel28
             // 
-            this.panel62.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel62.Location = new System.Drawing.Point(0, 284);
-            this.panel62.Name = "panel62";
-            this.panel62.Size = new System.Drawing.Size(1277, 19);
-            this.panel62.TabIndex = 24;
+            this.panel28.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel28.Location = new System.Drawing.Point(0, 284);
+            this.panel28.Name = "panel28";
+            this.panel28.Size = new System.Drawing.Size(1277, 19);
+            this.panel28.TabIndex = 24;
             // 
-            // panel60
+            // panel29
             // 
-            this.panel60.Controls.Add(this.label9);
-            this.panel60.Controls.Add(this.panel61);
-            this.panel60.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel60.Location = new System.Drawing.Point(0, 253);
-            this.panel60.Name = "panel60";
-            this.panel60.Size = new System.Drawing.Size(1277, 31);
-            this.panel60.TabIndex = 23;
+            this.panel29.Controls.Add(this.label30);
+            this.panel29.Controls.Add(this.panel36);
+            this.panel29.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel29.Location = new System.Drawing.Point(0, 253);
+            this.panel29.Name = "panel29";
+            this.panel29.Size = new System.Drawing.Size(1277, 31);
+            this.panel29.TabIndex = 23;
             // 
-            // label9
+            // label30
             // 
-            this.label9.AutoSize = true;
-            this.label9.BackColor = System.Drawing.Color.Transparent;
-            this.label9.Dock = System.Windows.Forms.DockStyle.Left;
-            this.label9.Font = new System.Drawing.Font("SF Pro Text", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(205)))), ((int)(((byte)(205)))));
-            this.label9.Location = new System.Drawing.Point(37, 0);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(150, 25);
-            this.label9.TabIndex = 17;
-            this.label9.Tag = "";
-            this.label9.Text = "Latest Movies";
+            this.label30.AutoSize = true;
+            this.label30.BackColor = System.Drawing.Color.Transparent;
+            this.label30.Dock = System.Windows.Forms.DockStyle.Left;
+            this.label30.Font = new System.Drawing.Font("SF Pro Text", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label30.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(205)))), ((int)(((byte)(205)))));
+            this.label30.Location = new System.Drawing.Point(37, 0);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(150, 25);
+            this.label30.TabIndex = 17;
+            this.label30.Tag = "";
+            this.label30.Text = "Latest Movies";
             // 
-            // panel61
+            // panel36
             // 
-            this.panel61.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel61.Location = new System.Drawing.Point(0, 0);
-            this.panel61.Name = "panel61";
-            this.panel61.Size = new System.Drawing.Size(37, 31);
-            this.panel61.TabIndex = 16;
+            this.panel36.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel36.Location = new System.Drawing.Point(0, 0);
+            this.panel36.Name = "panel36";
+            this.panel36.Size = new System.Drawing.Size(37, 31);
+            this.panel36.TabIndex = 16;
             // 
-            // panel59
+            // panel39
             // 
-            this.panel59.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel59.Location = new System.Drawing.Point(0, 243);
-            this.panel59.Name = "panel59";
-            this.panel59.Size = new System.Drawing.Size(1277, 10);
-            this.panel59.TabIndex = 22;
+            this.panel39.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel39.Location = new System.Drawing.Point(0, 243);
+            this.panel39.Name = "panel39";
+            this.panel39.Size = new System.Drawing.Size(1277, 10);
+            this.panel39.TabIndex = 22;
             // 
-            // panel58
+            // panel40
             // 
-            this.panel58.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel58.Location = new System.Drawing.Point(0, 210);
-            this.panel58.Name = "panel58";
-            this.panel58.Size = new System.Drawing.Size(1277, 33);
-            this.panel58.TabIndex = 21;
+            this.panel40.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel40.Location = new System.Drawing.Point(0, 210);
+            this.panel40.Name = "panel40";
+            this.panel40.Size = new System.Drawing.Size(1277, 33);
+            this.panel40.TabIndex = 21;
             // 
-            // panel37
+            // panel63
             // 
-            this.panel37.Controls.Add(this.panel55);
-            this.panel37.Controls.Add(this.panel57);
-            this.panel37.Controls.Add(this.panel44);
-            this.panel37.Controls.Add(this.panel54);
-            this.panel37.Controls.Add(this.panel45);
-            this.panel37.Controls.Add(this.panel53);
-            this.panel37.Controls.Add(this.panel43);
-            this.panel37.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel37.Location = new System.Drawing.Point(0, 60);
-            this.panel37.Name = "panel37";
-            this.panel37.Size = new System.Drawing.Size(1277, 150);
-            this.panel37.TabIndex = 20;
+            this.panel63.Controls.Add(this.panel77);
+            this.panel63.Controls.Add(this.panel79);
+            this.panel63.Controls.Add(this.panel80);
+            this.panel63.Controls.Add(this.panel82);
+            this.panel63.Controls.Add(this.panel83);
+            this.panel63.Controls.Add(this.panel85);
+            this.panel63.Controls.Add(this.panel86);
+            this.panel63.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel63.Location = new System.Drawing.Point(0, 60);
+            this.panel63.Name = "panel63";
+            this.panel63.Size = new System.Drawing.Size(1277, 150);
+            this.panel63.TabIndex = 20;
             // 
-            // panel55
+            // panel77
             // 
-            this.panel55.Controls.Add(this.label11);
-            this.panel55.Controls.Add(this.pictureBox12);
-            this.panel55.Controls.Add(this.panel56);
-            this.panel55.Controls.Add(this.mpictureKFPanda);
-            this.panel55.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel55.ForeColor = System.Drawing.Color.Transparent;
-            this.panel55.Location = new System.Drawing.Point(421, 0);
-            this.panel55.Name = "panel55";
-            this.panel55.Size = new System.Drawing.Size(166, 150);
-            this.panel55.TabIndex = 20;
+            this.panel77.Controls.Add(this.label31);
+            this.panel77.Controls.Add(this.pictureBox20);
+            this.panel77.Controls.Add(this.panel78);
+            this.panel77.Controls.Add(this.mpictureKFPanda);
+            this.panel77.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel77.ForeColor = System.Drawing.Color.Transparent;
+            this.panel77.Location = new System.Drawing.Point(421, 0);
+            this.panel77.Name = "panel77";
+            this.panel77.Size = new System.Drawing.Size(166, 150);
+            this.panel77.TabIndex = 20;
             // 
-            // label11
+            // label31
             // 
-            this.label11.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.label31.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("SF Pro Text", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(205)))), ((int)(((byte)(205)))));
-            this.label11.Location = new System.Drawing.Point(27, 130);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(59, 10);
-            this.label11.TabIndex = 4;
-            this.label11.Text = "March 6, 2024";
+            this.label31.AutoSize = true;
+            this.label31.Font = new System.Drawing.Font("SF Pro Text", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label31.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(205)))), ((int)(((byte)(205)))));
+            this.label31.Location = new System.Drawing.Point(27, 130);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(59, 10);
+            this.label31.TabIndex = 4;
+            this.label31.Text = "March 6, 2024";
             // 
-            // pictureBox12
+            // pictureBox20
             // 
-            this.pictureBox12.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.pictureBox20.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox12.Image = global::PRIME3.Properties.Resources._2222radio;
-            this.pictureBox12.Location = new System.Drawing.Point(4, 127);
-            this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(20, 17);
-            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox12.TabIndex = 5;
-            this.pictureBox12.TabStop = false;
+            this.pictureBox20.Image = global::PRIME3.Properties.Resources._2222radio;
+            this.pictureBox20.Location = new System.Drawing.Point(4, 127);
+            this.pictureBox20.Name = "pictureBox20";
+            this.pictureBox20.Size = new System.Drawing.Size(20, 17);
+            this.pictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox20.TabIndex = 5;
+            this.pictureBox20.TabStop = false;
             // 
-            // panel56
+            // panel78
             // 
-            this.panel56.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.panel78.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel56.Controls.Add(this.starSign_kFPanda);
-            this.panel56.Controls.Add(this.label13);
-            this.panel56.Location = new System.Drawing.Point(0, 100);
-            this.panel56.Name = "panel56";
-            this.panel56.Size = new System.Drawing.Size(166, 24);
-            this.panel56.TabIndex = 2;
+            this.panel78.Controls.Add(this.starSign_kFPanda);
+            this.panel78.Controls.Add(this.label33);
+            this.panel78.Location = new System.Drawing.Point(0, 100);
+            this.panel78.Name = "panel78";
+            this.panel78.Size = new System.Drawing.Size(166, 24);
+            this.panel78.TabIndex = 2;
             // 
             // starSign_kFPanda
             // 
@@ -771,19 +904,19 @@
             this.starSign_kFPanda.TabIndex = 3;
             this.starSign_kFPanda.Text = "☆";
             // 
-            // label13
+            // label33
             // 
-            this.label13.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.label33.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("SF Pro Text", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(205)))), ((int)(((byte)(205)))));
-            this.label13.Location = new System.Drawing.Point(3, 6);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(113, 16);
-            this.label13.TabIndex = 0;
-            this.label13.Text = "Kung Fu Panda 4";
+            this.label33.AutoSize = true;
+            this.label33.Font = new System.Drawing.Font("SF Pro Text", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label33.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(205)))), ((int)(((byte)(205)))));
+            this.label33.Location = new System.Drawing.Point(3, 6);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(113, 16);
+            this.label33.TabIndex = 0;
+            this.label33.Text = "Kung Fu Panda 4";
             // 
             // mpictureKFPanda
             // 
@@ -796,62 +929,62 @@
             this.mpictureKFPanda.TabIndex = 0;
             this.mpictureKFPanda.TabStop = false;
             // 
-            // panel57
+            // panel79
             // 
-            this.panel57.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel57.Location = new System.Drawing.Point(411, 0);
-            this.panel57.Name = "panel57";
-            this.panel57.Size = new System.Drawing.Size(10, 150);
-            this.panel57.TabIndex = 21;
+            this.panel79.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel79.Location = new System.Drawing.Point(411, 0);
+            this.panel79.Name = "panel79";
+            this.panel79.Size = new System.Drawing.Size(10, 150);
+            this.panel79.TabIndex = 21;
             // 
-            // panel44
+            // panel80
             // 
-            this.panel44.Controls.Add(this.showingDate);
-            this.panel44.Controls.Add(this.pictureBox10);
-            this.panel44.Controls.Add(this.panel46);
-            this.panel44.Controls.Add(this.moviePicture);
-            this.panel44.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel44.ForeColor = System.Drawing.Color.Transparent;
-            this.panel44.Location = new System.Drawing.Point(245, 0);
-            this.panel44.Name = "panel44";
-            this.panel44.Size = new System.Drawing.Size(166, 150);
-            this.panel44.TabIndex = 16;
+            this.panel80.Controls.Add(this.label34);
+            this.panel80.Controls.Add(this.pictureBox22);
+            this.panel80.Controls.Add(this.panel81);
+            this.panel80.Controls.Add(this.moviePicture);
+            this.panel80.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel80.ForeColor = System.Drawing.Color.Transparent;
+            this.panel80.Location = new System.Drawing.Point(245, 0);
+            this.panel80.Name = "panel80";
+            this.panel80.Size = new System.Drawing.Size(166, 150);
+            this.panel80.TabIndex = 16;
             // 
-            // showingDate
+            // label34
             // 
-            this.showingDate.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.label34.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.showingDate.AutoSize = true;
-            this.showingDate.Font = new System.Drawing.Font("SF Pro Text", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.showingDate.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(205)))), ((int)(((byte)(205)))));
-            this.showingDate.Location = new System.Drawing.Point(27, 130);
-            this.showingDate.Name = "showingDate";
-            this.showingDate.Size = new System.Drawing.Size(63, 10);
-            this.showingDate.TabIndex = 4;
-            this.showingDate.Text = "March 14, 2024";
+            this.label34.AutoSize = true;
+            this.label34.Font = new System.Drawing.Font("SF Pro Text", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label34.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(205)))), ((int)(((byte)(205)))));
+            this.label34.Location = new System.Drawing.Point(27, 130);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(63, 10);
+            this.label34.TabIndex = 4;
+            this.label34.Text = "March 14, 2024";
             // 
-            // pictureBox10
+            // pictureBox22
             // 
-            this.pictureBox10.Image = global::PRIME3.Properties.Resources._2222radio;
-            this.pictureBox10.Location = new System.Drawing.Point(4, 127);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(20, 17);
-            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox10.TabIndex = 5;
-            this.pictureBox10.TabStop = false;
+            this.pictureBox22.Image = global::PRIME3.Properties.Resources._2222radio;
+            this.pictureBox22.Location = new System.Drawing.Point(4, 127);
+            this.pictureBox22.Name = "pictureBox22";
+            this.pictureBox22.Size = new System.Drawing.Size(20, 17);
+            this.pictureBox22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox22.TabIndex = 5;
+            this.pictureBox22.TabStop = false;
             // 
-            // panel46
+            // panel81
             // 
-            this.panel46.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.panel81.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel46.Controls.Add(this.starSign);
-            this.panel46.Controls.Add(this.titleMovie);
-            this.panel46.Location = new System.Drawing.Point(0, 100);
-            this.panel46.Name = "panel46";
-            this.panel46.Size = new System.Drawing.Size(166, 24);
-            this.panel46.TabIndex = 2;
+            this.panel81.Controls.Add(this.starSign);
+            this.panel81.Controls.Add(this.label36);
+            this.panel81.Location = new System.Drawing.Point(0, 100);
+            this.panel81.Name = "panel81";
+            this.panel81.Size = new System.Drawing.Size(166, 24);
+            this.panel81.TabIndex = 2;
             // 
             // starSign
             // 
@@ -868,19 +1001,19 @@
             this.starSign.TabIndex = 3;
             this.starSign.Text = "☆";
             // 
-            // titleMovie
+            // label36
             // 
-            this.titleMovie.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.label36.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.titleMovie.AutoSize = true;
-            this.titleMovie.Font = new System.Drawing.Font("SF Pro Text", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.titleMovie.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(205)))), ((int)(((byte)(205)))));
-            this.titleMovie.Location = new System.Drawing.Point(3, 6);
-            this.titleMovie.Name = "titleMovie";
-            this.titleMovie.Size = new System.Drawing.Size(82, 16);
-            this.titleMovie.TabIndex = 0;
-            this.titleMovie.Text = "Dune: Part ll";
+            this.label36.AutoSize = true;
+            this.label36.Font = new System.Drawing.Font("SF Pro Text", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label36.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(205)))), ((int)(((byte)(205)))));
+            this.label36.Location = new System.Drawing.Point(3, 6);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(82, 16);
+            this.label36.TabIndex = 0;
+            this.label36.Text = "Dune: Part ll";
             // 
             // moviePicture
             // 
@@ -894,65 +1027,65 @@
             this.moviePicture.TabIndex = 0;
             this.moviePicture.TabStop = false;
             // 
-            // panel54
+            // panel82
             // 
-            this.panel54.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel54.Location = new System.Drawing.Point(235, 0);
-            this.panel54.Name = "panel54";
-            this.panel54.Size = new System.Drawing.Size(10, 150);
-            this.panel54.TabIndex = 19;
+            this.panel82.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel82.Location = new System.Drawing.Point(235, 0);
+            this.panel82.Name = "panel82";
+            this.panel82.Size = new System.Drawing.Size(10, 150);
+            this.panel82.TabIndex = 19;
             // 
-            // panel45
+            // panel83
             // 
-            this.panel45.Controls.Add(this.label7);
-            this.panel45.Controls.Add(this.pictureBox9);
-            this.panel45.Controls.Add(this.panel52);
-            this.panel45.Controls.Add(this.mpictureGodzilla);
-            this.panel45.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel45.ForeColor = System.Drawing.Color.Transparent;
-            this.panel45.Location = new System.Drawing.Point(69, 0);
-            this.panel45.Name = "panel45";
-            this.panel45.Size = new System.Drawing.Size(166, 150);
-            this.panel45.TabIndex = 17;
+            this.panel83.Controls.Add(this.label37);
+            this.panel83.Controls.Add(this.pictureBox24);
+            this.panel83.Controls.Add(this.panel84);
+            this.panel83.Controls.Add(this.mpictureGodzilla);
+            this.panel83.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel83.ForeColor = System.Drawing.Color.Transparent;
+            this.panel83.Location = new System.Drawing.Point(69, 0);
+            this.panel83.Name = "panel83";
+            this.panel83.Size = new System.Drawing.Size(166, 150);
+            this.panel83.TabIndex = 17;
             // 
-            // label7
+            // label37
             // 
-            this.label7.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.label37.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("SF Pro Text", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(205)))), ((int)(((byte)(205)))));
-            this.label7.Location = new System.Drawing.Point(27, 130);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(64, 10);
-            this.label7.TabIndex = 4;
-            this.label7.Text = "March 30, 2024";
+            this.label37.AutoSize = true;
+            this.label37.Font = new System.Drawing.Font("SF Pro Text", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label37.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(205)))), ((int)(((byte)(205)))));
+            this.label37.Location = new System.Drawing.Point(27, 130);
+            this.label37.Name = "label37";
+            this.label37.Size = new System.Drawing.Size(64, 10);
+            this.label37.TabIndex = 4;
+            this.label37.Text = "March 30, 2024";
             // 
-            // pictureBox9
+            // pictureBox24
             // 
-            this.pictureBox9.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.pictureBox24.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox9.Image = global::PRIME3.Properties.Resources._2222radio;
-            this.pictureBox9.Location = new System.Drawing.Point(4, 127);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(20, 17);
-            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox9.TabIndex = 5;
-            this.pictureBox9.TabStop = false;
+            this.pictureBox24.Image = global::PRIME3.Properties.Resources._2222radio;
+            this.pictureBox24.Location = new System.Drawing.Point(4, 127);
+            this.pictureBox24.Name = "pictureBox24";
+            this.pictureBox24.Size = new System.Drawing.Size(20, 17);
+            this.pictureBox24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox24.TabIndex = 5;
+            this.pictureBox24.TabStop = false;
             // 
-            // panel52
+            // panel84
             // 
-            this.panel52.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.panel84.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel52.Controls.Add(this.starSign_Godzilla);
-            this.panel52.Controls.Add(this.label10);
-            this.panel52.Location = new System.Drawing.Point(0, 100);
-            this.panel52.Name = "panel52";
-            this.panel52.Size = new System.Drawing.Size(166, 24);
-            this.panel52.TabIndex = 2;
+            this.panel84.Controls.Add(this.starSign_Godzilla);
+            this.panel84.Controls.Add(this.label39);
+            this.panel84.Location = new System.Drawing.Point(0, 100);
+            this.panel84.Name = "panel84";
+            this.panel84.Size = new System.Drawing.Size(166, 24);
+            this.panel84.TabIndex = 2;
             // 
             // starSign_Godzilla
             // 
@@ -969,19 +1102,19 @@
             this.starSign_Godzilla.TabIndex = 3;
             this.starSign_Godzilla.Text = "☆";
             // 
-            // label10
+            // label39
             // 
-            this.label10.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.label39.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("SF Pro Text", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(205)))), ((int)(((byte)(205)))));
-            this.label10.Location = new System.Drawing.Point(3, 6);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(141, 16);
-            this.label10.TabIndex = 0;
-            this.label10.Text = "GxK: The New Empire";
+            this.label39.AutoSize = true;
+            this.label39.Font = new System.Drawing.Font("SF Pro Text", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label39.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(205)))), ((int)(((byte)(205)))));
+            this.label39.Location = new System.Drawing.Point(3, 6);
+            this.label39.Name = "label39";
+            this.label39.Size = new System.Drawing.Size(141, 16);
+            this.label39.TabIndex = 0;
+            this.label39.Text = "GxK: The New Empire";
             // 
             // mpictureGodzilla
             // 
@@ -995,393 +1128,232 @@
             this.mpictureGodzilla.TabIndex = 0;
             this.mpictureGodzilla.TabStop = false;
             // 
-            // panel53
+            // panel85
             // 
-            this.panel53.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel53.Location = new System.Drawing.Point(59, 0);
-            this.panel53.Name = "panel53";
-            this.panel53.Size = new System.Drawing.Size(10, 150);
-            this.panel53.TabIndex = 18;
+            this.panel85.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel85.Location = new System.Drawing.Point(59, 0);
+            this.panel85.Name = "panel85";
+            this.panel85.Size = new System.Drawing.Size(10, 150);
+            this.panel85.TabIndex = 18;
             // 
-            // panel43
+            // panel86
             // 
-            this.panel43.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel43.Location = new System.Drawing.Point(0, 0);
-            this.panel43.Name = "panel43";
-            this.panel43.Size = new System.Drawing.Size(59, 150);
-            this.panel43.TabIndex = 17;
+            this.panel86.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel86.Location = new System.Drawing.Point(0, 0);
+            this.panel86.Name = "panel86";
+            this.panel86.Size = new System.Drawing.Size(59, 150);
+            this.panel86.TabIndex = 17;
             // 
-            // panel51
+            // panel87
             // 
-            this.panel51.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel51.Location = new System.Drawing.Point(0, 41);
-            this.panel51.Name = "panel51";
-            this.panel51.Size = new System.Drawing.Size(1277, 19);
-            this.panel51.TabIndex = 19;
+            this.panel87.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel87.Location = new System.Drawing.Point(0, 41);
+            this.panel87.Name = "panel87";
+            this.panel87.Size = new System.Drawing.Size(1277, 19);
+            this.panel87.TabIndex = 19;
             // 
-            // panel49
+            // panel88
             // 
-            this.panel49.Controls.Add(this.label8);
-            this.panel49.Controls.Add(this.panel50);
-            this.panel49.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel49.Location = new System.Drawing.Point(0, 10);
-            this.panel49.Name = "panel49";
-            this.panel49.Size = new System.Drawing.Size(1277, 31);
-            this.panel49.TabIndex = 18;
+            this.panel88.Controls.Add(this.label40);
+            this.panel88.Controls.Add(this.panel89);
+            this.panel88.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel88.Location = new System.Drawing.Point(0, 10);
+            this.panel88.Name = "panel88";
+            this.panel88.Size = new System.Drawing.Size(1277, 31);
+            this.panel88.TabIndex = 18;
             // 
-            // label8
+            // label40
             // 
-            this.label8.AutoSize = true;
-            this.label8.BackColor = System.Drawing.Color.Transparent;
-            this.label8.Dock = System.Windows.Forms.DockStyle.Left;
-            this.label8.Font = new System.Drawing.Font("SF Pro Text", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(205)))), ((int)(((byte)(205)))));
-            this.label8.Location = new System.Drawing.Point(37, 0);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(168, 25);
-            this.label8.TabIndex = 17;
-            this.label8.Tag = "";
-            this.label8.Text = "Recently Added";
+            this.label40.AutoSize = true;
+            this.label40.BackColor = System.Drawing.Color.Transparent;
+            this.label40.Dock = System.Windows.Forms.DockStyle.Left;
+            this.label40.Font = new System.Drawing.Font("SF Pro Text", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label40.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(205)))), ((int)(((byte)(205)))));
+            this.label40.Location = new System.Drawing.Point(37, 0);
+            this.label40.Name = "label40";
+            this.label40.Size = new System.Drawing.Size(168, 25);
+            this.label40.TabIndex = 17;
+            this.label40.Tag = "";
+            this.label40.Text = "Recently Added";
             // 
-            // panel50
+            // panel89
             // 
-            this.panel50.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel50.Location = new System.Drawing.Point(0, 0);
-            this.panel50.Name = "panel50";
-            this.panel50.Size = new System.Drawing.Size(37, 31);
-            this.panel50.TabIndex = 16;
+            this.panel89.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel89.Location = new System.Drawing.Point(0, 0);
+            this.panel89.Name = "panel89";
+            this.panel89.Size = new System.Drawing.Size(37, 31);
+            this.panel89.TabIndex = 16;
             // 
-            // panel48
+            // panel90
             // 
-            this.panel48.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel48.Location = new System.Drawing.Point(0, 0);
-            this.panel48.Name = "panel48";
-            this.panel48.Size = new System.Drawing.Size(1277, 10);
-            this.panel48.TabIndex = 17;
+            this.panel90.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel90.Location = new System.Drawing.Point(0, 0);
+            this.panel90.Name = "panel90";
+            this.panel90.Size = new System.Drawing.Size(1277, 10);
+            this.panel90.TabIndex = 17;
             // 
-            // headerPanel
-            // 
-            this.headerPanel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.headerPanel.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.headerPanel.BackColor = System.Drawing.Color.Transparent;
-            this.headerPanel.Controls.Add(this.pictureBox8);
-            this.headerPanel.Controls.Add(this.panel42);
-            this.headerPanel.Controls.Add(this.panel41);
-            this.headerPanel.Location = new System.Drawing.Point(0, 122);
-            this.headerPanel.Name = "headerPanel";
-            this.headerPanel.Size = new System.Drawing.Size(1277, 317);
-            this.headerPanel.TabIndex = 13;
-            // 
-            // pictureBox8
-            // 
-            this.pictureBox8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox8.Image = global::PRIME3.Properties.Resources.godName;
-            this.pictureBox8.Location = new System.Drawing.Point(10, 0);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(1257, 317);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox8.TabIndex = 13;
-            this.pictureBox8.TabStop = false;
-            // 
-            // panel42
-            // 
-            this.panel42.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel42.Location = new System.Drawing.Point(0, 0);
-            this.panel42.Name = "panel42";
-            this.panel42.Size = new System.Drawing.Size(10, 317);
-            this.panel42.TabIndex = 12;
-            // 
-            // panel41
-            // 
-            this.panel41.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel41.Location = new System.Drawing.Point(1267, 0);
-            this.panel41.Name = "panel41";
-            this.panel41.Size = new System.Drawing.Size(10, 317);
-            this.panel41.TabIndex = 11;
-            // 
-            // panel38
-            // 
-            this.panel38.BackColor = System.Drawing.Color.Transparent;
-            this.panel38.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel38.Location = new System.Drawing.Point(0, 112);
-            this.panel38.Name = "panel38";
-            this.panel38.Size = new System.Drawing.Size(1277, 10);
-            this.panel38.TabIndex = 12;
-            // 
-            // panel35
-            // 
-            this.panel35.Controls.Add(this.usernameData);
-            this.panel35.Controls.Add(this.label2);
-            this.panel35.Controls.Add(this.panel25);
-            this.panel35.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel35.Location = new System.Drawing.Point(0, 70);
-            this.panel35.Name = "panel35";
-            this.panel35.Size = new System.Drawing.Size(1277, 42);
-            this.panel35.TabIndex = 11;
-            // 
-            // usernameData
-            // 
-            this.usernameData.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.usernameData.AutoSize = true;
-            this.usernameData.BackColor = System.Drawing.Color.Transparent;
-            this.usernameData.Font = new System.Drawing.Font("SF Pro Text", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.usernameData.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(205)))), ((int)(((byte)(205)))));
-            this.usernameData.Location = new System.Drawing.Point(186, 3);
-            this.usernameData.Name = "usernameData";
-            this.usernameData.Size = new System.Drawing.Size(112, 35);
-            this.usernameData.TabIndex = 14;
-            this.usernameData.Tag = "";
-            this.usernameData.Text = "Hacker";
-            // 
-            // label2
-            // 
-            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("SF Pro Text", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(205)))), ((int)(((byte)(205)))));
-            this.label2.Location = new System.Drawing.Point(43, 3);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(150, 35);
-            this.label2.TabIndex = 12;
-            this.label2.Tag = "";
-            this.label2.Text = "Welcome,";
-            // 
-            // panel25
-            // 
-            this.panel25.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel25.Location = new System.Drawing.Point(0, 0);
-            this.panel25.Name = "panel25";
-            this.panel25.Size = new System.Drawing.Size(37, 42);
-            this.panel25.TabIndex = 15;
-            // 
-            // panel34
-            // 
-            this.panel34.BackColor = System.Drawing.Color.Transparent;
-            this.panel34.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel34.Location = new System.Drawing.Point(0, 60);
-            this.panel34.Name = "panel34";
-            this.panel34.Size = new System.Drawing.Size(1277, 10);
-            this.panel34.TabIndex = 10;
-            // 
-            // panel31
-            // 
-            this.panel31.Controls.Add(this.panel33);
-            this.panel31.Controls.Add(this.pictureBox5);
-            this.panel31.Controls.Add(this.panel32);
-            this.panel31.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel31.Location = new System.Drawing.Point(0, 17);
-            this.panel31.Name = "panel31";
-            this.panel31.Size = new System.Drawing.Size(1277, 43);
-            this.panel31.TabIndex = 9;
-            // 
-            // panel33
-            // 
-            this.panel33.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel33.Location = new System.Drawing.Point(1169, 0);
-            this.panel33.Name = "panel33";
-            this.panel33.Size = new System.Drawing.Size(23, 43);
-            this.panel33.TabIndex = 10;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Dock = System.Windows.Forms.DockStyle.Right;
-            this.pictureBox5.Location = new System.Drawing.Point(1192, 0);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(48, 43);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox5.TabIndex = 11;
-            this.pictureBox5.TabStop = false;
-            // 
-            // panel32
-            // 
-            this.panel32.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel32.Location = new System.Drawing.Point(1240, 0);
-            this.panel32.Name = "panel32";
-            this.panel32.Size = new System.Drawing.Size(37, 43);
-            this.panel32.TabIndex = 0;
-            // 
-            // panel30
-            // 
-            this.panel30.BackColor = System.Drawing.Color.Transparent;
-            this.panel30.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel30.Location = new System.Drawing.Point(0, 0);
-            this.panel30.Name = "panel30";
-            this.panel30.Size = new System.Drawing.Size(1277, 17);
-            this.panel30.TabIndex = 8;
-            // 
-            // timer1
-            // 
-            this.timer1.Enabled = true;
-            this.timer1.Interval = 5000;
-            // 
-            // HoveVer2
+            // HomeVer2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.BackColor = System.Drawing.Color.Transparent;
-            this.Controls.Add(this.backPanel);
-            this.Name = "HoveVer2";
-            this.Size = new System.Drawing.Size(1277, 908);
-            this.backPanel.ResumeLayout(false);
-            this.mainPanel.ResumeLayout(false);
-            this.panel47.ResumeLayout(false);
-            this.MovieBox2.ResumeLayout(false);
-            this.panel75.ResumeLayout(false);
-            this.panel75.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).EndInit();
-            this.panel76.ResumeLayout(false);
-            this.panel76.PerformLayout();
+            this.BackColor = System.Drawing.Color.Black;
+            this.Controls.Add(this.panel12);
+            this.Controls.Add(this.panel9);
+            this.Controls.Add(this.panel8);
+            this.Controls.Add(this.panel6);
+            this.Controls.Add(this.panel5);
+            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.panel1);
+            this.Name = "HomeVer2";
+            this.Size = new System.Drawing.Size(1226, 857);
+            this.panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.panel6.ResumeLayout(false);
+            this.panel6.PerformLayout();
+            this.panel9.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.panel12.ResumeLayout(false);
+            this.panel13.ResumeLayout(false);
+            this.panel14.ResumeLayout(false);
+            this.panel14.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            this.panel15.ResumeLayout(false);
+            this.panel15.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.mpictureSMario)).EndInit();
-            this.panel64.ResumeLayout(false);
-            this.panel64.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
-            this.panel65.ResumeLayout(false);
-            this.panel65.PerformLayout();
+            this.panel17.ResumeLayout(false);
+            this.panel17.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            this.panel18.ResumeLayout(false);
+            this.panel18.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.mpictureOppenH)).EndInit();
-            this.panel67.ResumeLayout(false);
-            this.panel67.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
-            this.panel68.ResumeLayout(false);
-            this.panel68.PerformLayout();
+            this.panel20.ResumeLayout(false);
+            this.panel20.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
+            this.panel21.ResumeLayout(false);
+            this.panel21.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.mpictureHungerG)).EndInit();
-            this.panel70.ResumeLayout(false);
-            this.panel70.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
-            this.panel71.ResumeLayout(false);
-            this.panel71.PerformLayout();
+            this.panel23.ResumeLayout(false);
+            this.panel23.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
+            this.panel24.ResumeLayout(false);
+            this.panel24.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.mpictureWeb)).EndInit();
-            this.panel60.ResumeLayout(false);
-            this.panel60.PerformLayout();
-            this.panel37.ResumeLayout(false);
-            this.panel55.ResumeLayout(false);
-            this.panel55.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
-            this.panel56.ResumeLayout(false);
-            this.panel56.PerformLayout();
+            this.panel29.ResumeLayout(false);
+            this.panel29.PerformLayout();
+            this.panel63.ResumeLayout(false);
+            this.panel77.ResumeLayout(false);
+            this.panel77.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).EndInit();
+            this.panel78.ResumeLayout(false);
+            this.panel78.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.mpictureKFPanda)).EndInit();
-            this.panel44.ResumeLayout(false);
-            this.panel44.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
-            this.panel46.ResumeLayout(false);
-            this.panel46.PerformLayout();
+            this.panel80.ResumeLayout(false);
+            this.panel80.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).EndInit();
+            this.panel81.ResumeLayout(false);
+            this.panel81.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.moviePicture)).EndInit();
-            this.panel45.ResumeLayout(false);
-            this.panel45.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
-            this.panel52.ResumeLayout(false);
-            this.panel52.PerformLayout();
+            this.panel83.ResumeLayout(false);
+            this.panel83.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).EndInit();
+            this.panel84.ResumeLayout(false);
+            this.panel84.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.mpictureGodzilla)).EndInit();
-            this.panel49.ResumeLayout(false);
-            this.panel49.PerformLayout();
-            this.headerPanel.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
-            this.panel35.ResumeLayout(false);
-            this.panel35.PerformLayout();
-            this.panel31.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            this.panel88.ResumeLayout(false);
+            this.panel88.PerformLayout();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Panel backPanel;
-        private System.Windows.Forms.Panel mainPanel;
-        private System.Windows.Forms.Panel panel47;
-        private System.Windows.Forms.Panel MovieBox2;
-        private System.Windows.Forms.Panel panel75;
-        private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.PictureBox pictureBox18;
-        private System.Windows.Forms.Panel panel76;
-        private System.Windows.Forms.Label starSign_SMario;
-        private System.Windows.Forms.Label label24;
-        private System.Windows.Forms.PictureBox mpictureSMario;
-        private System.Windows.Forms.Panel panel74;
-        private System.Windows.Forms.Panel panel64;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.PictureBox pictureBox11;
-        private System.Windows.Forms.Panel panel65;
-        private System.Windows.Forms.Label starSign_OppenH;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.PictureBox mpictureOppenH;
-        private System.Windows.Forms.Panel panel66;
-        private System.Windows.Forms.Panel panel67;
-        private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.PictureBox pictureBox14;
-        private System.Windows.Forms.Panel panel68;
-        private System.Windows.Forms.Label starSign_HungerG;
-        private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.PictureBox mpictureHungerG;
-        private System.Windows.Forms.Panel panel69;
-        private System.Windows.Forms.Panel panel70;
-        private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.PictureBox pictureBox16;
-        private System.Windows.Forms.Panel panel71;
-        private System.Windows.Forms.Label starSign_mWeb;
-        private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.PictureBox mpictureWeb;
-        private System.Windows.Forms.Panel panel72;
-        private System.Windows.Forms.Panel panel73;
-        private System.Windows.Forms.Panel panel62;
-        private System.Windows.Forms.Panel panel60;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Panel panel61;
-        private System.Windows.Forms.Panel panel59;
-        private System.Windows.Forms.Panel panel58;
-        private System.Windows.Forms.Panel panel37;
-        private System.Windows.Forms.Panel panel55;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.PictureBox pictureBox12;
-        private System.Windows.Forms.Panel panel56;
-        private System.Windows.Forms.Label starSign_kFPanda;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.PictureBox mpictureKFPanda;
-        private System.Windows.Forms.Panel panel57;
-        private System.Windows.Forms.Panel panel44;
-        private System.Windows.Forms.Label showingDate;
-        private System.Windows.Forms.PictureBox pictureBox10;
-        private System.Windows.Forms.Panel panel46;
-        private System.Windows.Forms.Label starSign;
-        private System.Windows.Forms.Label titleMovie;
-        private System.Windows.Forms.PictureBox moviePicture;
-        private System.Windows.Forms.Panel panel54;
-        private System.Windows.Forms.Panel panel45;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.PictureBox pictureBox9;
-        private System.Windows.Forms.Panel panel52;
-        private System.Windows.Forms.Label starSign_Godzilla;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.PictureBox mpictureGodzilla;
-        private System.Windows.Forms.Panel panel53;
-        private System.Windows.Forms.Panel panel43;
-        private System.Windows.Forms.Panel panel51;
-        private System.Windows.Forms.Panel panel49;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Panel panel50;
-        private System.Windows.Forms.Panel panel48;
-        private System.Windows.Forms.Panel headerPanel;
-        private System.Windows.Forms.PictureBox pictureBox8;
-        private System.Windows.Forms.Panel panel42;
-        private System.Windows.Forms.Panel panel41;
-        private System.Windows.Forms.Panel panel38;
-        private System.Windows.Forms.Panel panel35;
-        private System.Windows.Forms.Label usernameData;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Panel panel25;
-        private System.Windows.Forms.Panel panel34;
-        private System.Windows.Forms.Panel panel31;
-        private System.Windows.Forms.Panel panel33;
-        private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.Panel panel32;
-        private System.Windows.Forms.Panel panel30;
         private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.Panel panel6;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Panel panel7;
+        private System.Windows.Forms.Panel panel8;
+        private System.Windows.Forms.Panel panel9;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Panel panel10;
+        private System.Windows.Forms.Panel panel11;
+        private System.Windows.Forms.Panel panel12;
+        private System.Windows.Forms.Panel panel13;
+        private System.Windows.Forms.Panel panel14;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.Panel panel15;
+        private System.Windows.Forms.Label starSign_SMario;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.PictureBox mpictureSMario;
+        private System.Windows.Forms.Panel panel16;
+        private System.Windows.Forms.Panel panel17;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.Panel panel18;
+        private System.Windows.Forms.Label starSign_OppenH;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.PictureBox mpictureOppenH;
+        private System.Windows.Forms.Panel panel19;
+        private System.Windows.Forms.Panel panel20;
+        private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.PictureBox pictureBox13;
+        private System.Windows.Forms.Panel panel21;
+        private System.Windows.Forms.Label starSign_HungerG;
+        private System.Windows.Forms.Label label26;
+        private System.Windows.Forms.PictureBox mpictureHungerG;
+        private System.Windows.Forms.Panel panel22;
+        private System.Windows.Forms.Panel panel23;
+        private System.Windows.Forms.Label label27;
+        private System.Windows.Forms.PictureBox pictureBox17;
+        private System.Windows.Forms.Panel panel24;
+        private System.Windows.Forms.Label label28;
+        private System.Windows.Forms.Label label29;
+        private System.Windows.Forms.PictureBox mpictureWeb;
+        private System.Windows.Forms.Panel panel26;
+        private System.Windows.Forms.Panel panel27;
+        private System.Windows.Forms.Panel panel28;
+        private System.Windows.Forms.Panel panel29;
+        private System.Windows.Forms.Label label30;
+        private System.Windows.Forms.Panel panel36;
+        private System.Windows.Forms.Panel panel39;
+        private System.Windows.Forms.Panel panel40;
+        private System.Windows.Forms.Panel panel63;
+        private System.Windows.Forms.Panel panel77;
+        private System.Windows.Forms.Label label31;
+        private System.Windows.Forms.PictureBox pictureBox20;
+        private System.Windows.Forms.Panel panel78;
+        private System.Windows.Forms.Label starSign_kFPanda;
+        private System.Windows.Forms.Label label33;
+        private System.Windows.Forms.PictureBox mpictureKFPanda;
+        private System.Windows.Forms.Panel panel79;
+        private System.Windows.Forms.Panel panel80;
+        private System.Windows.Forms.Label label34;
+        private System.Windows.Forms.PictureBox pictureBox22;
+        private System.Windows.Forms.Panel panel81;
+        private System.Windows.Forms.Label starSign;
+        private System.Windows.Forms.Label label36;
+        private System.Windows.Forms.PictureBox moviePicture;
+        private System.Windows.Forms.Panel panel82;
+        private System.Windows.Forms.Panel panel83;
+        private System.Windows.Forms.Label label37;
+        private System.Windows.Forms.PictureBox pictureBox24;
+        private System.Windows.Forms.Panel panel84;
+        private System.Windows.Forms.Label starSign_Godzilla;
+        private System.Windows.Forms.Label label39;
+        private System.Windows.Forms.PictureBox mpictureGodzilla;
+        private System.Windows.Forms.Panel panel85;
+        private System.Windows.Forms.Panel panel86;
+        private System.Windows.Forms.Panel panel87;
+        private System.Windows.Forms.Panel panel88;
+        private System.Windows.Forms.Label label40;
+        private System.Windows.Forms.Panel panel89;
+        private System.Windows.Forms.Panel panel90;
     }
 }

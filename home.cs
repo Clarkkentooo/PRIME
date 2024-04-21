@@ -11,13 +11,13 @@ using System.Windows.Forms;
 
 namespace PRIME_FINAL
 {
-    public partial class HoveVer2 : UserControl
+    public partial class HomeVer2 : UserControl
     {
         private int imageNum = 1;
         private readonly string[] imageNames = { "dune2Named.png", "kFPandaNamed.png", "godName.png" };
 
         private Size originalSize;
-        public HoveVer2()
+        public HomeVer2()
         {
             InitializeComponent();
 
@@ -66,7 +66,7 @@ namespace PRIME_FINAL
                 imageNum = 0; // Reset imageNum if it exceeds the array length
             }
 
-            pictureBox8.ImageLocation = "Resources/" + imageNames[imageNum]; // Assuming the images are located in a folder named "HeaderImage"
+            pictureBox2.ImageLocation = "Resources/" + imageNames[imageNum]; // Assuming the images are located in a folder named "HeaderImage"
 
             imageNum++;
         }
