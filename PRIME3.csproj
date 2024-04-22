@@ -116,6 +116,12 @@
     <Compile Include="SignUp.Designer.cs">
       <DependentUpon>SignUp.cs</DependentUpon>
     </Compile>
+    <Compile Include="ticketInfocs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ticketInfocs.Designer.cs">
+      <DependentUpon>ticketInfocs.cs</DependentUpon>
+    </Compile>
     <Compile Include="Widget.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -160,6 +166,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="SignUp.resx">
       <DependentUpon>SignUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ticketInfocs.resx">
+      <DependentUpon>ticketInfocs.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Widget.resx">
       <DependentUpon>Widget.cs</DependentUpon>

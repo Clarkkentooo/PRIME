@@ -10,17 +10,11 @@ using System.Windows.Forms;
 
 namespace PRIME3
 {
-    public partial class godzillaTicketInfo : Form
+    public partial class ticketInfocs : Form
     {
-        private Color clickedHoverColor = Color.LightGray;
-        public godzillaTicketInfo()
+        public ticketInfocs()
         {
             InitializeComponent();
-        }
-
-        private void godzillaTicketInfo_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }
