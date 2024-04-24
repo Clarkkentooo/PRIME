@@ -73,6 +73,16 @@ namespace PRIME3.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap A6___1 {
+            get {
+                object obj = ResourceManager.GetObject("A6 - 1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Account {
             get {
                 object obj = ResourceManager.GetObject("Account", resourceCulture);
@@ -126,6 +136,16 @@ namespace PRIME3.Properties {
         internal static System.Drawing.Bitmap basket1 {
             get {
                 object obj = ResourceManager.GetObject("basket1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bdo_unibank_horz_cmyk_pos_01_thu_ZAMPTA7z7s575klK {
+            get {
+                object obj = ResourceManager.GetObject("bdo_unibank_horz_cmyk_pos_01_thu.ZAMPTA7z7s575klK", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -323,6 +343,16 @@ namespace PRIME3.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap GCash_Logo {
+            get {
+                object obj = ResourceManager.GetObject("GCash-Logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap godName {
             get {
                 object obj = ResourceManager.GetObject("godName", resourceCulture);
@@ -406,6 +436,16 @@ namespace PRIME3.Properties {
         internal static System.Drawing.Bitmap godzillaPoster {
             get {
                 object obj = ResourceManager.GetObject("godzillaPoster", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap godzQR {
+            get {
+                object obj = ResourceManager.GetObject("godzQR", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -546,6 +586,16 @@ namespace PRIME3.Properties {
         internal static System.Drawing.Bitmap Mask_group_GODZILLA1 {
             get {
                 object obj = ResourceManager.GetObject("Mask group_GODZILLA1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MicrosoftTeams_image_9_768x223 {
+            get {
+                object obj = ResourceManager.GetObject("MicrosoftTeams-image-9-768x223", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

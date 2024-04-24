@@ -169,9 +169,6 @@
   <data name="madamewebb" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\madamewebb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="dune" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\dune.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="GodzillaHeader" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\GodzillaHeader.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -189,6 +186,9 @@
   </data>
   <data name="godzilla" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\godzilla.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GCash-Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GCash-Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="FIRST PAGE SIGNUP" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\FIRST PAGE SIGNUP.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -222,6 +222,9 @@
   </data>
   <data name="kFPandaNamed1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\kFPandaNamed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bdo_unibank_horz_cmyk_pos_01_thu.ZAMPTA7z7s575klK" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bdo_unibank_horz_cmyk_pos_01_thu.ZAMPTA7z7s575klK.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="godzilla1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\godzilla1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -274,6 +277,15 @@
   <data name="Mask group_GODZILLA" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Mask group_GODZILLA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="MicrosoftTeams-image-9-768x223" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MicrosoftTeams-image-9-768x223.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="A6 - 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\A6 - 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="FIRST PAGE" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\FIRST PAGE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -291,6 +303,9 @@
   </data>
   <data name="radio" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\radio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="showGradient" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\showGradient.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="bgbgbg" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bgbgbg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -316,10 +331,10 @@
   <data name="search222" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\search222.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Mark" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Mark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="dune" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dune.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="showGradient" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\showGradient.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="godzQR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\godzQR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

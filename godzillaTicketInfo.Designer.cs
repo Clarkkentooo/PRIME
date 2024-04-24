@@ -147,7 +147,7 @@
             this.panel5.Controls.Add(this.directorName);
             this.panel5.Controls.Add(this.pictureBox10);
             this.panel5.Controls.Add(this.starSign);
-            this.panel5.Location = new System.Drawing.Point(135, 228);
+            this.panel5.Location = new System.Drawing.Point(135, 444);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(606, 228);
             this.panel5.TabIndex = 49;
@@ -262,7 +262,7 @@
             this.BookButton.Lighting = false;
             this.BookButton.LinearGradient_Background = false;
             this.BookButton.LinearGradientPen = false;
-            this.BookButton.Location = new System.Drawing.Point(702, 226);
+            this.BookButton.Location = new System.Drawing.Point(685, 442);
             this.BookButton.Name = "BookButton";
             this.BookButton.PenWidth = 15;
             this.BookButton.Rounding = true;
@@ -282,7 +282,7 @@
             this.panel10.BackColor = System.Drawing.Color.Transparent;
             this.panel10.Controls.Add(this.add2CartText);
             this.panel10.Controls.Add(this.pictureBox3);
-            this.panel10.Location = new System.Drawing.Point(712, 267);
+            this.panel10.Location = new System.Drawing.Point(695, 483);
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(125, 27);
             this.panel10.TabIndex = 47;
@@ -319,7 +319,7 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("SF Pro Text", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(205)))), ((int)(((byte)(205)))));
-            this.label2.Location = new System.Drawing.Point(180, 527);
+            this.label2.Location = new System.Drawing.Point(180, 743);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(191, 25);
             this.label2.TabIndex = 50;
@@ -333,7 +333,7 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("SF Pro Text", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(205)))), ((int)(((byte)(205)))));
-            this.label3.Location = new System.Drawing.Point(198, 595);
+            this.label3.Location = new System.Drawing.Point(198, 811);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(183, 19);
             this.label3.TabIndex = 51;
@@ -370,9 +370,9 @@
             "SM Fairview",
             "SM Aura",
             "SM North Edsa"});
-            this.dungeonComboBox1.Location = new System.Drawing.Point(278, 644);
+            this.dungeonComboBox1.Location = new System.Drawing.Point(278, 860);
             this.dungeonComboBox1.Name = "dungeonComboBox1";
-            this.dungeonComboBox1.Size = new System.Drawing.Size(635, 26);
+            this.dungeonComboBox1.Size = new System.Drawing.Size(618, 26);
             this.dungeonComboBox1.StartIndex = 0;
             this.dungeonComboBox1.TabIndex = 52;
             // 
@@ -383,7 +383,7 @@
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("SF Pro Text", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(205)))), ((int)(((byte)(205)))));
-            this.label4.Location = new System.Drawing.Point(198, 711);
+            this.label4.Location = new System.Drawing.Point(198, 927);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(176, 19);
             this.label4.TabIndex = 53;
@@ -418,7 +418,7 @@
             this.cyberButton1.Lighting = false;
             this.cyberButton1.LinearGradient_Background = false;
             this.cyberButton1.LinearGradientPen = false;
-            this.cyberButton1.Location = new System.Drawing.Point(586, 793);
+            this.cyberButton1.Location = new System.Drawing.Point(569, 1009);
             this.cyberButton1.Name = "cyberButton1";
             this.cyberButton1.PenWidth = 15;
             this.cyberButton1.Rounding = true;
@@ -460,7 +460,7 @@
             this.cyberButton2.Lighting = false;
             this.cyberButton2.LinearGradient_Background = false;
             this.cyberButton2.LinearGradientPen = false;
-            this.cyberButton2.Location = new System.Drawing.Point(586, 840);
+            this.cyberButton2.Location = new System.Drawing.Point(569, 1056);
             this.cyberButton2.Name = "cyberButton2";
             this.cyberButton2.PenWidth = 15;
             this.cyberButton2.Rounding = true;
@@ -502,7 +502,7 @@
             this.cyberButton3.Lighting = false;
             this.cyberButton3.LinearGradient_Background = false;
             this.cyberButton3.LinearGradientPen = false;
-            this.cyberButton3.Location = new System.Drawing.Point(586, 887);
+            this.cyberButton3.Location = new System.Drawing.Point(569, 1103);
             this.cyberButton3.Name = "cyberButton3";
             this.cyberButton3.PenWidth = 15;
             this.cyberButton3.Rounding = true;
@@ -544,7 +544,7 @@
             this.cyberButton4.Lighting = false;
             this.cyberButton4.LinearGradient_Background = false;
             this.cyberButton4.LinearGradientPen = false;
-            this.cyberButton4.Location = new System.Drawing.Point(796, 840);
+            this.cyberButton4.Location = new System.Drawing.Point(779, 1056);
             this.cyberButton4.Name = "cyberButton4";
             this.cyberButton4.PenWidth = 15;
             this.cyberButton4.Rounding = true;
@@ -586,7 +586,7 @@
             this.cyberButton5.Lighting = false;
             this.cyberButton5.LinearGradient_Background = false;
             this.cyberButton5.LinearGradientPen = false;
-            this.cyberButton5.Location = new System.Drawing.Point(796, 793);
+            this.cyberButton5.Location = new System.Drawing.Point(779, 1009);
             this.cyberButton5.Name = "cyberButton5";
             this.cyberButton5.PenWidth = 15;
             this.cyberButton5.Rounding = true;
@@ -628,7 +628,7 @@
             this.cyberButton7.Lighting = false;
             this.cyberButton7.LinearGradient_Background = false;
             this.cyberButton7.LinearGradientPen = false;
-            this.cyberButton7.Location = new System.Drawing.Point(796, 887);
+            this.cyberButton7.Location = new System.Drawing.Point(779, 1103);
             this.cyberButton7.Name = "cyberButton7";
             this.cyberButton7.PenWidth = 15;
             this.cyberButton7.Rounding = true;
@@ -673,9 +673,9 @@
             "April 3, 2024",
             "April 4, 2024",
             "April 5, 2024"});
-            this.dungeonComboBox2.Location = new System.Drawing.Point(202, 793);
+            this.dungeonComboBox2.Location = new System.Drawing.Point(202, 1009);
             this.dungeonComboBox2.Name = "dungeonComboBox2";
-            this.dungeonComboBox2.Size = new System.Drawing.Size(304, 26);
+            this.dungeonComboBox2.Size = new System.Drawing.Size(287, 26);
             this.dungeonComboBox2.StartIndex = 0;
             this.dungeonComboBox2.TabIndex = 60;
             // 
@@ -686,7 +686,7 @@
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("SF Pro Text", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(129)))), ((int)(((byte)(129)))));
-            this.label5.Location = new System.Drawing.Point(198, 759);
+            this.label5.Location = new System.Drawing.Point(198, 975);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(45, 19);
             this.label5.TabIndex = 61;
@@ -700,7 +700,7 @@
             this.label6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(3)))), ((int)(((byte)(3)))));
             this.label6.Font = new System.Drawing.Font("SF Pro Text", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(129)))), ((int)(((byte)(129)))), ((int)(((byte)(129)))));
-            this.label6.Location = new System.Drawing.Point(580, 759);
+            this.label6.Location = new System.Drawing.Point(563, 975);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(46, 19);
             this.label6.TabIndex = 62;
@@ -714,7 +714,7 @@
             this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Font = new System.Drawing.Font("SF Pro Text", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(205)))), ((int)(((byte)(205)))));
-            this.label7.Location = new System.Drawing.Point(201, 967);
+            this.label7.Location = new System.Drawing.Point(201, 1183);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(135, 19);
             this.label7.TabIndex = 63;
@@ -795,7 +795,7 @@
             this.seatPlan.Controls.Add(this.cyberButton9);
             this.seatPlan.Controls.Add(this.cyberButton13);
             this.seatPlan.Controls.Add(this.cyberButton14);
-            this.seatPlan.Location = new System.Drawing.Point(264, 1001);
+            this.seatPlan.Location = new System.Drawing.Point(247, 1217);
             this.seatPlan.Name = "seatPlan";
             this.seatPlan.Size = new System.Drawing.Size(612, 474);
             this.seatPlan.TabIndex = 76;
@@ -3767,7 +3767,7 @@
             this.movieOPoster.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.movieOPoster.BackColor = System.Drawing.Color.Transparent;
             this.movieOPoster.Image = global::PRIME3.Properties.Resources.godzillaPoster;
-            this.movieOPoster.Location = new System.Drawing.Point(885, 228);
+            this.movieOPoster.Location = new System.Drawing.Point(868, 444);
             this.movieOPoster.Name = "movieOPoster";
             this.movieOPoster.Size = new System.Drawing.Size(153, 226);
             this.movieOPoster.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;

@@ -403,5 +403,20 @@
   <ItemGroup>
     <None Include="Resources\showGradient.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bdo_unibank_horz_cmyk_pos_01_thu.ZAMPTA7z7s575klK.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MicrosoftTeams-image-9-768x223.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GCash-Logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\A6 - 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\godzQR.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

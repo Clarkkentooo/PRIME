@@ -117,4 +117,13 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="movieSynopsis.Text" xml:space="preserve">
+    <value>The new installment in the Monsterverse puts the mighty Kong 
+and the fearsome Godzilla against a colossal deadly threat
+hidden within our world that threatens the existence of their 
+species and our very own, as well as diving deep into the mysteries 
+of Skull Island and beyond. Delving straight into the origins of Hollow 
+Earth, this film will explore the ancient Titan battle that brought man 
+and monster together forever.</value>
+  </data>
 </root>

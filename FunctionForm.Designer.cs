@@ -262,7 +262,6 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.movieOPoster = new System.Windows.Forms.PictureBox();
             this.sidebarAccess1 = new System.Windows.Forms.Label();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
@@ -302,9 +301,150 @@
             this.label49 = new System.Windows.Forms.Label();
             this.panel44 = new System.Windows.Forms.Panel();
             this.panel45 = new System.Windows.Forms.Panel();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.panel47 = new System.Windows.Forms.Panel();
             this.panel46 = new System.Windows.Forms.Panel();
+            this.paymentPanel = new System.Windows.Forms.Panel();
+            this.ReceiptPanel = new System.Windows.Forms.Panel();
+            this.mainReceipt = new System.Windows.Forms.Panel();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.panel201 = new System.Windows.Forms.Panel();
+            this.panel200 = new System.Windows.Forms.Panel();
+            this.panel199 = new System.Windows.Forms.Panel();
+            this.panel183 = new System.Windows.Forms.Panel();
+            this.panel192 = new System.Windows.Forms.Panel();
+            this.totTicketsReceipt = new System.Windows.Forms.Label();
+            this.label61 = new System.Windows.Forms.Label();
+            this.panel196 = new System.Windows.Forms.Panel();
+            this.panel195 = new System.Windows.Forms.Panel();
+            this.panel194 = new System.Windows.Forms.Panel();
+            this.panel193 = new System.Windows.Forms.Panel();
+            this.panel177 = new System.Windows.Forms.Panel();
+            this.panel190 = new System.Windows.Forms.Panel();
+            this.seatNoReceipt = new System.Windows.Forms.Label();
+            this.panel191 = new System.Windows.Forms.Panel();
+            this.label60 = new System.Windows.Forms.Label();
+            this.panel188 = new System.Windows.Forms.Panel();
+            this.timeReceipt = new System.Windows.Forms.Label();
+            this.panel189 = new System.Windows.Forms.Panel();
+            this.label58 = new System.Windows.Forms.Label();
+            this.panel186 = new System.Windows.Forms.Panel();
+            this.dateReceipt = new System.Windows.Forms.Label();
+            this.panel187 = new System.Windows.Forms.Panel();
+            this.label56 = new System.Windows.Forms.Label();
+            this.panel184 = new System.Windows.Forms.Panel();
+            this.locationReceipt = new System.Windows.Forms.Label();
+            this.panel185 = new System.Windows.Forms.Panel();
+            this.label53 = new System.Windows.Forms.Label();
+            this.panel182 = new System.Windows.Forms.Panel();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.panel180 = new System.Windows.Forms.Panel();
+            this.panel179 = new System.Windows.Forms.Panel();
+            this.panel178 = new System.Windows.Forms.Panel();
+            this.panel181 = new System.Windows.Forms.Panel();
+            this.panel176 = new System.Windows.Forms.Panel();
+            this.panel172 = new System.Windows.Forms.Panel();
+            this.label51 = new System.Windows.Forms.Label();
+            this.panel171 = new System.Windows.Forms.Panel();
+            this.panel150 = new System.Windows.Forms.Panel();
+            this.panel197 = new System.Windows.Forms.Panel();
+            this.panel170 = new System.Windows.Forms.Panel();
+            this.panel169 = new System.Windows.Forms.Panel();
+            this.panel168 = new System.Windows.Forms.Panel();
+            this.panel167 = new System.Windows.Forms.Panel();
+            this.panel159 = new System.Windows.Forms.Panel();
+            this.panel160 = new System.Windows.Forms.Panel();
+            this.panel161 = new System.Windows.Forms.Panel();
+            this.panel162 = new System.Windows.Forms.Panel();
+            this.panel163 = new System.Windows.Forms.Panel();
+            this.panel164 = new System.Windows.Forms.Panel();
+            this.panel165 = new System.Windows.Forms.Panel();
+            this.panel166 = new System.Windows.Forms.Panel();
+            this.panel155 = new System.Windows.Forms.Panel();
+            this.panel156 = new System.Windows.Forms.Panel();
+            this.panel157 = new System.Windows.Forms.Panel();
+            this.panel158 = new System.Windows.Forms.Panel();
+            this.panel154 = new System.Windows.Forms.Panel();
+            this.panel153 = new System.Windows.Forms.Panel();
+            this.panel152 = new System.Windows.Forms.Panel();
+            this.panel151 = new System.Windows.Forms.Panel();
+            this.panel149 = new System.Windows.Forms.Panel();
+            this.panel146 = new System.Windows.Forms.Panel();
+            this.panel141 = new System.Windows.Forms.Panel();
+            this.receiptHeader = new System.Windows.Forms.Panel();
+            this.panel145 = new System.Windows.Forms.Panel();
+            this.label47 = new System.Windows.Forms.Label();
+            this.panel132 = new System.Windows.Forms.Panel();
+            this.panel139 = new System.Windows.Forms.Panel();
+            this.panel140 = new System.Windows.Forms.Panel();
+            this.payNowBttn = new ReaLTaiizor.Controls.CyberButton();
+            this.panel138 = new System.Windows.Forms.Panel();
+            this.panel135 = new System.Windows.Forms.Panel();
+            this.AccountNum = new ReaLTaiizor.Controls.CyberTextBox();
+            this.panel137 = new System.Windows.Forms.Panel();
+            this.panel136 = new System.Windows.Forms.Panel();
+            this.panel134 = new System.Windows.Forms.Panel();
+            this.panel133 = new System.Windows.Forms.Panel();
+            this.label45 = new System.Windows.Forms.Label();
+            this.panel131 = new System.Windows.Forms.Panel();
+            this.panel126 = new System.Windows.Forms.Panel();
+            this.BdoUnibank = new System.Windows.Forms.PictureBox();
+            this.panel130 = new System.Windows.Forms.Panel();
+            this.maya = new System.Windows.Forms.PictureBox();
+            this.panel128 = new System.Windows.Forms.Panel();
+            this.panel129 = new System.Windows.Forms.Panel();
+            this.gCash = new System.Windows.Forms.PictureBox();
+            this.panel127 = new System.Windows.Forms.Panel();
+            this.panel125 = new System.Windows.Forms.Panel();
+            this.panel124 = new System.Windows.Forms.Panel();
+            this.label43 = new System.Windows.Forms.Label();
+            this.panel121 = new System.Windows.Forms.Panel();
+            this.panel206 = new System.Windows.Forms.Panel();
+            this.totTicketsMOP = new System.Windows.Forms.Label();
+            this.label66 = new System.Windows.Forms.Label();
+            this.panel205 = new System.Windows.Forms.Panel();
+            this.panel204 = new System.Windows.Forms.Panel();
+            this.label64 = new System.Windows.Forms.Label();
+            this.label63 = new System.Windows.Forms.Label();
+            this.panel203 = new System.Windows.Forms.Panel();
+            this.panel120 = new System.Windows.Forms.Panel();
+            this.label41 = new System.Windows.Forms.Label();
+            this.panel123 = new System.Windows.Forms.Panel();
+            this.panel122 = new System.Windows.Forms.Panel();
+            this.panel119 = new System.Windows.Forms.Panel();
+            this.panel118 = new System.Windows.Forms.Panel();
+            this.goBack = new System.Windows.Forms.Label();
+            this.panel117 = new System.Windows.Forms.Panel();
+            this.panel202 = new System.Windows.Forms.Panel();
+            this.panel72 = new System.Windows.Forms.Panel();
             this.panel51 = new System.Windows.Forms.Panel();
+            this.label62 = new System.Windows.Forms.Label();
+            this.label52 = new System.Windows.Forms.Label();
+            this.panel142 = new System.Windows.Forms.Panel();
+            this.panel143 = new System.Windows.Forms.Panel();
+            this.mopChoice = new System.Windows.Forms.PictureBox();
+            this.panel144 = new System.Windows.Forms.Panel();
+            this.panel174 = new System.Windows.Forms.Panel();
+            this.panel175 = new System.Windows.Forms.Panel();
+            this.totalAmount = new System.Windows.Forms.Label();
+            this.label54 = new System.Windows.Forms.Label();
+            this.panel207 = new System.Windows.Forms.Panel();
+            this.panel208 = new System.Windows.Forms.Panel();
+            this.panel209 = new System.Windows.Forms.Panel();
+            this.label39 = new System.Windows.Forms.Label();
+            this.totAmountReceipt = new System.Windows.Forms.Label();
+            this.panel210 = new System.Windows.Forms.Panel();
+            this.panel211 = new System.Windows.Forms.Panel();
+            this.label55 = new System.Windows.Forms.Label();
+            this.panel212 = new System.Windows.Forms.Panel();
+            this.mopReceipt = new System.Windows.Forms.PictureBox();
+            this.panel147 = new System.Windows.Forms.Panel();
+            this.panel148 = new System.Windows.Forms.Panel();
+            this.panel173 = new System.Windows.Forms.Panel();
+            this.panel213 = new System.Windows.Forms.Panel();
+            this.label57 = new System.Windows.Forms.Label();
+            this.panel198 = new System.Windows.Forms.Panel();
+            this.panel214 = new System.Windows.Forms.Panel();
             this.headerpanel1.SuspendLayout();
             this.panel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
@@ -349,7 +489,6 @@
             this.panel10.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.movieOPoster)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.panel9.SuspendLayout();
             this.panel14.SuspendLayout();
             this.panel15.SuspendLayout();
@@ -357,13 +496,54 @@
             this.panel17.SuspendLayout();
             this.panel19.SuspendLayout();
             this.panel45.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            this.paymentPanel.SuspendLayout();
+            this.ReceiptPanel.SuspendLayout();
+            this.mainReceipt.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            this.panel192.SuspendLayout();
+            this.panel177.SuspendLayout();
+            this.panel190.SuspendLayout();
+            this.panel188.SuspendLayout();
+            this.panel186.SuspendLayout();
+            this.panel184.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            this.panel172.SuspendLayout();
+            this.panel150.SuspendLayout();
+            this.receiptHeader.SuspendLayout();
+            this.panel145.SuspendLayout();
+            this.panel132.SuspendLayout();
+            this.panel139.SuspendLayout();
+            this.panel135.SuspendLayout();
+            this.panel137.SuspendLayout();
+            this.panel133.SuspendLayout();
+            this.panel126.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.BdoUnibank)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.maya)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gCash)).BeginInit();
+            this.panel124.SuspendLayout();
+            this.panel121.SuspendLayout();
+            this.panel206.SuspendLayout();
+            this.panel204.SuspendLayout();
+            this.panel203.SuspendLayout();
+            this.panel120.SuspendLayout();
+            this.panel118.SuspendLayout();
+            this.panel117.SuspendLayout();
+            this.panel142.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.mopChoice)).BeginInit();
+            this.panel175.SuspendLayout();
+            this.panel207.SuspendLayout();
+            this.panel209.SuspendLayout();
+            this.panel211.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.mopReceipt)).BeginInit();
+            this.panel173.SuspendLayout();
+            this.panel213.SuspendLayout();
             this.SuspendLayout();
             // 
             // headerpanel1
             // 
             this.headerpanel1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.headerpanel1.BackColor = System.Drawing.Color.Transparent;
-            this.headerpanel1.Controls.Add(this.panel51);
             this.headerpanel1.Controls.Add(this.panel5);
             this.headerpanel1.Controls.Add(this.ticketPanel);
             this.headerpanel1.Controls.Add(this.panel71);
@@ -377,9 +557,9 @@
             this.headerpanel1.Controls.Add(this.panel10);
             this.headerpanel1.Controls.Add(this.movieOPoster);
             this.headerpanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.headerpanel1.Location = new System.Drawing.Point(122, 69);
+            this.headerpanel1.Location = new System.Drawing.Point(122, 93);
             this.headerpanel1.Name = "headerpanel1";
-            this.headerpanel1.Size = new System.Drawing.Size(1014, 2731);
+            this.headerpanel1.Size = new System.Drawing.Size(1014, 2707);
             this.headerpanel1.TabIndex = 21;
             // 
             // panel5
@@ -394,7 +574,7 @@
             this.panel5.Controls.Add(this.starSign);
             this.panel5.Controls.Add(this.movieSynopsis);
             this.panel5.Controls.Add(this.panel4);
-            this.panel5.Location = new System.Drawing.Point(20, 400);
+            this.panel5.Location = new System.Drawing.Point(32, 400);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(538, 405);
             this.panel5.TabIndex = 45;
@@ -526,7 +706,7 @@
             this.ticketPanel.Controls.Add(this.panel74);
             this.ticketPanel.Controls.Add(this.panel73);
             this.ticketPanel.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.ticketPanel.Location = new System.Drawing.Point(10, 876);
+            this.ticketPanel.Location = new System.Drawing.Point(10, 852);
             this.ticketPanel.Name = "ticketPanel";
             this.ticketPanel.Size = new System.Drawing.Size(994, 1334);
             this.ticketPanel.TabIndex = 164;
@@ -677,7 +857,7 @@
             this.cyberButton18.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
             this.cyberButton18.ColorBackground_1 = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
             this.cyberButton18.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
-            this.cyberButton18.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
+            this.cyberButton18.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(86)))), ((int)(((byte)(245)))));
             this.cyberButton18.ColorLighting = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
             this.cyberButton18.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
             this.cyberButton18.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
@@ -767,7 +947,7 @@
             this.cyberButton77.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(28)))), ((int)(((byte)(73)))));
             this.cyberButton77.ColorBackground_1 = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(28)))), ((int)(((byte)(73)))));
             this.cyberButton77.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(28)))), ((int)(((byte)(73)))));
-            this.cyberButton77.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
+            this.cyberButton77.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(86)))), ((int)(((byte)(245)))));
             this.cyberButton77.ColorLighting = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(28)))), ((int)(((byte)(73)))));
             this.cyberButton77.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(28)))), ((int)(((byte)(73)))));
             this.cyberButton77.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(28)))), ((int)(((byte)(73)))));
@@ -844,7 +1024,7 @@
             this.g0Bttn.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
             this.g0Bttn.ColorBackground_1 = System.Drawing.Color.Transparent;
             this.g0Bttn.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
-            this.g0Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
+            this.g0Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(86)))), ((int)(((byte)(245)))));
             this.g0Bttn.ColorLighting = System.Drawing.Color.Transparent;
             this.g0Bttn.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.g0Bttn.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
@@ -886,7 +1066,7 @@
             this.g9Bttn.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
             this.g9Bttn.ColorBackground_1 = System.Drawing.Color.Transparent;
             this.g9Bttn.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
-            this.g9Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
+            this.g9Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(86)))), ((int)(((byte)(245)))));
             this.g9Bttn.ColorLighting = System.Drawing.Color.Transparent;
             this.g9Bttn.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.g9Bttn.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
@@ -928,7 +1108,7 @@
             this.g8Bttn.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
             this.g8Bttn.ColorBackground_1 = System.Drawing.Color.Transparent;
             this.g8Bttn.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
-            this.g8Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
+            this.g8Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(86)))), ((int)(((byte)(245)))));
             this.g8Bttn.ColorLighting = System.Drawing.Color.Transparent;
             this.g8Bttn.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.g8Bttn.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
@@ -970,7 +1150,7 @@
             this.g7Bttn.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
             this.g7Bttn.ColorBackground_1 = System.Drawing.Color.Transparent;
             this.g7Bttn.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
-            this.g7Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
+            this.g7Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(86)))), ((int)(((byte)(245)))));
             this.g7Bttn.ColorLighting = System.Drawing.Color.Transparent;
             this.g7Bttn.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.g7Bttn.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
@@ -1012,7 +1192,7 @@
             this.g6Bttn.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
             this.g6Bttn.ColorBackground_1 = System.Drawing.Color.Transparent;
             this.g6Bttn.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
-            this.g6Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
+            this.g6Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(86)))), ((int)(((byte)(245)))));
             this.g6Bttn.ColorLighting = System.Drawing.Color.Transparent;
             this.g6Bttn.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.g6Bttn.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
@@ -1054,7 +1234,7 @@
             this.g5Bttn.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
             this.g5Bttn.ColorBackground_1 = System.Drawing.Color.Transparent;
             this.g5Bttn.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
-            this.g5Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
+            this.g5Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(86)))), ((int)(((byte)(245)))));
             this.g5Bttn.ColorLighting = System.Drawing.Color.Transparent;
             this.g5Bttn.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.g5Bttn.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
@@ -1096,7 +1276,7 @@
             this.g4Bttn.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
             this.g4Bttn.ColorBackground_1 = System.Drawing.Color.Transparent;
             this.g4Bttn.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
-            this.g4Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
+            this.g4Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(86)))), ((int)(((byte)(245)))));
             this.g4Bttn.ColorLighting = System.Drawing.Color.Transparent;
             this.g4Bttn.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.g4Bttn.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
@@ -1138,7 +1318,7 @@
             this.g3Bttn.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
             this.g3Bttn.ColorBackground_1 = System.Drawing.Color.Transparent;
             this.g3Bttn.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
-            this.g3Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
+            this.g3Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(86)))), ((int)(((byte)(245)))));
             this.g3Bttn.ColorLighting = System.Drawing.Color.Transparent;
             this.g3Bttn.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.g3Bttn.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
@@ -1180,7 +1360,7 @@
             this.g2Bttn.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
             this.g2Bttn.ColorBackground_1 = System.Drawing.Color.Transparent;
             this.g2Bttn.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
-            this.g2Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
+            this.g2Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(86)))), ((int)(((byte)(245)))));
             this.g2Bttn.ColorLighting = System.Drawing.Color.Transparent;
             this.g2Bttn.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.g2Bttn.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
@@ -1222,7 +1402,7 @@
             this.g1Bttn.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
             this.g1Bttn.ColorBackground_1 = System.Drawing.Color.Transparent;
             this.g1Bttn.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
-            this.g1Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
+            this.g1Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(86)))), ((int)(((byte)(245)))));
             this.g1Bttn.ColorLighting = System.Drawing.Color.Transparent;
             this.g1Bttn.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.g1Bttn.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
@@ -1290,7 +1470,7 @@
             this.f0Bttn.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
             this.f0Bttn.ColorBackground_1 = System.Drawing.Color.Transparent;
             this.f0Bttn.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
-            this.f0Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
+            this.f0Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(86)))), ((int)(((byte)(245)))));
             this.f0Bttn.ColorLighting = System.Drawing.Color.Transparent;
             this.f0Bttn.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.f0Bttn.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
@@ -1332,7 +1512,7 @@
             this.f9Bttn.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
             this.f9Bttn.ColorBackground_1 = System.Drawing.Color.Transparent;
             this.f9Bttn.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
-            this.f9Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
+            this.f9Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(86)))), ((int)(((byte)(245)))));
             this.f9Bttn.ColorLighting = System.Drawing.Color.Transparent;
             this.f9Bttn.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.f9Bttn.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
@@ -1374,7 +1554,7 @@
             this.f8Bttn.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
             this.f8Bttn.ColorBackground_1 = System.Drawing.Color.Transparent;
             this.f8Bttn.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
-            this.f8Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
+            this.f8Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(86)))), ((int)(((byte)(245)))));
             this.f8Bttn.ColorLighting = System.Drawing.Color.Transparent;
             this.f8Bttn.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.f8Bttn.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
@@ -1416,7 +1596,7 @@
             this.f7Bttn.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
             this.f7Bttn.ColorBackground_1 = System.Drawing.Color.Transparent;
             this.f7Bttn.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
-            this.f7Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
+            this.f7Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(86)))), ((int)(((byte)(245)))));
             this.f7Bttn.ColorLighting = System.Drawing.Color.Transparent;
             this.f7Bttn.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.f7Bttn.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
@@ -1458,7 +1638,7 @@
             this.f6Bttn.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
             this.f6Bttn.ColorBackground_1 = System.Drawing.Color.Transparent;
             this.f6Bttn.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
-            this.f6Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
+            this.f6Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(86)))), ((int)(((byte)(245)))));
             this.f6Bttn.ColorLighting = System.Drawing.Color.Transparent;
             this.f6Bttn.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.f6Bttn.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
@@ -1500,7 +1680,7 @@
             this.f5Bttn.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
             this.f5Bttn.ColorBackground_1 = System.Drawing.Color.Transparent;
             this.f5Bttn.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
-            this.f5Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
+            this.f5Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(86)))), ((int)(((byte)(245)))));
             this.f5Bttn.ColorLighting = System.Drawing.Color.Transparent;
             this.f5Bttn.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.f5Bttn.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
@@ -1542,7 +1722,7 @@
             this.f4Bttn.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
             this.f4Bttn.ColorBackground_1 = System.Drawing.Color.Transparent;
             this.f4Bttn.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
-            this.f4Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
+            this.f4Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(86)))), ((int)(((byte)(245)))));
             this.f4Bttn.ColorLighting = System.Drawing.Color.Transparent;
             this.f4Bttn.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.f4Bttn.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
@@ -1584,7 +1764,7 @@
             this.f3Bttn.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
             this.f3Bttn.ColorBackground_1 = System.Drawing.Color.Transparent;
             this.f3Bttn.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
-            this.f3Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
+            this.f3Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(86)))), ((int)(((byte)(245)))));
             this.f3Bttn.ColorLighting = System.Drawing.Color.Transparent;
             this.f3Bttn.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.f3Bttn.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
@@ -1626,7 +1806,7 @@
             this.f2Bttn.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
             this.f2Bttn.ColorBackground_1 = System.Drawing.Color.Transparent;
             this.f2Bttn.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
-            this.f2Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
+            this.f2Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(86)))), ((int)(((byte)(245)))));
             this.f2Bttn.ColorLighting = System.Drawing.Color.Transparent;
             this.f2Bttn.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.f2Bttn.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
@@ -1668,7 +1848,7 @@
             this.f1Bttn.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
             this.f1Bttn.ColorBackground_1 = System.Drawing.Color.Transparent;
             this.f1Bttn.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
-            this.f1Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
+            this.f1Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(86)))), ((int)(((byte)(245)))));
             this.f1Bttn.ColorLighting = System.Drawing.Color.Transparent;
             this.f1Bttn.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.f1Bttn.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
@@ -1736,7 +1916,7 @@
             this.e0Bttn.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
             this.e0Bttn.ColorBackground_1 = System.Drawing.Color.Transparent;
             this.e0Bttn.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
-            this.e0Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
+            this.e0Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(86)))), ((int)(((byte)(245)))));
             this.e0Bttn.ColorLighting = System.Drawing.Color.Transparent;
             this.e0Bttn.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.e0Bttn.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
@@ -1778,7 +1958,7 @@
             this.e9Bttn.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
             this.e9Bttn.ColorBackground_1 = System.Drawing.Color.Transparent;
             this.e9Bttn.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
-            this.e9Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
+            this.e9Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(86)))), ((int)(((byte)(245)))));
             this.e9Bttn.ColorLighting = System.Drawing.Color.Transparent;
             this.e9Bttn.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.e9Bttn.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
@@ -1820,7 +2000,7 @@
             this.e8Bttn.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
             this.e8Bttn.ColorBackground_1 = System.Drawing.Color.Transparent;
             this.e8Bttn.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
-            this.e8Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
+            this.e8Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(86)))), ((int)(((byte)(245)))));
             this.e8Bttn.ColorLighting = System.Drawing.Color.Transparent;
             this.e8Bttn.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.e8Bttn.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
@@ -1862,7 +2042,7 @@
             this.e7Bttn.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
             this.e7Bttn.ColorBackground_1 = System.Drawing.Color.Transparent;
             this.e7Bttn.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
-            this.e7Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
+            this.e7Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(86)))), ((int)(((byte)(245)))));
             this.e7Bttn.ColorLighting = System.Drawing.Color.Transparent;
             this.e7Bttn.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.e7Bttn.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
@@ -1904,7 +2084,7 @@
             this.e6Bttn.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
             this.e6Bttn.ColorBackground_1 = System.Drawing.Color.Transparent;
             this.e6Bttn.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
-            this.e6Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
+            this.e6Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(86)))), ((int)(((byte)(245)))));
             this.e6Bttn.ColorLighting = System.Drawing.Color.Transparent;
             this.e6Bttn.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.e6Bttn.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
@@ -1946,7 +2126,7 @@
             this.e5Bttn.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
             this.e5Bttn.ColorBackground_1 = System.Drawing.Color.Transparent;
             this.e5Bttn.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
-            this.e5Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
+            this.e5Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(86)))), ((int)(((byte)(245)))));
             this.e5Bttn.ColorLighting = System.Drawing.Color.Transparent;
             this.e5Bttn.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.e5Bttn.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
@@ -1988,7 +2168,7 @@
             this.e4Bttn.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
             this.e4Bttn.ColorBackground_1 = System.Drawing.Color.Transparent;
             this.e4Bttn.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
-            this.e4Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
+            this.e4Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(86)))), ((int)(((byte)(245)))));
             this.e4Bttn.ColorLighting = System.Drawing.Color.Transparent;
             this.e4Bttn.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.e4Bttn.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
@@ -2030,7 +2210,7 @@
             this.e3Bttn.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
             this.e3Bttn.ColorBackground_1 = System.Drawing.Color.Transparent;
             this.e3Bttn.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
-            this.e3Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
+            this.e3Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(86)))), ((int)(((byte)(245)))));
             this.e3Bttn.ColorLighting = System.Drawing.Color.Transparent;
             this.e3Bttn.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.e3Bttn.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
@@ -2072,7 +2252,7 @@
             this.e2Bttn.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
             this.e2Bttn.ColorBackground_1 = System.Drawing.Color.Transparent;
             this.e2Bttn.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
-            this.e2Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
+            this.e2Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(86)))), ((int)(((byte)(245)))));
             this.e2Bttn.ColorLighting = System.Drawing.Color.Transparent;
             this.e2Bttn.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.e2Bttn.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
@@ -2114,7 +2294,7 @@
             this.e1Bttn.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
             this.e1Bttn.ColorBackground_1 = System.Drawing.Color.Transparent;
             this.e1Bttn.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
-            this.e1Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
+            this.e1Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(86)))), ((int)(((byte)(245)))));
             this.e1Bttn.ColorLighting = System.Drawing.Color.Transparent;
             this.e1Bttn.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.e1Bttn.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
@@ -2182,7 +2362,7 @@
             this.d0Bttn.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
             this.d0Bttn.ColorBackground_1 = System.Drawing.Color.Transparent;
             this.d0Bttn.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
-            this.d0Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
+            this.d0Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(86)))), ((int)(((byte)(245)))));
             this.d0Bttn.ColorLighting = System.Drawing.Color.Transparent;
             this.d0Bttn.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.d0Bttn.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
@@ -2224,7 +2404,7 @@
             this.d9Bttn.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
             this.d9Bttn.ColorBackground_1 = System.Drawing.Color.Transparent;
             this.d9Bttn.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
-            this.d9Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
+            this.d9Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(86)))), ((int)(((byte)(245)))));
             this.d9Bttn.ColorLighting = System.Drawing.Color.Transparent;
             this.d9Bttn.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.d9Bttn.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
@@ -2266,7 +2446,7 @@
             this.d8Bttn.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
             this.d8Bttn.ColorBackground_1 = System.Drawing.Color.Transparent;
             this.d8Bttn.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
-            this.d8Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
+            this.d8Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(86)))), ((int)(((byte)(245)))));
             this.d8Bttn.ColorLighting = System.Drawing.Color.Transparent;
             this.d8Bttn.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.d8Bttn.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
@@ -2308,7 +2488,7 @@
             this.d7Bttn.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
             this.d7Bttn.ColorBackground_1 = System.Drawing.Color.Transparent;
             this.d7Bttn.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
-            this.d7Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
+            this.d7Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(86)))), ((int)(((byte)(245)))));
             this.d7Bttn.ColorLighting = System.Drawing.Color.Transparent;
             this.d7Bttn.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.d7Bttn.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
@@ -2350,7 +2530,7 @@
             this.d6Bttn.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
             this.d6Bttn.ColorBackground_1 = System.Drawing.Color.Transparent;
             this.d6Bttn.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
-            this.d6Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
+            this.d6Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(86)))), ((int)(((byte)(245)))));
             this.d6Bttn.ColorLighting = System.Drawing.Color.Transparent;
             this.d6Bttn.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.d6Bttn.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
@@ -2392,7 +2572,7 @@
             this.d5Bttn.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
             this.d5Bttn.ColorBackground_1 = System.Drawing.Color.Transparent;
             this.d5Bttn.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
-            this.d5Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
+            this.d5Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(86)))), ((int)(((byte)(245)))));
             this.d5Bttn.ColorLighting = System.Drawing.Color.Transparent;
             this.d5Bttn.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.d5Bttn.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
@@ -2434,7 +2614,7 @@
             this.d4Bttn.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
             this.d4Bttn.ColorBackground_1 = System.Drawing.Color.Transparent;
             this.d4Bttn.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
-            this.d4Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
+            this.d4Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(86)))), ((int)(((byte)(245)))));
             this.d4Bttn.ColorLighting = System.Drawing.Color.Transparent;
             this.d4Bttn.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.d4Bttn.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
@@ -2476,7 +2656,7 @@
             this.d3Bttn.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
             this.d3Bttn.ColorBackground_1 = System.Drawing.Color.Transparent;
             this.d3Bttn.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
-            this.d3Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
+            this.d3Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(86)))), ((int)(((byte)(245)))));
             this.d3Bttn.ColorLighting = System.Drawing.Color.Transparent;
             this.d3Bttn.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.d3Bttn.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
@@ -2518,7 +2698,7 @@
             this.d2Bttn.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
             this.d2Bttn.ColorBackground_1 = System.Drawing.Color.Transparent;
             this.d2Bttn.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
-            this.d2Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
+            this.d2Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(86)))), ((int)(((byte)(245)))));
             this.d2Bttn.ColorLighting = System.Drawing.Color.Transparent;
             this.d2Bttn.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.d2Bttn.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
@@ -2560,7 +2740,7 @@
             this.d1Bttn.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
             this.d1Bttn.ColorBackground_1 = System.Drawing.Color.Transparent;
             this.d1Bttn.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
-            this.d1Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
+            this.d1Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(86)))), ((int)(((byte)(245)))));
             this.d1Bttn.ColorLighting = System.Drawing.Color.Transparent;
             this.d1Bttn.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.d1Bttn.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
@@ -2628,7 +2808,7 @@
             this.c0Bttn.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
             this.c0Bttn.ColorBackground_1 = System.Drawing.Color.Transparent;
             this.c0Bttn.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
-            this.c0Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
+            this.c0Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(86)))), ((int)(((byte)(245)))));
             this.c0Bttn.ColorLighting = System.Drawing.Color.Transparent;
             this.c0Bttn.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.c0Bttn.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
@@ -2670,7 +2850,7 @@
             this.c9Bttn.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
             this.c9Bttn.ColorBackground_1 = System.Drawing.Color.Transparent;
             this.c9Bttn.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
-            this.c9Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
+            this.c9Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(86)))), ((int)(((byte)(245)))));
             this.c9Bttn.ColorLighting = System.Drawing.Color.Transparent;
             this.c9Bttn.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.c9Bttn.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
@@ -2712,7 +2892,7 @@
             this.c8Bttn.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
             this.c8Bttn.ColorBackground_1 = System.Drawing.Color.Transparent;
             this.c8Bttn.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
-            this.c8Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
+            this.c8Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(86)))), ((int)(((byte)(245)))));
             this.c8Bttn.ColorLighting = System.Drawing.Color.Transparent;
             this.c8Bttn.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.c8Bttn.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
@@ -2754,7 +2934,7 @@
             this.c7Bttn.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
             this.c7Bttn.ColorBackground_1 = System.Drawing.Color.Transparent;
             this.c7Bttn.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
-            this.c7Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
+            this.c7Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(86)))), ((int)(((byte)(245)))));
             this.c7Bttn.ColorLighting = System.Drawing.Color.Transparent;
             this.c7Bttn.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.c7Bttn.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
@@ -2796,7 +2976,7 @@
             this.c6Bttn.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
             this.c6Bttn.ColorBackground_1 = System.Drawing.Color.Transparent;
             this.c6Bttn.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
-            this.c6Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
+            this.c6Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(86)))), ((int)(((byte)(245)))));
             this.c6Bttn.ColorLighting = System.Drawing.Color.Transparent;
             this.c6Bttn.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.c6Bttn.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
@@ -2838,7 +3018,7 @@
             this.c5Bttn.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
             this.c5Bttn.ColorBackground_1 = System.Drawing.Color.Transparent;
             this.c5Bttn.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
-            this.c5Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
+            this.c5Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(86)))), ((int)(((byte)(245)))));
             this.c5Bttn.ColorLighting = System.Drawing.Color.Transparent;
             this.c5Bttn.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.c5Bttn.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
@@ -2880,7 +3060,7 @@
             this.c4Bttn.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
             this.c4Bttn.ColorBackground_1 = System.Drawing.Color.Transparent;
             this.c4Bttn.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
-            this.c4Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
+            this.c4Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(86)))), ((int)(((byte)(245)))));
             this.c4Bttn.ColorLighting = System.Drawing.Color.Transparent;
             this.c4Bttn.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.c4Bttn.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
@@ -2922,7 +3102,7 @@
             this.c3Bttn.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
             this.c3Bttn.ColorBackground_1 = System.Drawing.Color.Transparent;
             this.c3Bttn.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
-            this.c3Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
+            this.c3Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(86)))), ((int)(((byte)(245)))));
             this.c3Bttn.ColorLighting = System.Drawing.Color.Transparent;
             this.c3Bttn.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.c3Bttn.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
@@ -2964,7 +3144,7 @@
             this.c2Bttn.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
             this.c2Bttn.ColorBackground_1 = System.Drawing.Color.Transparent;
             this.c2Bttn.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
-            this.c2Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
+            this.c2Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(86)))), ((int)(((byte)(245)))));
             this.c2Bttn.ColorLighting = System.Drawing.Color.Transparent;
             this.c2Bttn.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.c2Bttn.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
@@ -3006,7 +3186,7 @@
             this.c1Bttn.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
             this.c1Bttn.ColorBackground_1 = System.Drawing.Color.Transparent;
             this.c1Bttn.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
-            this.c1Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
+            this.c1Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(86)))), ((int)(((byte)(245)))));
             this.c1Bttn.ColorLighting = System.Drawing.Color.Transparent;
             this.c1Bttn.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.c1Bttn.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
@@ -3074,7 +3254,7 @@
             this.b0Bttn.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(28)))), ((int)(((byte)(73)))));
             this.b0Bttn.ColorBackground_1 = System.Drawing.Color.Transparent;
             this.b0Bttn.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
-            this.b0Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
+            this.b0Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(86)))), ((int)(((byte)(245)))));
             this.b0Bttn.ColorLighting = System.Drawing.Color.Transparent;
             this.b0Bttn.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.b0Bttn.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
@@ -3116,7 +3296,7 @@
             this.b9Bttn.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
             this.b9Bttn.ColorBackground_1 = System.Drawing.Color.Transparent;
             this.b9Bttn.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
-            this.b9Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
+            this.b9Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(86)))), ((int)(((byte)(245)))));
             this.b9Bttn.ColorLighting = System.Drawing.Color.Transparent;
             this.b9Bttn.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.b9Bttn.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
@@ -3158,7 +3338,7 @@
             this.b8Bttn.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
             this.b8Bttn.ColorBackground_1 = System.Drawing.Color.Transparent;
             this.b8Bttn.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
-            this.b8Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
+            this.b8Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(86)))), ((int)(((byte)(245)))));
             this.b8Bttn.ColorLighting = System.Drawing.Color.Transparent;
             this.b8Bttn.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.b8Bttn.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
@@ -3200,7 +3380,7 @@
             this.b7Bttn.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
             this.b7Bttn.ColorBackground_1 = System.Drawing.Color.Transparent;
             this.b7Bttn.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
-            this.b7Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
+            this.b7Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(86)))), ((int)(((byte)(245)))));
             this.b7Bttn.ColorLighting = System.Drawing.Color.Transparent;
             this.b7Bttn.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.b7Bttn.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
@@ -3242,7 +3422,7 @@
             this.b6Bttn.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
             this.b6Bttn.ColorBackground_1 = System.Drawing.Color.Transparent;
             this.b6Bttn.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
-            this.b6Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
+            this.b6Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(86)))), ((int)(((byte)(245)))));
             this.b6Bttn.ColorLighting = System.Drawing.Color.Transparent;
             this.b6Bttn.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.b6Bttn.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
@@ -3284,7 +3464,7 @@
             this.b5Bttn.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
             this.b5Bttn.ColorBackground_1 = System.Drawing.Color.Transparent;
             this.b5Bttn.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
-            this.b5Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
+            this.b5Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(86)))), ((int)(((byte)(245)))));
             this.b5Bttn.ColorLighting = System.Drawing.Color.Transparent;
             this.b5Bttn.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.b5Bttn.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
@@ -3326,7 +3506,7 @@
             this.b4Bttn.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
             this.b4Bttn.ColorBackground_1 = System.Drawing.Color.Transparent;
             this.b4Bttn.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
-            this.b4Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
+            this.b4Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(86)))), ((int)(((byte)(245)))));
             this.b4Bttn.ColorLighting = System.Drawing.Color.Transparent;
             this.b4Bttn.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.b4Bttn.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
@@ -3368,7 +3548,7 @@
             this.b3Bttn.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
             this.b3Bttn.ColorBackground_1 = System.Drawing.Color.Transparent;
             this.b3Bttn.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
-            this.b3Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
+            this.b3Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(86)))), ((int)(((byte)(245)))));
             this.b3Bttn.ColorLighting = System.Drawing.Color.Transparent;
             this.b3Bttn.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.b3Bttn.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
@@ -3410,7 +3590,7 @@
             this.b2Bttn.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
             this.b2Bttn.ColorBackground_1 = System.Drawing.Color.Transparent;
             this.b2Bttn.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
-            this.b2Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
+            this.b2Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(86)))), ((int)(((byte)(245)))));
             this.b2Bttn.ColorLighting = System.Drawing.Color.Transparent;
             this.b2Bttn.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.b2Bttn.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
@@ -3452,7 +3632,7 @@
             this.b1Bttn.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(28)))), ((int)(((byte)(73)))));
             this.b1Bttn.ColorBackground_1 = System.Drawing.Color.Transparent;
             this.b1Bttn.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
-            this.b1Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
+            this.b1Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(86)))), ((int)(((byte)(245)))));
             this.b1Bttn.ColorLighting = System.Drawing.Color.Transparent;
             this.b1Bttn.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.b1Bttn.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
@@ -3520,7 +3700,7 @@
             this.a0Bttn.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(28)))), ((int)(((byte)(73)))));
             this.a0Bttn.ColorBackground_1 = System.Drawing.Color.Transparent;
             this.a0Bttn.ColorBackground_2 = System.Drawing.Color.Transparent;
-            this.a0Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
+            this.a0Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(86)))), ((int)(((byte)(245)))));
             this.a0Bttn.ColorLighting = System.Drawing.Color.Transparent;
             this.a0Bttn.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.a0Bttn.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
@@ -3562,7 +3742,7 @@
             this.a9Bttn.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(28)))), ((int)(((byte)(73)))));
             this.a9Bttn.ColorBackground_1 = System.Drawing.Color.Transparent;
             this.a9Bttn.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
-            this.a9Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
+            this.a9Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(86)))), ((int)(((byte)(245)))));
             this.a9Bttn.ColorLighting = System.Drawing.Color.Transparent;
             this.a9Bttn.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.a9Bttn.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
@@ -3604,7 +3784,7 @@
             this.a8Bttn.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(28)))), ((int)(((byte)(73)))));
             this.a8Bttn.ColorBackground_1 = System.Drawing.Color.Transparent;
             this.a8Bttn.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
-            this.a8Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
+            this.a8Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(86)))), ((int)(((byte)(245)))));
             this.a8Bttn.ColorLighting = System.Drawing.Color.Transparent;
             this.a8Bttn.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.a8Bttn.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
@@ -3646,7 +3826,7 @@
             this.a7Bttn.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(28)))), ((int)(((byte)(73)))));
             this.a7Bttn.ColorBackground_1 = System.Drawing.Color.Transparent;
             this.a7Bttn.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
-            this.a7Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
+            this.a7Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(86)))), ((int)(((byte)(245)))));
             this.a7Bttn.ColorLighting = System.Drawing.Color.Transparent;
             this.a7Bttn.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.a7Bttn.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
@@ -3688,7 +3868,7 @@
             this.a6Bttn.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(28)))), ((int)(((byte)(73)))));
             this.a6Bttn.ColorBackground_1 = System.Drawing.Color.Transparent;
             this.a6Bttn.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
-            this.a6Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
+            this.a6Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(86)))), ((int)(((byte)(245)))));
             this.a6Bttn.ColorLighting = System.Drawing.Color.Transparent;
             this.a6Bttn.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.a6Bttn.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
@@ -3730,7 +3910,7 @@
             this.a5Bttn.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(28)))), ((int)(((byte)(73)))));
             this.a5Bttn.ColorBackground_1 = System.Drawing.Color.Transparent;
             this.a5Bttn.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
-            this.a5Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
+            this.a5Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(86)))), ((int)(((byte)(245)))));
             this.a5Bttn.ColorLighting = System.Drawing.Color.Transparent;
             this.a5Bttn.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.a5Bttn.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
@@ -3772,7 +3952,7 @@
             this.a4Bttn.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(28)))), ((int)(((byte)(73)))));
             this.a4Bttn.ColorBackground_1 = System.Drawing.Color.Transparent;
             this.a4Bttn.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
-            this.a4Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
+            this.a4Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(86)))), ((int)(((byte)(245)))));
             this.a4Bttn.ColorLighting = System.Drawing.Color.Transparent;
             this.a4Bttn.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.a4Bttn.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
@@ -3814,7 +3994,7 @@
             this.a3Bttn.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(28)))), ((int)(((byte)(73)))));
             this.a3Bttn.ColorBackground_1 = System.Drawing.Color.Transparent;
             this.a3Bttn.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
-            this.a3Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
+            this.a3Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(86)))), ((int)(((byte)(245)))));
             this.a3Bttn.ColorLighting = System.Drawing.Color.Transparent;
             this.a3Bttn.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.a3Bttn.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
@@ -3856,7 +4036,7 @@
             this.a2Bttn.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(28)))), ((int)(((byte)(73)))));
             this.a2Bttn.ColorBackground_1 = System.Drawing.Color.Transparent;
             this.a2Bttn.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
-            this.a2Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
+            this.a2Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(86)))), ((int)(((byte)(245)))));
             this.a2Bttn.ColorLighting = System.Drawing.Color.Transparent;
             this.a2Bttn.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.a2Bttn.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
@@ -3898,7 +4078,7 @@
             this.a1Bttn.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(11)))), ((int)(((byte)(28)))), ((int)(((byte)(73)))));
             this.a1Bttn.ColorBackground_1 = System.Drawing.Color.Transparent;
             this.a1Bttn.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
-            this.a1Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
+            this.a1Bttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(86)))), ((int)(((byte)(245)))));
             this.a1Bttn.ColorLighting = System.Drawing.Color.Transparent;
             this.a1Bttn.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.a1Bttn.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
@@ -4084,7 +4264,7 @@
             this.timeBttn3.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
             this.timeBttn3.ColorBackground_1 = System.Drawing.Color.Transparent;
             this.timeBttn3.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
-            this.timeBttn3.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
+            this.timeBttn3.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(86)))), ((int)(((byte)(245)))));
             this.timeBttn3.ColorLighting = System.Drawing.Color.Transparent;
             this.timeBttn3.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.timeBttn3.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
@@ -4134,7 +4314,7 @@
             this.timeBttn6.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
             this.timeBttn6.ColorBackground_1 = System.Drawing.Color.Transparent;
             this.timeBttn6.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
-            this.timeBttn6.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
+            this.timeBttn6.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(86)))), ((int)(((byte)(245)))));
             this.timeBttn6.ColorLighting = System.Drawing.Color.Transparent;
             this.timeBttn6.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.timeBttn6.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
@@ -4195,7 +4375,7 @@
             this.timeBttn2.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
             this.timeBttn2.ColorBackground_1 = System.Drawing.Color.Transparent;
             this.timeBttn2.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
-            this.timeBttn2.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
+            this.timeBttn2.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(86)))), ((int)(((byte)(245)))));
             this.timeBttn2.ColorLighting = System.Drawing.Color.Transparent;
             this.timeBttn2.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.timeBttn2.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
@@ -4245,7 +4425,7 @@
             this.timeBttn5.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
             this.timeBttn5.ColorBackground_1 = System.Drawing.Color.Transparent;
             this.timeBttn5.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
-            this.timeBttn5.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
+            this.timeBttn5.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(86)))), ((int)(((byte)(245)))));
             this.timeBttn5.ColorLighting = System.Drawing.Color.Transparent;
             this.timeBttn5.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.timeBttn5.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
@@ -4306,7 +4486,7 @@
             this.timeBttn1.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
             this.timeBttn1.ColorBackground_1 = System.Drawing.Color.Transparent;
             this.timeBttn1.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
-            this.timeBttn1.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
+            this.timeBttn1.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(86)))), ((int)(((byte)(245)))));
             this.timeBttn1.ColorLighting = System.Drawing.Color.Transparent;
             this.timeBttn1.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.timeBttn1.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
@@ -4357,7 +4537,7 @@
             this.timeBttn4.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
             this.timeBttn4.ColorBackground_1 = System.Drawing.Color.Transparent;
             this.timeBttn4.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
-            this.timeBttn4.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
+            this.timeBttn4.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(86)))), ((int)(((byte)(245)))));
             this.timeBttn4.ColorLighting = System.Drawing.Color.Transparent;
             this.timeBttn4.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.timeBttn4.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
@@ -4795,7 +4975,7 @@
             this.panel71.Controls.Add(this.panel75);
             this.panel71.Controls.Add(this.panel76);
             this.panel71.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel71.Location = new System.Drawing.Point(10, 2210);
+            this.panel71.Location = new System.Drawing.Point(10, 2186);
             this.panel71.Name = "panel71";
             this.panel71.Size = new System.Drawing.Size(994, 39);
             this.panel71.TabIndex = 163;
@@ -4841,7 +5021,7 @@
             this.breakDownList.Controls.Add(this.panel43);
             this.breakDownList.Controls.Add(this.proceedPanel);
             this.breakDownList.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.breakDownList.Location = new System.Drawing.Point(10, 2249);
+            this.breakDownList.Location = new System.Drawing.Point(10, 2225);
             this.breakDownList.Name = "breakDownList";
             this.breakDownList.Size = new System.Drawing.Size(994, 290);
             this.breakDownList.TabIndex = 162;
@@ -5309,7 +5489,7 @@
             // panel49
             // 
             this.panel49.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel49.Location = new System.Drawing.Point(10, 2539);
+            this.panel49.Location = new System.Drawing.Point(10, 2515);
             this.panel49.Name = "panel49";
             this.panel49.Size = new System.Drawing.Size(994, 192);
             this.panel49.TabIndex = 161;
@@ -5330,7 +5510,7 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel2.Location = new System.Drawing.Point(0, 48);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(10, 2683);
+            this.panel2.Size = new System.Drawing.Size(10, 2659);
             this.panel2.TabIndex = 12;
             // 
             // panel3
@@ -5338,7 +5518,7 @@
             this.panel3.Dock = System.Windows.Forms.DockStyle.Right;
             this.panel3.Location = new System.Drawing.Point(1004, 48);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(10, 2683);
+            this.panel3.Size = new System.Drawing.Size(10, 2659);
             this.panel3.TabIndex = 11;
             // 
             // panel48
@@ -5360,7 +5540,7 @@
             this.BookButton.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
             this.BookButton.ColorBackground_1 = System.Drawing.Color.Transparent;
             this.BookButton.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
-            this.BookButton.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
+            this.BookButton.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(86)))), ((int)(((byte)(245)))));
             this.BookButton.ColorLighting = System.Drawing.Color.Transparent;
             this.BookButton.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
             this.BookButton.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
@@ -5377,7 +5557,7 @@
             this.BookButton.Lighting = false;
             this.BookButton.LinearGradient_Background = false;
             this.BookButton.LinearGradientPen = false;
-            this.BookButton.Location = new System.Drawing.Point(672, 400);
+            this.BookButton.Location = new System.Drawing.Point(649, 400);
             this.BookButton.Name = "BookButton";
             this.BookButton.PenWidth = 15;
             this.BookButton.Rounding = true;
@@ -5398,7 +5578,7 @@
             this.panel10.BackColor = System.Drawing.Color.Transparent;
             this.panel10.Controls.Add(this.add2CartText);
             this.panel10.Controls.Add(this.pictureBox3);
-            this.panel10.Location = new System.Drawing.Point(681, 449);
+            this.panel10.Location = new System.Drawing.Point(658, 449);
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(125, 27);
             this.panel10.TabIndex = 41;
@@ -5433,7 +5613,7 @@
             this.movieOPoster.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.movieOPoster.BackColor = System.Drawing.Color.Transparent;
             this.movieOPoster.Image = global::PRIME3.Properties.Resources.godzillaPoster;
-            this.movieOPoster.Location = new System.Drawing.Point(845, 400);
+            this.movieOPoster.Location = new System.Drawing.Point(822, 400);
             this.movieOPoster.Name = "movieOPoster";
             this.movieOPoster.Size = new System.Drawing.Size(153, 226);
             this.movieOPoster.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -5454,17 +5634,6 @@
             this.sidebarAccess1.Text = "«";
             this.sidebarAccess1.Click += new System.EventHandler(this.sidebarAccess1_Click);
             // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Dock = System.Windows.Forms.DockStyle.Right;
-            this.pictureBox5.Image = global::PRIME3.Properties.Resources.Account;
-            this.pictureBox5.Location = new System.Drawing.Point(927, 0);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(48, 51);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox5.TabIndex = 11;
-            this.pictureBox5.TabStop = false;
-            // 
             // label12
             // 
             this.label12.Anchor = System.Windows.Forms.AnchorStyles.Left;
@@ -5472,7 +5641,7 @@
             this.label12.BackColor = System.Drawing.Color.Transparent;
             this.label12.Font = new System.Drawing.Font("SF Pro Text", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(205)))), ((int)(((byte)(205)))));
-            this.label12.Location = new System.Drawing.Point(180, 9964);
+            this.label12.Location = new System.Drawing.Point(180, 12784);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(121, 25);
             this.label12.TabIndex = 64;
@@ -5486,7 +5655,7 @@
             this.label13.BackColor = System.Drawing.Color.Transparent;
             this.label13.Font = new System.Drawing.Font("SF Pro Text", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(105)))), ((int)(((byte)(225)))));
-            this.label13.Location = new System.Drawing.Point(178, 13884);
+            this.label13.Location = new System.Drawing.Point(178, 16704);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(97, 19);
             this.label13.TabIndex = 78;
@@ -5500,7 +5669,7 @@
             this.label14.BackColor = System.Drawing.Color.Transparent;
             this.label14.Font = new System.Drawing.Font("SF Pro Text", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(205)))), ((int)(((byte)(205)))));
-            this.label14.Location = new System.Drawing.Point(299, 13884);
+            this.label14.Location = new System.Drawing.Point(299, 16704);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(260, 19);
             this.label14.TabIndex = 79;
@@ -5514,7 +5683,7 @@
             this.label15.BackColor = System.Drawing.Color.Transparent;
             this.label15.Font = new System.Drawing.Font("SF Pro Text", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(105)))), ((int)(((byte)(225)))));
-            this.label15.Location = new System.Drawing.Point(178, 13927);
+            this.label15.Location = new System.Drawing.Point(178, 16747);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(145, 19);
             this.label15.TabIndex = 80;
@@ -5528,7 +5697,7 @@
             this.label16.BackColor = System.Drawing.Color.Transparent;
             this.label16.Font = new System.Drawing.Font("SF Pro Text", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(205)))), ((int)(((byte)(205)))));
-            this.label16.Location = new System.Drawing.Point(354, 13927);
+            this.label16.Location = new System.Drawing.Point(354, 16747);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(260, 19);
             this.label16.TabIndex = 81;
@@ -5539,18 +5708,18 @@
             // 
             this.panel7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(12)))), ((int)(((byte)(45)))));
-            this.panel7.Location = new System.Drawing.Point(161, 13818);
+            this.panel7.Location = new System.Drawing.Point(161, 16638);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(652, 2);
+            this.panel7.Size = new System.Drawing.Size(584, 2);
             this.panel7.TabIndex = 82;
             // 
             // panel8
             // 
             this.panel8.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.panel8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(28)))), ((int)(((byte)(52)))));
-            this.panel8.Location = new System.Drawing.Point(115, 10916);
+            this.panel8.Location = new System.Drawing.Point(115, 13736);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(830, 2);
+            this.panel8.Size = new System.Drawing.Size(762, 2);
             this.panel8.TabIndex = 83;
             // 
             // label17
@@ -5574,7 +5743,7 @@
             this.label18.BackColor = System.Drawing.Color.Transparent;
             this.label18.Font = new System.Drawing.Font("SF Pro Text", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(205)))), ((int)(((byte)(205)))));
-            this.label18.Location = new System.Drawing.Point(426, 0);
+            this.label18.Location = new System.Drawing.Point(358, 0);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(260, 19);
             this.label18.TabIndex = 140;
@@ -5588,7 +5757,7 @@
             this.label19.BackColor = System.Drawing.Color.Transparent;
             this.label19.Font = new System.Drawing.Font("SF Pro Text", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label19.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(105)))), ((int)(((byte)(225)))));
-            this.label19.Location = new System.Drawing.Point(86, 11153);
+            this.label19.Location = new System.Drawing.Point(86, 13973);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(125, 19);
             this.label19.TabIndex = 141;
@@ -5602,7 +5771,7 @@
             this.label20.BackColor = System.Drawing.Color.Transparent;
             this.label20.Font = new System.Drawing.Font("SF Pro Text", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(205)))), ((int)(((byte)(205)))));
-            this.label20.Location = new System.Drawing.Point(223, 11153);
+            this.label20.Location = new System.Drawing.Point(223, 13973);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(106, 19);
             this.label20.TabIndex = 142;
@@ -5616,7 +5785,7 @@
             this.label21.BackColor = System.Drawing.Color.Transparent;
             this.label21.Font = new System.Drawing.Font("SF Pro Text", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label21.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(105)))), ((int)(((byte)(225)))));
-            this.label21.Location = new System.Drawing.Point(86, 11117);
+            this.label21.Location = new System.Drawing.Point(86, 13937);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(78, 19);
             this.label21.TabIndex = 143;
@@ -5630,7 +5799,7 @@
             this.label22.BackColor = System.Drawing.Color.Transparent;
             this.label22.Font = new System.Drawing.Font("SF Pro Text", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label22.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(205)))), ((int)(((byte)(205)))));
-            this.label22.Location = new System.Drawing.Point(177, 11117);
+            this.label22.Location = new System.Drawing.Point(177, 13937);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(87, 19);
             this.label22.TabIndex = 144;
@@ -5644,7 +5813,7 @@
             this.label23.BackColor = System.Drawing.Color.Transparent;
             this.label23.Font = new System.Drawing.Font("SF Pro Text", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label23.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(105)))), ((int)(((byte)(225)))));
-            this.label23.Location = new System.Drawing.Point(87, 11194);
+            this.label23.Location = new System.Drawing.Point(87, 14014);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(126, 19);
             this.label23.TabIndex = 145;
@@ -5658,7 +5827,7 @@
             this.label24.BackColor = System.Drawing.Color.Transparent;
             this.label24.Font = new System.Drawing.Font("SF Pro Text", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label24.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(205)))), ((int)(((byte)(205)))));
-            this.label24.Location = new System.Drawing.Point(234, 11194);
+            this.label24.Location = new System.Drawing.Point(234, 14014);
             this.label24.Name = "label24";
             this.label24.Size = new System.Drawing.Size(106, 19);
             this.label24.TabIndex = 146;
@@ -5670,9 +5839,9 @@
             this.panel9.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.panel9.Controls.Add(this.label17);
             this.panel9.Controls.Add(this.label18);
-            this.panel9.Location = new System.Drawing.Point(199, 10024);
+            this.panel9.Location = new System.Drawing.Point(199, 12844);
             this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(704, 25);
+            this.panel9.Size = new System.Drawing.Size(636, 25);
             this.panel9.TabIndex = 147;
             // 
             // panel11
@@ -5696,9 +5865,9 @@
             this.panel14.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.panel14.Controls.Add(this.label26);
             this.panel14.Controls.Add(this.label27);
-            this.panel14.Location = new System.Drawing.Point(199, 10055);
+            this.panel14.Location = new System.Drawing.Point(199, 12875);
             this.panel14.Name = "panel14";
-            this.panel14.Size = new System.Drawing.Size(704, 25);
+            this.panel14.Size = new System.Drawing.Size(636, 25);
             this.panel14.TabIndex = 148;
             // 
             // label26
@@ -5722,7 +5891,7 @@
             this.label27.BackColor = System.Drawing.Color.Transparent;
             this.label27.Font = new System.Drawing.Font("SF Pro Text", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label27.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(205)))), ((int)(((byte)(205)))));
-            this.label27.Location = new System.Drawing.Point(599, 0);
+            this.label27.Location = new System.Drawing.Point(531, 0);
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(87, 19);
             this.label27.TabIndex = 140;
@@ -5735,9 +5904,9 @@
             this.panel15.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.panel15.Controls.Add(this.label28);
             this.panel15.Controls.Add(this.label29);
-            this.panel15.Location = new System.Drawing.Point(199, 10086);
+            this.panel15.Location = new System.Drawing.Point(199, 12906);
             this.panel15.Name = "panel15";
-            this.panel15.Size = new System.Drawing.Size(704, 25);
+            this.panel15.Size = new System.Drawing.Size(636, 25);
             this.panel15.TabIndex = 148;
             // 
             // label28
@@ -5761,7 +5930,7 @@
             this.label29.BackColor = System.Drawing.Color.Transparent;
             this.label29.Font = new System.Drawing.Font("SF Pro Text", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label29.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(205)))), ((int)(((byte)(205)))));
-            this.label29.Location = new System.Drawing.Point(580, 0);
+            this.label29.Location = new System.Drawing.Point(512, 0);
             this.label29.Name = "label29";
             this.label29.Size = new System.Drawing.Size(106, 19);
             this.label29.TabIndex = 140;
@@ -5774,9 +5943,9 @@
             this.panel16.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.panel16.Controls.Add(this.label30);
             this.panel16.Controls.Add(this.label31);
-            this.panel16.Location = new System.Drawing.Point(199, 10117);
+            this.panel16.Location = new System.Drawing.Point(199, 12937);
             this.panel16.Name = "panel16";
-            this.panel16.Size = new System.Drawing.Size(704, 25);
+            this.panel16.Size = new System.Drawing.Size(636, 25);
             this.panel16.TabIndex = 148;
             // 
             // label30
@@ -5800,7 +5969,7 @@
             this.label31.BackColor = System.Drawing.Color.Transparent;
             this.label31.Font = new System.Drawing.Font("SF Pro Text", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label31.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(205)))), ((int)(((byte)(205)))));
-            this.label31.Location = new System.Drawing.Point(570, 0);
+            this.label31.Location = new System.Drawing.Point(502, 0);
             this.label31.Name = "label31";
             this.label31.Size = new System.Drawing.Size(116, 19);
             this.label31.TabIndex = 140;
@@ -5813,9 +5982,9 @@
             this.panel17.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.panel17.Controls.Add(this.label32);
             this.panel17.Controls.Add(this.label33);
-            this.panel17.Location = new System.Drawing.Point(199, 10148);
+            this.panel17.Location = new System.Drawing.Point(199, 12968);
             this.panel17.Name = "panel17";
-            this.panel17.Size = new System.Drawing.Size(704, 25);
+            this.panel17.Size = new System.Drawing.Size(636, 25);
             this.panel17.TabIndex = 148;
             // 
             // label32
@@ -5839,7 +6008,7 @@
             this.label33.BackColor = System.Drawing.Color.Transparent;
             this.label33.Font = new System.Drawing.Font("SF Pro Text", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label33.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(205)))), ((int)(((byte)(205)))));
-            this.label33.Location = new System.Drawing.Point(656, 0);
+            this.label33.Location = new System.Drawing.Point(588, 0);
             this.label33.Name = "label33";
             this.label33.Size = new System.Drawing.Size(30, 19);
             this.label33.TabIndex = 140;
@@ -5851,9 +6020,9 @@
             // 
             this.panel18.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.panel18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(12)))), ((int)(((byte)(45)))));
-            this.panel18.Location = new System.Drawing.Point(164, 10247);
+            this.panel18.Location = new System.Drawing.Point(164, 13067);
             this.panel18.Name = "panel18";
-            this.panel18.Size = new System.Drawing.Size(774, 2);
+            this.panel18.Size = new System.Drawing.Size(706, 2);
             this.panel18.TabIndex = 151;
             // 
             // label34
@@ -5863,7 +6032,7 @@
             this.label34.BackColor = System.Drawing.Color.Transparent;
             this.label34.Font = new System.Drawing.Font("SF Pro Text", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label34.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(86)))), ((int)(((byte)(245)))));
-            this.label34.Location = new System.Drawing.Point(634, 10277);
+            this.label34.Location = new System.Drawing.Point(566, 13097);
             this.label34.Name = "label34";
             this.label34.Size = new System.Drawing.Size(269, 29);
             this.label34.TabIndex = 64;
@@ -5875,9 +6044,9 @@
             this.panel19.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.panel19.Controls.Add(this.label35);
             this.panel19.Controls.Add(this.label36);
-            this.panel19.Location = new System.Drawing.Point(199, 10179);
+            this.panel19.Location = new System.Drawing.Point(199, 12999);
             this.panel19.Name = "panel19";
-            this.panel19.Size = new System.Drawing.Size(721, 25);
+            this.panel19.Size = new System.Drawing.Size(653, 25);
             this.panel19.TabIndex = 149;
             // 
             // label35
@@ -5901,7 +6070,7 @@
             this.label36.BackColor = System.Drawing.Color.Transparent;
             this.label36.Font = new System.Drawing.Font("SF Pro Text", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label36.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(205)))), ((int)(((byte)(205)))));
-            this.label36.Location = new System.Drawing.Point(690, 0);
+            this.label36.Location = new System.Drawing.Point(622, 0);
             this.label36.Name = "label36";
             this.label36.Size = new System.Drawing.Size(16, 19);
             this.label36.TabIndex = 140;
@@ -5916,7 +6085,7 @@
             this.label25.BackColor = System.Drawing.Color.Transparent;
             this.label25.Font = new System.Drawing.Font("SF Pro Text", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label25.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(205)))), ((int)(((byte)(205)))));
-            this.label25.Location = new System.Drawing.Point(202, 9014);
+            this.label25.Location = new System.Drawing.Point(202, 11834);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(59, 23);
             this.label25.TabIndex = 152;
@@ -5930,7 +6099,7 @@
             this.label49.BackColor = System.Drawing.Color.Transparent;
             this.label49.Font = new System.Drawing.Font("SF Pro Text", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label49.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(86)))), ((int)(((byte)(245)))));
-            this.label49.Location = new System.Drawing.Point(774, 9317);
+            this.label49.Location = new System.Drawing.Point(774, 12137);
             this.label49.Name = "label49";
             this.label49.Size = new System.Drawing.Size(269, 29);
             this.label49.TabIndex = 158;
@@ -5942,7 +6111,7 @@
             this.panel44.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel44.Location = new System.Drawing.Point(122, 0);
             this.panel44.Name = "panel44";
-            this.panel44.Size = new System.Drawing.Size(1014, 18);
+            this.panel44.Size = new System.Drawing.Size(1014, 42);
             this.panel44.TabIndex = 159;
             // 
             // panel45
@@ -5952,10 +6121,21 @@
             this.panel45.Controls.Add(this.panel47);
             this.panel45.Controls.Add(this.panel46);
             this.panel45.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel45.Location = new System.Drawing.Point(122, 18);
+            this.panel45.Location = new System.Drawing.Point(122, 42);
             this.panel45.Name = "panel45";
             this.panel45.Size = new System.Drawing.Size(1014, 51);
             this.panel45.TabIndex = 160;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Dock = System.Windows.Forms.DockStyle.Right;
+            this.pictureBox5.Image = global::PRIME3.Properties.Resources.Account;
+            this.pictureBox5.Location = new System.Drawing.Point(927, 0);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(48, 51);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox5.TabIndex = 11;
+            this.pictureBox5.TabStop = false;
             // 
             // panel47
             // 
@@ -5973,12 +6153,1601 @@
             this.panel46.Size = new System.Drawing.Size(39, 51);
             this.panel46.TabIndex = 0;
             // 
+            // paymentPanel
+            // 
+            this.paymentPanel.Controls.Add(this.panel173);
+            this.paymentPanel.Controls.Add(this.panel148);
+            this.paymentPanel.Controls.Add(this.ReceiptPanel);
+            this.paymentPanel.Controls.Add(this.receiptHeader);
+            this.paymentPanel.Controls.Add(this.panel132);
+            this.paymentPanel.Controls.Add(this.panel131);
+            this.paymentPanel.Controls.Add(this.panel126);
+            this.paymentPanel.Controls.Add(this.panel125);
+            this.paymentPanel.Controls.Add(this.panel124);
+            this.paymentPanel.Controls.Add(this.panel121);
+            this.paymentPanel.Controls.Add(this.panel120);
+            this.paymentPanel.Controls.Add(this.panel119);
+            this.paymentPanel.Controls.Add(this.panel118);
+            this.paymentPanel.Controls.Add(this.panel117);
+            this.paymentPanel.Controls.Add(this.panel72);
+            this.paymentPanel.Controls.Add(this.panel51);
+            this.paymentPanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.paymentPanel.Location = new System.Drawing.Point(122, 93);
+            this.paymentPanel.Name = "paymentPanel";
+            this.paymentPanel.Size = new System.Drawing.Size(1014, 2707);
+            this.paymentPanel.TabIndex = 161;
+            // 
+            // ReceiptPanel
+            // 
+            this.ReceiptPanel.Controls.Add(this.mainReceipt);
+            this.ReceiptPanel.Controls.Add(this.panel147);
+            this.ReceiptPanel.Controls.Add(this.panel146);
+            this.ReceiptPanel.Controls.Add(this.panel141);
+            this.ReceiptPanel.Location = new System.Drawing.Point(116, 1009);
+            this.ReceiptPanel.Name = "ReceiptPanel";
+            this.ReceiptPanel.Size = new System.Drawing.Size(782, 898);
+            this.ReceiptPanel.TabIndex = 13;
+            // 
+            // mainReceipt
+            // 
+            this.mainReceipt.BackColor = System.Drawing.Color.White;
+            this.mainReceipt.Controls.Add(this.pictureBox8);
+            this.mainReceipt.Controls.Add(this.panel201);
+            this.mainReceipt.Controls.Add(this.panel200);
+            this.mainReceipt.Controls.Add(this.panel199);
+            this.mainReceipt.Controls.Add(this.panel183);
+            this.mainReceipt.Controls.Add(this.panel192);
+            this.mainReceipt.Controls.Add(this.panel177);
+            this.mainReceipt.Controls.Add(this.panel176);
+            this.mainReceipt.Controls.Add(this.panel172);
+            this.mainReceipt.Controls.Add(this.panel171);
+            this.mainReceipt.Controls.Add(this.panel150);
+            this.mainReceipt.Controls.Add(this.panel149);
+            this.mainReceipt.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.mainReceipt.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.mainReceipt.Location = new System.Drawing.Point(199, 41);
+            this.mainReceipt.MaximumSize = new System.Drawing.Size(467, 857);
+            this.mainReceipt.Name = "mainReceipt";
+            this.mainReceipt.Size = new System.Drawing.Size(467, 857);
+            this.mainReceipt.TabIndex = 17;
+            // 
+            // pictureBox8
+            // 
+            this.pictureBox8.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox8.Image = global::PRIME3.Properties.Resources.godzQR;
+            this.pictureBox8.Location = new System.Drawing.Point(130, 614);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(203, 179);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox8.TabIndex = 83;
+            this.pictureBox8.TabStop = false;
+            // 
+            // panel201
+            // 
+            this.panel201.BackColor = System.Drawing.Color.White;
+            this.panel201.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel201.Location = new System.Drawing.Point(130, 590);
+            this.panel201.Name = "panel201";
+            this.panel201.Size = new System.Drawing.Size(203, 24);
+            this.panel201.TabIndex = 86;
+            // 
+            // panel200
+            // 
+            this.panel200.BackColor = System.Drawing.Color.White;
+            this.panel200.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel200.Location = new System.Drawing.Point(130, 793);
+            this.panel200.Name = "panel200";
+            this.panel200.Size = new System.Drawing.Size(203, 64);
+            this.panel200.TabIndex = 85;
+            // 
+            // panel199
+            // 
+            this.panel199.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel199.Location = new System.Drawing.Point(333, 590);
+            this.panel199.Name = "panel199";
+            this.panel199.Size = new System.Drawing.Size(134, 267);
+            this.panel199.TabIndex = 84;
+            // 
+            // panel183
+            // 
+            this.panel183.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel183.Location = new System.Drawing.Point(0, 590);
+            this.panel183.Name = "panel183";
+            this.panel183.Size = new System.Drawing.Size(130, 267);
+            this.panel183.TabIndex = 81;
+            // 
+            // panel192
+            // 
+            this.panel192.BackColor = System.Drawing.Color.White;
+            this.panel192.Controls.Add(this.panel211);
+            this.panel192.Controls.Add(this.panel210);
+            this.panel192.Controls.Add(this.panel209);
+            this.panel192.Controls.Add(this.panel208);
+            this.panel192.Controls.Add(this.panel207);
+            this.panel192.Controls.Add(this.panel196);
+            this.panel192.Controls.Add(this.panel195);
+            this.panel192.Controls.Add(this.panel194);
+            this.panel192.Controls.Add(this.panel193);
+            this.panel192.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel192.Location = new System.Drawing.Point(0, 420);
+            this.panel192.Name = "panel192";
+            this.panel192.Size = new System.Drawing.Size(467, 170);
+            this.panel192.TabIndex = 82;
+            // 
+            // totTicketsReceipt
+            // 
+            this.totTicketsReceipt.AutoSize = true;
+            this.totTicketsReceipt.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.totTicketsReceipt.Dock = System.Windows.Forms.DockStyle.Right;
+            this.totTicketsReceipt.Font = new System.Drawing.Font("SF Pro Text", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.totTicketsReceipt.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(3)))), ((int)(((byte)(3)))));
+            this.totTicketsReceipt.Location = new System.Drawing.Point(373, 0);
+            this.totTicketsReceipt.Name = "totTicketsReceipt";
+            this.totTicketsReceipt.Size = new System.Drawing.Size(26, 25);
+            this.totTicketsReceipt.TabIndex = 83;
+            this.totTicketsReceipt.Text = "0";
+            this.totTicketsReceipt.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label61
+            // 
+            this.label61.AutoSize = true;
+            this.label61.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label61.Dock = System.Windows.Forms.DockStyle.Left;
+            this.label61.Font = new System.Drawing.Font("SF Pro Text", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label61.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(3)))), ((int)(((byte)(3)))));
+            this.label61.Location = new System.Drawing.Point(0, 0);
+            this.label61.Name = "label61";
+            this.label61.Size = new System.Drawing.Size(159, 25);
+            this.label61.TabIndex = 82;
+            this.label61.Text = "Total Tickets: ";
+            this.label61.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // panel196
+            // 
+            this.panel196.BackColor = System.Drawing.Color.White;
+            this.panel196.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel196.Location = new System.Drawing.Point(34, 150);
+            this.panel196.Name = "panel196";
+            this.panel196.Size = new System.Drawing.Size(399, 20);
+            this.panel196.TabIndex = 81;
+            // 
+            // panel195
+            // 
+            this.panel195.BackColor = System.Drawing.Color.White;
+            this.panel195.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel195.Location = new System.Drawing.Point(34, 0);
+            this.panel195.Name = "panel195";
+            this.panel195.Size = new System.Drawing.Size(399, 16);
+            this.panel195.TabIndex = 80;
+            // 
+            // panel194
+            // 
+            this.panel194.BackColor = System.Drawing.Color.White;
+            this.panel194.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel194.Location = new System.Drawing.Point(0, 0);
+            this.panel194.Name = "panel194";
+            this.panel194.Size = new System.Drawing.Size(34, 170);
+            this.panel194.TabIndex = 79;
+            // 
+            // panel193
+            // 
+            this.panel193.BackColor = System.Drawing.Color.White;
+            this.panel193.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel193.Location = new System.Drawing.Point(433, 0);
+            this.panel193.Name = "panel193";
+            this.panel193.Size = new System.Drawing.Size(34, 170);
+            this.panel193.TabIndex = 7;
+            // 
+            // panel177
+            // 
+            this.panel177.BackColor = System.Drawing.Color.White;
+            this.panel177.Controls.Add(this.panel190);
+            this.panel177.Controls.Add(this.panel188);
+            this.panel177.Controls.Add(this.panel186);
+            this.panel177.Controls.Add(this.panel184);
+            this.panel177.Controls.Add(this.panel142);
+            this.panel177.Controls.Add(this.label62);
+            this.panel177.Controls.Add(this.panel182);
+            this.panel177.Controls.Add(this.pictureBox7);
+            this.panel177.Controls.Add(this.panel180);
+            this.panel177.Controls.Add(this.panel178);
+            this.panel177.Controls.Add(this.panel181);
+            this.panel177.Controls.Add(this.panel179);
+            this.panel177.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel177.Location = new System.Drawing.Point(0, 166);
+            this.panel177.Name = "panel177";
+            this.panel177.Size = new System.Drawing.Size(467, 254);
+            this.panel177.TabIndex = 76;
+            // 
+            // panel190
+            // 
+            this.panel190.BackColor = System.Drawing.Color.White;
+            this.panel190.Controls.Add(this.seatNoReceipt);
+            this.panel190.Controls.Add(this.panel191);
+            this.panel190.Controls.Add(this.label60);
+            this.panel190.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel190.Location = new System.Drawing.Point(34, 198);
+            this.panel190.Name = "panel190";
+            this.panel190.Size = new System.Drawing.Size(254, 26);
+            this.panel190.TabIndex = 85;
+            // 
+            // seatNoReceipt
+            // 
+            this.seatNoReceipt.AutoSize = true;
+            this.seatNoReceipt.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.seatNoReceipt.Dock = System.Windows.Forms.DockStyle.Right;
+            this.seatNoReceipt.Font = new System.Drawing.Font("SF Pro Text", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.seatNoReceipt.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(3)))), ((int)(((byte)(3)))));
+            this.seatNoReceipt.Location = new System.Drawing.Point(158, 0);
+            this.seatNoReceipt.Name = "seatNoReceipt";
+            this.seatNoReceipt.Size = new System.Drawing.Size(72, 16);
+            this.seatNoReceipt.TabIndex = 81;
+            this.seatNoReceipt.Text = "Location: ";
+            this.seatNoReceipt.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // panel191
+            // 
+            this.panel191.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel191.Location = new System.Drawing.Point(230, 0);
+            this.panel191.Name = "panel191";
+            this.panel191.Size = new System.Drawing.Size(24, 26);
+            this.panel191.TabIndex = 82;
+            // 
+            // label60
+            // 
+            this.label60.AutoSize = true;
+            this.label60.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label60.Dock = System.Windows.Forms.DockStyle.Left;
+            this.label60.Font = new System.Drawing.Font("SF Pro Text", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label60.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(3)))), ((int)(((byte)(3)))));
+            this.label60.Location = new System.Drawing.Point(0, 0);
+            this.label60.Name = "label60";
+            this.label60.Size = new System.Drawing.Size(66, 16);
+            this.label60.TabIndex = 80;
+            this.label60.Text = "Seat No: ";
+            this.label60.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // panel188
+            // 
+            this.panel188.BackColor = System.Drawing.Color.White;
+            this.panel188.Controls.Add(this.timeReceipt);
+            this.panel188.Controls.Add(this.panel189);
+            this.panel188.Controls.Add(this.label58);
+            this.panel188.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel188.Location = new System.Drawing.Point(34, 172);
+            this.panel188.Name = "panel188";
+            this.panel188.Size = new System.Drawing.Size(254, 26);
+            this.panel188.TabIndex = 84;
+            // 
+            // timeReceipt
+            // 
+            this.timeReceipt.AutoSize = true;
+            this.timeReceipt.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.timeReceipt.Dock = System.Windows.Forms.DockStyle.Right;
+            this.timeReceipt.Font = new System.Drawing.Font("SF Pro Text", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.timeReceipt.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(3)))), ((int)(((byte)(3)))));
+            this.timeReceipt.Location = new System.Drawing.Point(158, 0);
+            this.timeReceipt.Name = "timeReceipt";
+            this.timeReceipt.Size = new System.Drawing.Size(72, 16);
+            this.timeReceipt.TabIndex = 81;
+            this.timeReceipt.Text = "Location: ";
+            this.timeReceipt.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // panel189
+            // 
+            this.panel189.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel189.Location = new System.Drawing.Point(230, 0);
+            this.panel189.Name = "panel189";
+            this.panel189.Size = new System.Drawing.Size(24, 26);
+            this.panel189.TabIndex = 82;
+            // 
+            // label58
+            // 
+            this.label58.AutoSize = true;
+            this.label58.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label58.Dock = System.Windows.Forms.DockStyle.Left;
+            this.label58.Font = new System.Drawing.Font("SF Pro Text", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label58.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(3)))), ((int)(((byte)(3)))));
+            this.label58.Location = new System.Drawing.Point(0, 0);
+            this.label58.Name = "label58";
+            this.label58.Size = new System.Drawing.Size(48, 16);
+            this.label58.TabIndex = 80;
+            this.label58.Text = "Time: ";
+            this.label58.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // panel186
+            // 
+            this.panel186.BackColor = System.Drawing.Color.White;
+            this.panel186.Controls.Add(this.dateReceipt);
+            this.panel186.Controls.Add(this.panel187);
+            this.panel186.Controls.Add(this.label56);
+            this.panel186.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel186.Location = new System.Drawing.Point(34, 146);
+            this.panel186.Name = "panel186";
+            this.panel186.Size = new System.Drawing.Size(254, 26);
+            this.panel186.TabIndex = 83;
+            // 
+            // dateReceipt
+            // 
+            this.dateReceipt.AutoSize = true;
+            this.dateReceipt.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.dateReceipt.Dock = System.Windows.Forms.DockStyle.Right;
+            this.dateReceipt.Font = new System.Drawing.Font("SF Pro Text", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateReceipt.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(3)))), ((int)(((byte)(3)))));
+            this.dateReceipt.Location = new System.Drawing.Point(158, 0);
+            this.dateReceipt.Name = "dateReceipt";
+            this.dateReceipt.Size = new System.Drawing.Size(72, 16);
+            this.dateReceipt.TabIndex = 81;
+            this.dateReceipt.Text = "Location: ";
+            this.dateReceipt.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // panel187
+            // 
+            this.panel187.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel187.Location = new System.Drawing.Point(230, 0);
+            this.panel187.Name = "panel187";
+            this.panel187.Size = new System.Drawing.Size(24, 26);
+            this.panel187.TabIndex = 82;
+            // 
+            // label56
+            // 
+            this.label56.AutoSize = true;
+            this.label56.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label56.Dock = System.Windows.Forms.DockStyle.Left;
+            this.label56.Font = new System.Drawing.Font("SF Pro Text", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label56.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(3)))), ((int)(((byte)(3)))));
+            this.label56.Location = new System.Drawing.Point(0, 0);
+            this.label56.Name = "label56";
+            this.label56.Size = new System.Drawing.Size(46, 16);
+            this.label56.TabIndex = 80;
+            this.label56.Text = "Date: ";
+            this.label56.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // panel184
+            // 
+            this.panel184.BackColor = System.Drawing.Color.White;
+            this.panel184.Controls.Add(this.locationReceipt);
+            this.panel184.Controls.Add(this.panel185);
+            this.panel184.Controls.Add(this.label53);
+            this.panel184.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel184.Location = new System.Drawing.Point(34, 120);
+            this.panel184.Name = "panel184";
+            this.panel184.Size = new System.Drawing.Size(254, 26);
+            this.panel184.TabIndex = 82;
+            // 
+            // locationReceipt
+            // 
+            this.locationReceipt.AutoSize = true;
+            this.locationReceipt.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.locationReceipt.Dock = System.Windows.Forms.DockStyle.Right;
+            this.locationReceipt.Font = new System.Drawing.Font("SF Pro Text", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.locationReceipt.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(3)))), ((int)(((byte)(3)))));
+            this.locationReceipt.Location = new System.Drawing.Point(158, 0);
+            this.locationReceipt.Name = "locationReceipt";
+            this.locationReceipt.Size = new System.Drawing.Size(72, 16);
+            this.locationReceipt.TabIndex = 81;
+            this.locationReceipt.Text = "Location: ";
+            this.locationReceipt.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // panel185
+            // 
+            this.panel185.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel185.Location = new System.Drawing.Point(230, 0);
+            this.panel185.Name = "panel185";
+            this.panel185.Size = new System.Drawing.Size(24, 26);
+            this.panel185.TabIndex = 82;
+            // 
+            // label53
+            // 
+            this.label53.AutoSize = true;
+            this.label53.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label53.Dock = System.Windows.Forms.DockStyle.Left;
+            this.label53.Font = new System.Drawing.Font("SF Pro Text", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label53.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(3)))), ((int)(((byte)(3)))));
+            this.label53.Location = new System.Drawing.Point(0, 0);
+            this.label53.Name = "label53";
+            this.label53.Size = new System.Drawing.Size(72, 16);
+            this.label53.TabIndex = 80;
+            this.label53.Text = "Location: ";
+            this.label53.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // panel182
+            // 
+            this.panel182.BackColor = System.Drawing.Color.White;
+            this.panel182.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel182.Location = new System.Drawing.Point(34, 20);
+            this.panel182.Name = "panel182";
+            this.panel182.Size = new System.Drawing.Size(254, 10);
+            this.panel182.TabIndex = 80;
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox7.Dock = System.Windows.Forms.DockStyle.Right;
+            this.pictureBox7.Image = global::PRIME3.Properties.Resources.godzillaPoster;
+            this.pictureBox7.Location = new System.Drawing.Point(288, 20);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(145, 214);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox7.TabIndex = 75;
+            this.pictureBox7.TabStop = false;
+            // 
+            // panel180
+            // 
+            this.panel180.BackColor = System.Drawing.Color.White;
+            this.panel180.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel180.Location = new System.Drawing.Point(34, 234);
+            this.panel180.Name = "panel180";
+            this.panel180.Size = new System.Drawing.Size(399, 20);
+            this.panel180.TabIndex = 77;
+            // 
+            // panel179
+            // 
+            this.panel179.BackColor = System.Drawing.Color.White;
+            this.panel179.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel179.Location = new System.Drawing.Point(0, 0);
+            this.panel179.Name = "panel179";
+            this.panel179.Size = new System.Drawing.Size(467, 20);
+            this.panel179.TabIndex = 76;
+            // 
+            // panel178
+            // 
+            this.panel178.BackColor = System.Drawing.Color.White;
+            this.panel178.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel178.Location = new System.Drawing.Point(433, 20);
+            this.panel178.Name = "panel178";
+            this.panel178.Size = new System.Drawing.Size(34, 234);
+            this.panel178.TabIndex = 6;
+            // 
+            // panel181
+            // 
+            this.panel181.BackColor = System.Drawing.Color.White;
+            this.panel181.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel181.Location = new System.Drawing.Point(0, 20);
+            this.panel181.Name = "panel181";
+            this.panel181.Size = new System.Drawing.Size(34, 234);
+            this.panel181.TabIndex = 78;
+            // 
+            // panel176
+            // 
+            this.panel176.BackColor = System.Drawing.Color.White;
+            this.panel176.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel176.Location = new System.Drawing.Point(0, 136);
+            this.panel176.Name = "panel176";
+            this.panel176.Size = new System.Drawing.Size(467, 30);
+            this.panel176.TabIndex = 4;
+            // 
+            // panel172
+            // 
+            this.panel172.BackColor = System.Drawing.Color.White;
+            this.panel172.Controls.Add(this.label51);
+            this.panel172.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel172.Location = new System.Drawing.Point(0, 90);
+            this.panel172.Name = "panel172";
+            this.panel172.Size = new System.Drawing.Size(467, 46);
+            this.panel172.TabIndex = 3;
+            // 
+            // label51
+            // 
+            this.label51.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label51.AutoSize = true;
+            this.label51.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label51.Font = new System.Drawing.Font("SF Pro Text", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label51.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(3)))), ((int)(((byte)(3)))));
+            this.label51.Location = new System.Drawing.Point(190, 10);
+            this.label51.Name = "label51";
+            this.label51.Size = new System.Drawing.Size(104, 25);
+            this.label51.TabIndex = 2;
+            this.label51.Text = "RECEIPT";
+            this.label51.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // panel171
+            // 
+            this.panel171.BackColor = System.Drawing.Color.White;
+            this.panel171.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel171.Location = new System.Drawing.Point(0, 60);
+            this.panel171.Name = "panel171";
+            this.panel171.Size = new System.Drawing.Size(467, 30);
+            this.panel171.TabIndex = 2;
+            // 
+            // panel150
+            // 
+            this.panel150.BackColor = System.Drawing.Color.White;
+            this.panel150.Controls.Add(this.panel197);
+            this.panel150.Controls.Add(this.panel170);
+            this.panel150.Controls.Add(this.panel169);
+            this.panel150.Controls.Add(this.panel168);
+            this.panel150.Controls.Add(this.panel167);
+            this.panel150.Controls.Add(this.panel159);
+            this.panel150.Controls.Add(this.panel160);
+            this.panel150.Controls.Add(this.panel161);
+            this.panel150.Controls.Add(this.panel162);
+            this.panel150.Controls.Add(this.panel163);
+            this.panel150.Controls.Add(this.panel164);
+            this.panel150.Controls.Add(this.panel165);
+            this.panel150.Controls.Add(this.panel166);
+            this.panel150.Controls.Add(this.panel155);
+            this.panel150.Controls.Add(this.panel156);
+            this.panel150.Controls.Add(this.panel157);
+            this.panel150.Controls.Add(this.panel158);
+            this.panel150.Controls.Add(this.panel154);
+            this.panel150.Controls.Add(this.panel153);
+            this.panel150.Controls.Add(this.panel152);
+            this.panel150.Controls.Add(this.panel151);
+            this.panel150.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel150.Location = new System.Drawing.Point(0, 30);
+            this.panel150.Name = "panel150";
+            this.panel150.Size = new System.Drawing.Size(467, 30);
+            this.panel150.TabIndex = 1;
+            // 
+            // panel197
+            // 
+            this.panel197.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel197.BackColor = System.Drawing.Color.White;
+            this.panel197.Location = new System.Drawing.Point(440, 0);
+            this.panel197.Name = "panel197";
+            this.panel197.Size = new System.Drawing.Size(22, 30);
+            this.panel197.TabIndex = 22;
+            // 
+            // panel170
+            // 
+            this.panel170.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel170.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(3)))), ((int)(((byte)(3)))));
+            this.panel170.Location = new System.Drawing.Point(418, 0);
+            this.panel170.Name = "panel170";
+            this.panel170.Size = new System.Drawing.Size(22, 30);
+            this.panel170.TabIndex = 21;
+            // 
+            // panel169
+            // 
+            this.panel169.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel169.BackColor = System.Drawing.Color.White;
+            this.panel169.Location = new System.Drawing.Point(396, 0);
+            this.panel169.Name = "panel169";
+            this.panel169.Size = new System.Drawing.Size(22, 30);
+            this.panel169.TabIndex = 20;
+            // 
+            // panel168
+            // 
+            this.panel168.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel168.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(3)))), ((int)(((byte)(3)))));
+            this.panel168.Location = new System.Drawing.Point(374, 0);
+            this.panel168.Name = "panel168";
+            this.panel168.Size = new System.Drawing.Size(22, 30);
+            this.panel168.TabIndex = 19;
+            // 
+            // panel167
+            // 
+            this.panel167.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel167.BackColor = System.Drawing.Color.White;
+            this.panel167.Location = new System.Drawing.Point(352, 0);
+            this.panel167.Name = "panel167";
+            this.panel167.Size = new System.Drawing.Size(22, 30);
+            this.panel167.TabIndex = 18;
+            // 
+            // panel159
+            // 
+            this.panel159.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel159.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(3)))), ((int)(((byte)(3)))));
+            this.panel159.Location = new System.Drawing.Point(330, 0);
+            this.panel159.Name = "panel159";
+            this.panel159.Size = new System.Drawing.Size(22, 30);
+            this.panel159.TabIndex = 17;
+            // 
+            // panel160
+            // 
+            this.panel160.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel160.BackColor = System.Drawing.Color.White;
+            this.panel160.Location = new System.Drawing.Point(308, 0);
+            this.panel160.Name = "panel160";
+            this.panel160.Size = new System.Drawing.Size(22, 30);
+            this.panel160.TabIndex = 16;
+            // 
+            // panel161
+            // 
+            this.panel161.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel161.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(3)))), ((int)(((byte)(3)))));
+            this.panel161.Location = new System.Drawing.Point(286, 0);
+            this.panel161.Name = "panel161";
+            this.panel161.Size = new System.Drawing.Size(22, 30);
+            this.panel161.TabIndex = 15;
+            // 
+            // panel162
+            // 
+            this.panel162.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel162.BackColor = System.Drawing.Color.White;
+            this.panel162.Location = new System.Drawing.Point(264, 0);
+            this.panel162.Name = "panel162";
+            this.panel162.Size = new System.Drawing.Size(22, 30);
+            this.panel162.TabIndex = 14;
+            // 
+            // panel163
+            // 
+            this.panel163.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel163.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(3)))), ((int)(((byte)(3)))));
+            this.panel163.Location = new System.Drawing.Point(242, 0);
+            this.panel163.Name = "panel163";
+            this.panel163.Size = new System.Drawing.Size(22, 30);
+            this.panel163.TabIndex = 13;
+            // 
+            // panel164
+            // 
+            this.panel164.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel164.BackColor = System.Drawing.Color.White;
+            this.panel164.Location = new System.Drawing.Point(220, 0);
+            this.panel164.Name = "panel164";
+            this.panel164.Size = new System.Drawing.Size(22, 30);
+            this.panel164.TabIndex = 12;
+            // 
+            // panel165
+            // 
+            this.panel165.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel165.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(3)))), ((int)(((byte)(3)))));
+            this.panel165.Location = new System.Drawing.Point(198, 0);
+            this.panel165.Name = "panel165";
+            this.panel165.Size = new System.Drawing.Size(22, 30);
+            this.panel165.TabIndex = 11;
+            // 
+            // panel166
+            // 
+            this.panel166.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel166.BackColor = System.Drawing.Color.White;
+            this.panel166.Location = new System.Drawing.Point(176, 0);
+            this.panel166.Name = "panel166";
+            this.panel166.Size = new System.Drawing.Size(22, 30);
+            this.panel166.TabIndex = 10;
+            // 
+            // panel155
+            // 
+            this.panel155.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel155.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(3)))), ((int)(((byte)(3)))));
+            this.panel155.Location = new System.Drawing.Point(154, 0);
+            this.panel155.Name = "panel155";
+            this.panel155.Size = new System.Drawing.Size(22, 30);
+            this.panel155.TabIndex = 9;
+            // 
+            // panel156
+            // 
+            this.panel156.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel156.BackColor = System.Drawing.Color.White;
+            this.panel156.Location = new System.Drawing.Point(132, 0);
+            this.panel156.Name = "panel156";
+            this.panel156.Size = new System.Drawing.Size(22, 30);
+            this.panel156.TabIndex = 8;
+            // 
+            // panel157
+            // 
+            this.panel157.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel157.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(3)))), ((int)(((byte)(3)))));
+            this.panel157.Location = new System.Drawing.Point(110, 0);
+            this.panel157.Name = "panel157";
+            this.panel157.Size = new System.Drawing.Size(22, 30);
+            this.panel157.TabIndex = 7;
+            // 
+            // panel158
+            // 
+            this.panel158.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel158.BackColor = System.Drawing.Color.White;
+            this.panel158.Location = new System.Drawing.Point(88, 0);
+            this.panel158.Name = "panel158";
+            this.panel158.Size = new System.Drawing.Size(22, 30);
+            this.panel158.TabIndex = 6;
+            // 
+            // panel154
+            // 
+            this.panel154.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel154.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(3)))), ((int)(((byte)(3)))));
+            this.panel154.Location = new System.Drawing.Point(66, 0);
+            this.panel154.Name = "panel154";
+            this.panel154.Size = new System.Drawing.Size(22, 30);
+            this.panel154.TabIndex = 5;
+            // 
+            // panel153
+            // 
+            this.panel153.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel153.BackColor = System.Drawing.Color.White;
+            this.panel153.Location = new System.Drawing.Point(44, 0);
+            this.panel153.Name = "panel153";
+            this.panel153.Size = new System.Drawing.Size(22, 30);
+            this.panel153.TabIndex = 4;
+            // 
+            // panel152
+            // 
+            this.panel152.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel152.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(3)))), ((int)(((byte)(3)))));
+            this.panel152.Location = new System.Drawing.Point(22, 0);
+            this.panel152.Name = "panel152";
+            this.panel152.Size = new System.Drawing.Size(22, 30);
+            this.panel152.TabIndex = 3;
+            // 
+            // panel151
+            // 
+            this.panel151.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel151.BackColor = System.Drawing.Color.White;
+            this.panel151.Location = new System.Drawing.Point(0, 0);
+            this.panel151.Name = "panel151";
+            this.panel151.Size = new System.Drawing.Size(22, 30);
+            this.panel151.TabIndex = 2;
+            // 
+            // panel149
+            // 
+            this.panel149.BackColor = System.Drawing.Color.White;
+            this.panel149.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel149.Location = new System.Drawing.Point(0, 0);
+            this.panel149.Name = "panel149";
+            this.panel149.Size = new System.Drawing.Size(467, 30);
+            this.panel149.TabIndex = 0;
+            // 
+            // panel146
+            // 
+            this.panel146.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel146.Location = new System.Drawing.Point(0, 41);
+            this.panel146.Name = "panel146";
+            this.panel146.Size = new System.Drawing.Size(199, 857);
+            this.panel146.TabIndex = 15;
+            // 
+            // panel141
+            // 
+            this.panel141.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel141.Location = new System.Drawing.Point(0, 0);
+            this.panel141.Name = "panel141";
+            this.panel141.Size = new System.Drawing.Size(782, 41);
+            this.panel141.TabIndex = 9;
+            // 
+            // receiptHeader
+            // 
+            this.receiptHeader.Controls.Add(this.panel145);
+            this.receiptHeader.Dock = System.Windows.Forms.DockStyle.Top;
+            this.receiptHeader.Location = new System.Drawing.Point(116, 977);
+            this.receiptHeader.Name = "receiptHeader";
+            this.receiptHeader.Size = new System.Drawing.Size(782, 48);
+            this.receiptHeader.TabIndex = 12;
+            // 
+            // panel145
+            // 
+            this.panel145.Controls.Add(this.label47);
+            this.panel145.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel145.Location = new System.Drawing.Point(0, 0);
+            this.panel145.Name = "panel145";
+            this.panel145.Size = new System.Drawing.Size(782, 48);
+            this.panel145.TabIndex = 2;
+            // 
+            // label47
+            // 
+            this.label47.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label47.AutoSize = true;
+            this.label47.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label47.Font = new System.Drawing.Font("SF Pro Text", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label47.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(205)))), ((int)(((byte)(205)))));
+            this.label47.Location = new System.Drawing.Point(19, 9);
+            this.label47.Name = "label47";
+            this.label47.Size = new System.Drawing.Size(88, 25);
+            this.label47.TabIndex = 2;
+            this.label47.Text = "Receipt";
+            this.label47.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // panel132
+            // 
+            this.panel132.Controls.Add(this.panel139);
+            this.panel132.Controls.Add(this.panel138);
+            this.panel132.Controls.Add(this.panel135);
+            this.panel132.Controls.Add(this.panel134);
+            this.panel132.Controls.Add(this.panel133);
+            this.panel132.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel132.Location = new System.Drawing.Point(116, 608);
+            this.panel132.Name = "panel132";
+            this.panel132.Size = new System.Drawing.Size(782, 369);
+            this.panel132.TabIndex = 11;
+            // 
+            // panel139
+            // 
+            this.panel139.Controls.Add(this.payNowBttn);
+            this.panel139.Controls.Add(this.panel140);
+            this.panel139.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel139.Location = new System.Drawing.Point(0, 175);
+            this.panel139.Name = "panel139";
+            this.panel139.Size = new System.Drawing.Size(782, 94);
+            this.panel139.TabIndex = 12;
+            // 
+            // panel140
+            // 
+            this.panel140.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel140.Location = new System.Drawing.Point(0, 0);
+            this.panel140.Name = "panel140";
+            this.panel140.Size = new System.Drawing.Size(782, 38);
+            this.panel140.TabIndex = 50;
+            // 
+            // payNowBttn
+            // 
+            this.payNowBttn.Alpha = 20;
+            this.payNowBttn.BackColor = System.Drawing.Color.Transparent;
+            this.payNowBttn.Background = true;
+            this.payNowBttn.Background_WidthPen = 4F;
+            this.payNowBttn.BackgroundPen = true;
+            this.payNowBttn.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(11)))), ((int)(((byte)(43)))));
+            this.payNowBttn.ColorBackground_1 = System.Drawing.Color.Transparent;
+            this.payNowBttn.ColorBackground_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
+            this.payNowBttn.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(86)))), ((int)(((byte)(245)))));
+            this.payNowBttn.ColorLighting = System.Drawing.Color.Transparent;
+            this.payNowBttn.ColorPen_1 = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(52)))), ((int)(((byte)(68)))));
+            this.payNowBttn.ColorPen_2 = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(63)))), ((int)(((byte)(86)))));
+            this.payNowBttn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.payNowBttn.CyberButtonStyle = ReaLTaiizor.Enum.Cyber.StateStyle.Custom;
+            this.payNowBttn.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.payNowBttn.Effect_1 = true;
+            this.payNowBttn.Effect_1_ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(28)))), ((int)(((byte)(193)))));
+            this.payNowBttn.Effect_1_Transparency = 25;
+            this.payNowBttn.Effect_2 = true;
+            this.payNowBttn.Effect_2_ColorBackground = System.Drawing.Color.White;
+            this.payNowBttn.Effect_2_Transparency = 20;
+            this.payNowBttn.Font = new System.Drawing.Font("SF Pro Text", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.payNowBttn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(86)))), ((int)(((byte)(245)))));
+            this.payNowBttn.Lighting = false;
+            this.payNowBttn.LinearGradient_Background = false;
+            this.payNowBttn.LinearGradientPen = false;
+            this.payNowBttn.Location = new System.Drawing.Point(0, 38);
+            this.payNowBttn.Name = "payNowBttn";
+            this.payNowBttn.PenWidth = 15;
+            this.payNowBttn.Rounding = true;
+            this.payNowBttn.RoundingInt = 70;
+            this.payNowBttn.Size = new System.Drawing.Size(782, 56);
+            this.payNowBttn.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.HighQuality;
+            this.payNowBttn.TabIndex = 49;
+            this.payNowBttn.Tag = "Cyber";
+            this.payNowBttn.TextButton = "Pay Now";
+            this.payNowBttn.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
+            this.payNowBttn.Timer_Effect_1 = 5;
+            this.payNowBttn.Timer_RGB = 300;
+            this.payNowBttn.Click += new System.EventHandler(this.payNowBttn_Click);
+            // 
+            // panel138
+            // 
+            this.panel138.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel138.Location = new System.Drawing.Point(0, 117);
+            this.panel138.Name = "panel138";
+            this.panel138.Size = new System.Drawing.Size(782, 58);
+            this.panel138.TabIndex = 11;
+            // 
+            // panel135
+            // 
+            this.panel135.Controls.Add(this.AccountNum);
+            this.panel135.Controls.Add(this.panel137);
+            this.panel135.Controls.Add(this.panel136);
+            this.panel135.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel135.Location = new System.Drawing.Point(0, 75);
+            this.panel135.Name = "panel135";
+            this.panel135.Size = new System.Drawing.Size(782, 42);
+            this.panel135.TabIndex = 10;
+            // 
+            // AccountNum
+            // 
+            this.AccountNum.Alpha = 20;
+            this.AccountNum.BackColor = System.Drawing.Color.Transparent;
+            this.AccountNum.Background_WidthPen = 3F;
+            this.AccountNum.BackgroundPen = true;
+            this.AccountNum.ColorBackground = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(8)))), ((int)(((byte)(8)))));
+            this.AccountNum.ColorBackground_Pen = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.AccountNum.ColorLighting = System.Drawing.Color.Transparent;
+            this.AccountNum.ColorPen_1 = System.Drawing.Color.Transparent;
+            this.AccountNum.ColorPen_2 = System.Drawing.Color.Transparent;
+            this.AccountNum.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.AccountNum.CyberTextBoxStyle = ReaLTaiizor.Enum.Cyber.StateStyle.Custom;
+            this.AccountNum.Dock = System.Windows.Forms.DockStyle.Top;
+            this.AccountNum.Font = new System.Drawing.Font("SF Pro Text", 10F);
+            this.AccountNum.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(245)))), ((int)(((byte)(245)))));
+            this.AccountNum.Lighting = false;
+            this.AccountNum.LinearGradientPen = false;
+            this.AccountNum.Location = new System.Drawing.Point(205, 0);
+            this.AccountNum.Name = "AccountNum";
+            this.AccountNum.Password = true;
+            this.AccountNum.PasswordChar = '\0';
+            this.AccountNum.PenWidth = 15;
+            this.AccountNum.RGB = false;
+            this.AccountNum.Rounding = true;
+            this.AccountNum.RoundingInt = 30;
+            this.AccountNum.Size = new System.Drawing.Size(475, 41);
+            this.AccountNum.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.HighQuality;
+            this.AccountNum.TabIndex = 11;
+            this.AccountNum.Tag = "Cyber";
+            this.AccountNum.TextButton = "";
+            this.AccountNum.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
+            this.AccountNum.Timer_RGB = 300;
+            // 
+            // panel137
+            // 
+            this.panel137.Controls.Add(this.mopChoice);
+            this.panel137.Controls.Add(this.panel144);
+            this.panel137.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel137.Location = new System.Drawing.Point(0, 0);
+            this.panel137.Name = "panel137";
+            this.panel137.Size = new System.Drawing.Size(205, 42);
+            this.panel137.TabIndex = 13;
+            // 
+            // panel136
+            // 
+            this.panel136.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel136.Location = new System.Drawing.Point(680, 0);
+            this.panel136.Name = "panel136";
+            this.panel136.Size = new System.Drawing.Size(102, 42);
+            this.panel136.TabIndex = 12;
+            // 
+            // panel134
+            // 
+            this.panel134.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel134.Location = new System.Drawing.Point(0, 48);
+            this.panel134.Name = "panel134";
+            this.panel134.Size = new System.Drawing.Size(782, 27);
+            this.panel134.TabIndex = 9;
+            // 
+            // panel133
+            // 
+            this.panel133.Controls.Add(this.label45);
+            this.panel133.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel133.Location = new System.Drawing.Point(0, 0);
+            this.panel133.Name = "panel133";
+            this.panel133.Size = new System.Drawing.Size(782, 48);
+            this.panel133.TabIndex = 8;
+            // 
+            // label45
+            // 
+            this.label45.AutoSize = true;
+            this.label45.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label45.Dock = System.Windows.Forms.DockStyle.Left;
+            this.label45.Font = new System.Drawing.Font("SF Pro Text", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label45.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(205)))), ((int)(((byte)(205)))));
+            this.label45.Location = new System.Drawing.Point(0, 0);
+            this.label45.Name = "label45";
+            this.label45.Size = new System.Drawing.Size(258, 23);
+            this.label45.TabIndex = 1;
+            this.label45.Text = "Enter Your Account/Number";
+            // 
+            // panel131
+            // 
+            this.panel131.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel131.Location = new System.Drawing.Point(116, 552);
+            this.panel131.Name = "panel131";
+            this.panel131.Size = new System.Drawing.Size(782, 56);
+            this.panel131.TabIndex = 10;
+            // 
+            // panel126
+            // 
+            this.panel126.Controls.Add(this.BdoUnibank);
+            this.panel126.Controls.Add(this.panel130);
+            this.panel126.Controls.Add(this.maya);
+            this.panel126.Controls.Add(this.panel128);
+            this.panel126.Controls.Add(this.panel129);
+            this.panel126.Controls.Add(this.gCash);
+            this.panel126.Controls.Add(this.panel127);
+            this.panel126.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel126.Location = new System.Drawing.Point(116, 487);
+            this.panel126.Name = "panel126";
+            this.panel126.Size = new System.Drawing.Size(782, 65);
+            this.panel126.TabIndex = 9;
+            // 
+            // BdoUnibank
+            // 
+            this.BdoUnibank.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BdoUnibank.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.BdoUnibank.Image = global::PRIME3.Properties.Resources.bdo_unibank_horz_cmyk_pos_01_thu_ZAMPTA7z7s575klK;
+            this.BdoUnibank.Location = new System.Drawing.Point(320, 0);
+            this.BdoUnibank.Name = "BdoUnibank";
+            this.BdoUnibank.Size = new System.Drawing.Size(149, 65);
+            this.BdoUnibank.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.BdoUnibank.TabIndex = 1;
+            this.BdoUnibank.TabStop = false;
+            this.BdoUnibank.Click += new System.EventHandler(this.BdoUnibank_Click);
+            // 
+            // panel130
+            // 
+            this.panel130.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel130.Location = new System.Drawing.Point(469, 0);
+            this.panel130.Name = "panel130";
+            this.panel130.Size = new System.Drawing.Size(142, 65);
+            this.panel130.TabIndex = 6;
+            // 
+            // maya
+            // 
+            this.maya.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.maya.Dock = System.Windows.Forms.DockStyle.Right;
+            this.maya.Image = global::PRIME3.Properties.Resources.MicrosoftTeams_image_9_768x223;
+            this.maya.Location = new System.Drawing.Point(611, 0);
+            this.maya.Name = "maya";
+            this.maya.Size = new System.Drawing.Size(70, 65);
+            this.maya.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.maya.TabIndex = 2;
+            this.maya.TabStop = false;
+            this.maya.Click += new System.EventHandler(this.maya_Click);
+            // 
+            // panel128
+            // 
+            this.panel128.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel128.Location = new System.Drawing.Point(681, 0);
+            this.panel128.Name = "panel128";
+            this.panel128.Size = new System.Drawing.Size(101, 65);
+            this.panel128.TabIndex = 4;
+            // 
+            // panel129
+            // 
+            this.panel129.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel129.Location = new System.Drawing.Point(250, 0);
+            this.panel129.Name = "panel129";
+            this.panel129.Size = new System.Drawing.Size(70, 65);
+            this.panel129.TabIndex = 5;
+            // 
+            // gCash
+            // 
+            this.gCash.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.gCash.Dock = System.Windows.Forms.DockStyle.Left;
+            this.gCash.Image = global::PRIME3.Properties.Resources.GCash_Logo;
+            this.gCash.Location = new System.Drawing.Point(33, 0);
+            this.gCash.Name = "gCash";
+            this.gCash.Size = new System.Drawing.Size(217, 65);
+            this.gCash.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.gCash.TabIndex = 0;
+            this.gCash.TabStop = false;
+            this.gCash.Click += new System.EventHandler(this.gCash_Click);
+            // 
+            // panel127
+            // 
+            this.panel127.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel127.Location = new System.Drawing.Point(0, 0);
+            this.panel127.Name = "panel127";
+            this.panel127.Size = new System.Drawing.Size(33, 65);
+            this.panel127.TabIndex = 3;
+            // 
+            // panel125
+            // 
+            this.panel125.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel125.Location = new System.Drawing.Point(116, 445);
+            this.panel125.Name = "panel125";
+            this.panel125.Size = new System.Drawing.Size(782, 42);
+            this.panel125.TabIndex = 8;
+            // 
+            // panel124
+            // 
+            this.panel124.Controls.Add(this.label43);
+            this.panel124.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel124.Location = new System.Drawing.Point(116, 397);
+            this.panel124.Name = "panel124";
+            this.panel124.Size = new System.Drawing.Size(782, 48);
+            this.panel124.TabIndex = 7;
+            // 
+            // label43
+            // 
+            this.label43.AutoSize = true;
+            this.label43.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label43.Dock = System.Windows.Forms.DockStyle.Left;
+            this.label43.Font = new System.Drawing.Font("SF Pro Text", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label43.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(205)))), ((int)(((byte)(205)))));
+            this.label43.Location = new System.Drawing.Point(0, 0);
+            this.label43.Name = "label43";
+            this.label43.Size = new System.Drawing.Size(284, 23);
+            this.label43.TabIndex = 1;
+            this.label43.Text = "Choose your Mode of Payment";
+            // 
+            // panel121
+            // 
+            this.panel121.Controls.Add(this.panel214);
+            this.panel121.Controls.Add(this.panel175);
+            this.panel121.Controls.Add(this.panel174);
+            this.panel121.Controls.Add(this.panel206);
+            this.panel121.Controls.Add(this.panel205);
+            this.panel121.Controls.Add(this.panel204);
+            this.panel121.Controls.Add(this.panel203);
+            this.panel121.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel121.Location = new System.Drawing.Point(116, 114);
+            this.panel121.Name = "panel121";
+            this.panel121.Size = new System.Drawing.Size(782, 283);
+            this.panel121.TabIndex = 6;
+            // 
+            // panel206
+            // 
+            this.panel206.Controls.Add(this.totTicketsMOP);
+            this.panel206.Controls.Add(this.label66);
+            this.panel206.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel206.Location = new System.Drawing.Point(0, 119);
+            this.panel206.Name = "panel206";
+            this.panel206.Size = new System.Drawing.Size(782, 48);
+            this.panel206.TabIndex = 10;
+            // 
+            // totTicketsMOP
+            // 
+            this.totTicketsMOP.AutoSize = true;
+            this.totTicketsMOP.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.totTicketsMOP.Dock = System.Windows.Forms.DockStyle.Right;
+            this.totTicketsMOP.Font = new System.Drawing.Font("SF Pro Text", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.totTicketsMOP.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(86)))), ((int)(((byte)(245)))));
+            this.totTicketsMOP.Location = new System.Drawing.Point(753, 0);
+            this.totTicketsMOP.Name = "totTicketsMOP";
+            this.totTicketsMOP.Size = new System.Drawing.Size(29, 29);
+            this.totTicketsMOP.TabIndex = 2;
+            this.totTicketsMOP.Text = "4";
+            // 
+            // label66
+            // 
+            this.label66.AutoSize = true;
+            this.label66.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label66.Dock = System.Windows.Forms.DockStyle.Left;
+            this.label66.Font = new System.Drawing.Font("SF Pro Text", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label66.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(86)))), ((int)(((byte)(245)))));
+            this.label66.Location = new System.Drawing.Point(0, 0);
+            this.label66.Name = "label66";
+            this.label66.Size = new System.Drawing.Size(181, 29);
+            this.label66.TabIndex = 1;
+            this.label66.Text = "Total Tickets: ";
+            // 
+            // panel205
+            // 
+            this.panel205.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel205.Location = new System.Drawing.Point(0, 96);
+            this.panel205.Name = "panel205";
+            this.panel205.Size = new System.Drawing.Size(782, 23);
+            this.panel205.TabIndex = 9;
+            // 
+            // panel204
+            // 
+            this.panel204.Controls.Add(this.label64);
+            this.panel204.Controls.Add(this.label63);
+            this.panel204.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel204.Location = new System.Drawing.Point(0, 48);
+            this.panel204.Name = "panel204";
+            this.panel204.Size = new System.Drawing.Size(782, 48);
+            this.panel204.TabIndex = 8;
+            // 
+            // label64
+            // 
+            this.label64.AutoSize = true;
+            this.label64.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label64.Dock = System.Windows.Forms.DockStyle.Right;
+            this.label64.Font = new System.Drawing.Font("SF Pro Text", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label64.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(163)))), ((int)(((byte)(39)))));
+            this.label64.Location = new System.Drawing.Point(700, 0);
+            this.label64.Name = "label64";
+            this.label64.Size = new System.Drawing.Size(82, 29);
+            this.label64.TabIndex = 2;
+            this.label64.Text = "₱ 420";
+            // 
+            // label63
+            // 
+            this.label63.AutoSize = true;
+            this.label63.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label63.Dock = System.Windows.Forms.DockStyle.Left;
+            this.label63.Font = new System.Drawing.Font("SF Pro Text", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label63.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(163)))), ((int)(((byte)(39)))));
+            this.label63.Location = new System.Drawing.Point(0, 0);
+            this.label63.Name = "label63";
+            this.label63.Size = new System.Drawing.Size(158, 29);
+            this.label63.TabIndex = 1;
+            this.label63.Text = "Ticket Cost:";
+            // 
+            // panel203
+            // 
+            this.panel203.Controls.Add(this.panel198);
+            this.panel203.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel203.Location = new System.Drawing.Point(0, 0);
+            this.panel203.Name = "panel203";
+            this.panel203.Size = new System.Drawing.Size(782, 48);
+            this.panel203.TabIndex = 4;
+            // 
+            // panel120
+            // 
+            this.panel120.Controls.Add(this.label41);
+            this.panel120.Controls.Add(this.panel123);
+            this.panel120.Controls.Add(this.panel122);
+            this.panel120.Location = new System.Drawing.Point(116, 114);
+            this.panel120.Name = "panel120";
+            this.panel120.Size = new System.Drawing.Size(782, 48);
+            this.panel120.TabIndex = 5;
+            // 
+            // label41
+            // 
+            this.label41.AutoSize = true;
+            this.label41.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label41.Font = new System.Drawing.Font("SF Pro Text", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label41.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(205)))), ((int)(((byte)(205)))));
+            this.label41.Location = new System.Drawing.Point(320, 0);
+            this.label41.Name = "label41";
+            this.label41.Size = new System.Drawing.Size(185, 25);
+            this.label41.TabIndex = 2;
+            this.label41.Text = "Mode of Payment";
+            this.label41.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // panel123
+            // 
+            this.panel123.Location = new System.Drawing.Point(506, 0);
+            this.panel123.Name = "panel123";
+            this.panel123.Size = new System.Drawing.Size(276, 48);
+            this.panel123.TabIndex = 1;
+            // 
+            // panel122
+            // 
+            this.panel122.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel122.Location = new System.Drawing.Point(0, 0);
+            this.panel122.Name = "panel122";
+            this.panel122.Size = new System.Drawing.Size(320, 48);
+            this.panel122.TabIndex = 0;
+            // 
+            // panel119
+            // 
+            this.panel119.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel119.Location = new System.Drawing.Point(116, 97);
+            this.panel119.Name = "panel119";
+            this.panel119.Size = new System.Drawing.Size(782, 17);
+            this.panel119.TabIndex = 4;
+            // 
+            // panel118
+            // 
+            this.panel118.Controls.Add(this.label52);
+            this.panel118.Controls.Add(this.goBack);
+            this.panel118.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel118.Location = new System.Drawing.Point(116, 48);
+            this.panel118.Name = "panel118";
+            this.panel118.Size = new System.Drawing.Size(782, 49);
+            this.panel118.TabIndex = 3;
+            // 
+            // goBack
+            // 
+            this.goBack.AutoSize = true;
+            this.goBack.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.goBack.Dock = System.Windows.Forms.DockStyle.Right;
+            this.goBack.Font = new System.Drawing.Font("SF Pro Text", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.goBack.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(205)))), ((int)(((byte)(205)))));
+            this.goBack.Location = new System.Drawing.Point(677, 0);
+            this.goBack.Name = "goBack";
+            this.goBack.Size = new System.Drawing.Size(105, 23);
+            this.goBack.TabIndex = 0;
+            this.goBack.Text = "⤶ Go Back";
+            this.goBack.Click += new System.EventHandler(this.label39_Click);
+            // 
+            // panel117
+            // 
+            this.panel117.Controls.Add(this.panel202);
+            this.panel117.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel117.Location = new System.Drawing.Point(116, 0);
+            this.panel117.Name = "panel117";
+            this.panel117.Size = new System.Drawing.Size(782, 48);
+            this.panel117.TabIndex = 2;
+            // 
+            // panel202
+            // 
+            this.panel202.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel202.Location = new System.Drawing.Point(0, 0);
+            this.panel202.Name = "panel202";
+            this.panel202.Size = new System.Drawing.Size(782, 48);
+            this.panel202.TabIndex = 3;
+            // 
+            // panel72
+            // 
+            this.panel72.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel72.Location = new System.Drawing.Point(0, 0);
+            this.panel72.Name = "panel72";
+            this.panel72.Size = new System.Drawing.Size(116, 2707);
+            this.panel72.TabIndex = 1;
+            // 
             // panel51
             // 
-            this.panel51.Location = new System.Drawing.Point(10, 876);
+            this.panel51.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel51.Location = new System.Drawing.Point(898, 0);
             this.panel51.Name = "panel51";
-            this.panel51.Size = new System.Drawing.Size(994, 420);
-            this.panel51.TabIndex = 165;
+            this.panel51.Size = new System.Drawing.Size(116, 2707);
+            this.panel51.TabIndex = 0;
+            // 
+            // label62
+            // 
+            this.label62.AutoSize = true;
+            this.label62.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label62.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label62.Font = new System.Drawing.Font("SF Pro Text", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label62.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(3)))), ((int)(((byte)(3)))));
+            this.label62.Location = new System.Drawing.Point(34, 30);
+            this.label62.Name = "label62";
+            this.label62.Size = new System.Drawing.Size(240, 64);
+            this.label62.TabIndex = 86;
+            this.label62.Text = "Godzilla x Kong: \r\nThe New Empire";
+            this.label62.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label52
+            // 
+            this.label52.AutoSize = true;
+            this.label52.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label52.Dock = System.Windows.Forms.DockStyle.Left;
+            this.label52.Font = new System.Drawing.Font("SF Pro Text", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label52.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(205)))), ((int)(((byte)(205)))));
+            this.label52.Location = new System.Drawing.Point(0, 0);
+            this.label52.Name = "label52";
+            this.label52.Size = new System.Drawing.Size(237, 32);
+            this.label52.TabIndex = 2;
+            this.label52.Text = "Mode of Payment";
+            // 
+            // panel142
+            // 
+            this.panel142.BackColor = System.Drawing.Color.White;
+            this.panel142.Controls.Add(this.panel143);
+            this.panel142.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel142.Location = new System.Drawing.Point(34, 94);
+            this.panel142.Name = "panel142";
+            this.panel142.Size = new System.Drawing.Size(254, 26);
+            this.panel142.TabIndex = 87;
+            // 
+            // panel143
+            // 
+            this.panel143.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel143.Location = new System.Drawing.Point(230, 0);
+            this.panel143.Name = "panel143";
+            this.panel143.Size = new System.Drawing.Size(24, 26);
+            this.panel143.TabIndex = 82;
+            // 
+            // mopChoice
+            // 
+            this.mopChoice.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.mopChoice.Dock = System.Windows.Forms.DockStyle.Left;
+            this.mopChoice.Image = global::PRIME3.Properties.Resources.MicrosoftTeams_image_9_768x223;
+            this.mopChoice.Location = new System.Drawing.Point(61, 0);
+            this.mopChoice.Name = "mopChoice";
+            this.mopChoice.Size = new System.Drawing.Size(70, 42);
+            this.mopChoice.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.mopChoice.TabIndex = 3;
+            this.mopChoice.TabStop = false;
+            // 
+            // panel144
+            // 
+            this.panel144.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel144.Location = new System.Drawing.Point(0, 0);
+            this.panel144.Name = "panel144";
+            this.panel144.Size = new System.Drawing.Size(61, 42);
+            this.panel144.TabIndex = 4;
+            // 
+            // panel174
+            // 
+            this.panel174.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel174.Location = new System.Drawing.Point(0, 167);
+            this.panel174.Name = "panel174";
+            this.panel174.Size = new System.Drawing.Size(782, 23);
+            this.panel174.TabIndex = 11;
+            // 
+            // panel175
+            // 
+            this.panel175.Controls.Add(this.totalAmount);
+            this.panel175.Controls.Add(this.label54);
+            this.panel175.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel175.Location = new System.Drawing.Point(0, 190);
+            this.panel175.Name = "panel175";
+            this.panel175.Size = new System.Drawing.Size(782, 64);
+            this.panel175.TabIndex = 12;
+            // 
+            // totalAmount
+            // 
+            this.totalAmount.AutoSize = true;
+            this.totalAmount.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.totalAmount.Dock = System.Windows.Forms.DockStyle.Right;
+            this.totalAmount.Font = new System.Drawing.Font("SF Pro Text", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.totalAmount.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(86)))), ((int)(((byte)(245)))));
+            this.totalAmount.Location = new System.Drawing.Point(753, 0);
+            this.totalAmount.Name = "totalAmount";
+            this.totalAmount.Size = new System.Drawing.Size(29, 29);
+            this.totalAmount.TabIndex = 2;
+            this.totalAmount.Text = "4";
+            // 
+            // label54
+            // 
+            this.label54.AutoSize = true;
+            this.label54.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label54.Dock = System.Windows.Forms.DockStyle.Left;
+            this.label54.Font = new System.Drawing.Font("SF Pro Text", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label54.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(86)))), ((int)(((byte)(245)))));
+            this.label54.Location = new System.Drawing.Point(0, 0);
+            this.label54.Name = "label54";
+            this.label54.Size = new System.Drawing.Size(182, 29);
+            this.label54.TabIndex = 1;
+            this.label54.Text = "Total Amount:";
+            // 
+            // panel207
+            // 
+            this.panel207.BackColor = System.Drawing.Color.White;
+            this.panel207.Controls.Add(this.label61);
+            this.panel207.Controls.Add(this.totTicketsReceipt);
+            this.panel207.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel207.Location = new System.Drawing.Point(34, 16);
+            this.panel207.Name = "panel207";
+            this.panel207.Size = new System.Drawing.Size(399, 30);
+            this.panel207.TabIndex = 84;
+            // 
+            // panel208
+            // 
+            this.panel208.BackColor = System.Drawing.Color.White;
+            this.panel208.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel208.Location = new System.Drawing.Point(34, 46);
+            this.panel208.Name = "panel208";
+            this.panel208.Size = new System.Drawing.Size(399, 16);
+            this.panel208.TabIndex = 85;
+            // 
+            // panel209
+            // 
+            this.panel209.BackColor = System.Drawing.Color.White;
+            this.panel209.Controls.Add(this.label39);
+            this.panel209.Controls.Add(this.totAmountReceipt);
+            this.panel209.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel209.Location = new System.Drawing.Point(34, 62);
+            this.panel209.Name = "panel209";
+            this.panel209.Size = new System.Drawing.Size(399, 30);
+            this.panel209.TabIndex = 86;
+            // 
+            // label39
+            // 
+            this.label39.AutoSize = true;
+            this.label39.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label39.Dock = System.Windows.Forms.DockStyle.Left;
+            this.label39.Font = new System.Drawing.Font("SF Pro Text", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label39.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(3)))), ((int)(((byte)(3)))));
+            this.label39.Location = new System.Drawing.Point(0, 0);
+            this.label39.Name = "label39";
+            this.label39.Size = new System.Drawing.Size(164, 25);
+            this.label39.TabIndex = 82;
+            this.label39.Text = "Total Amount: ";
+            this.label39.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // totAmountReceipt
+            // 
+            this.totAmountReceipt.AutoSize = true;
+            this.totAmountReceipt.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.totAmountReceipt.Dock = System.Windows.Forms.DockStyle.Right;
+            this.totAmountReceipt.Font = new System.Drawing.Font("SF Pro Text", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.totAmountReceipt.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(3)))), ((int)(((byte)(3)))));
+            this.totAmountReceipt.Location = new System.Drawing.Point(373, 0);
+            this.totAmountReceipt.Name = "totAmountReceipt";
+            this.totAmountReceipt.Size = new System.Drawing.Size(26, 25);
+            this.totAmountReceipt.TabIndex = 83;
+            this.totAmountReceipt.Text = "0";
+            this.totAmountReceipt.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // panel210
+            // 
+            this.panel210.BackColor = System.Drawing.Color.White;
+            this.panel210.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel210.Location = new System.Drawing.Point(34, 92);
+            this.panel210.Name = "panel210";
+            this.panel210.Size = new System.Drawing.Size(399, 16);
+            this.panel210.TabIndex = 87;
+            // 
+            // panel211
+            // 
+            this.panel211.BackColor = System.Drawing.Color.White;
+            this.panel211.Controls.Add(this.mopReceipt);
+            this.panel211.Controls.Add(this.panel212);
+            this.panel211.Controls.Add(this.label55);
+            this.panel211.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel211.Location = new System.Drawing.Point(34, 108);
+            this.panel211.Name = "panel211";
+            this.panel211.Size = new System.Drawing.Size(399, 30);
+            this.panel211.TabIndex = 88;
+            // 
+            // label55
+            // 
+            this.label55.AutoSize = true;
+            this.label55.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label55.Dock = System.Windows.Forms.DockStyle.Left;
+            this.label55.Font = new System.Drawing.Font("SF Pro Text", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label55.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(3)))), ((int)(((byte)(3)))));
+            this.label55.Location = new System.Drawing.Point(0, 0);
+            this.label55.Name = "label55";
+            this.label55.Size = new System.Drawing.Size(74, 25);
+            this.label55.TabIndex = 82;
+            this.label55.Text = "MOP: ";
+            this.label55.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // panel212
+            // 
+            this.panel212.BackColor = System.Drawing.Color.White;
+            this.panel212.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel212.Location = new System.Drawing.Point(389, 0);
+            this.panel212.Name = "panel212";
+            this.panel212.Size = new System.Drawing.Size(10, 30);
+            this.panel212.TabIndex = 83;
+            // 
+            // mopReceipt
+            // 
+            this.mopReceipt.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.mopReceipt.Dock = System.Windows.Forms.DockStyle.Right;
+            this.mopReceipt.Image = global::PRIME3.Properties.Resources.bdo_unibank_horz_cmyk_pos_01_thu_ZAMPTA7z7s575klK;
+            this.mopReceipt.Location = new System.Drawing.Point(274, 0);
+            this.mopReceipt.Name = "mopReceipt";
+            this.mopReceipt.Size = new System.Drawing.Size(115, 30);
+            this.mopReceipt.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.mopReceipt.TabIndex = 84;
+            this.mopReceipt.TabStop = false;
+            // 
+            // panel147
+            // 
+            this.panel147.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel147.Location = new System.Drawing.Point(666, 41);
+            this.panel147.Name = "panel147";
+            this.panel147.Size = new System.Drawing.Size(116, 857);
+            this.panel147.TabIndex = 18;
+            // 
+            // panel148
+            // 
+            this.panel148.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel148.Location = new System.Drawing.Point(116, 2585);
+            this.panel148.Name = "panel148";
+            this.panel148.Size = new System.Drawing.Size(782, 122);
+            this.panel148.TabIndex = 14;
+            // 
+            // panel173
+            // 
+            this.panel173.Controls.Add(this.panel213);
+            this.panel173.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel173.Location = new System.Drawing.Point(116, 2488);
+            this.panel173.Name = "panel173";
+            this.panel173.Size = new System.Drawing.Size(782, 97);
+            this.panel173.TabIndex = 15;
+            // 
+            // panel213
+            // 
+            this.panel213.Controls.Add(this.label57);
+            this.panel213.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel213.Location = new System.Drawing.Point(0, 0);
+            this.panel213.Name = "panel213";
+            this.panel213.Size = new System.Drawing.Size(782, 97);
+            this.panel213.TabIndex = 3;
+            // 
+            // label57
+            // 
+            this.label57.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label57.AutoSize = true;
+            this.label57.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label57.Font = new System.Drawing.Font("SF Pro Text", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label57.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(205)))), ((int)(((byte)(205)))), ((int)(((byte)(205)))));
+            this.label57.Location = new System.Drawing.Point(344, 30);
+            this.label57.Name = "label57";
+            this.label57.Size = new System.Drawing.Size(123, 25);
+            this.label57.TabIndex = 2;
+            this.label57.Text = "Scroll Up ↑";
+            this.label57.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // panel198
+            // 
+            this.panel198.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(11)))), ((int)(((byte)(41)))));
+            this.panel198.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel198.Location = new System.Drawing.Point(0, 0);
+            this.panel198.Name = "panel198";
+            this.panel198.Size = new System.Drawing.Size(782, 2);
+            this.panel198.TabIndex = 0;
+            // 
+            // panel214
+            // 
+            this.panel214.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(11)))), ((int)(((byte)(41)))));
+            this.panel214.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel214.Location = new System.Drawing.Point(0, 254);
+            this.panel214.Name = "panel214";
+            this.panel214.Size = new System.Drawing.Size(782, 2);
+            this.panel214.TabIndex = 13;
             // 
             // FunctionFormbg
             // 
@@ -5988,6 +7757,7 @@
             this.AutoScrollMinSize = new System.Drawing.Size(0, 2800);
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(3)))), ((int)(((byte)(3)))));
             this.ClientSize = new System.Drawing.Size(1250, 869);
+            this.Controls.Add(this.paymentPanel);
             this.Controls.Add(this.label49);
             this.Controls.Add(this.label25);
             this.Controls.Add(this.panel19);
@@ -6081,7 +7851,6 @@
             this.panel10.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.movieOPoster)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.panel9.ResumeLayout(false);
             this.panel9.PerformLayout();
             this.panel14.ResumeLayout(false);
@@ -6096,6 +7865,66 @@
             this.panel19.PerformLayout();
             this.panel45.ResumeLayout(false);
             this.panel45.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            this.paymentPanel.ResumeLayout(false);
+            this.ReceiptPanel.ResumeLayout(false);
+            this.mainReceipt.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+            this.panel192.ResumeLayout(false);
+            this.panel177.ResumeLayout(false);
+            this.panel177.PerformLayout();
+            this.panel190.ResumeLayout(false);
+            this.panel190.PerformLayout();
+            this.panel188.ResumeLayout(false);
+            this.panel188.PerformLayout();
+            this.panel186.ResumeLayout(false);
+            this.panel186.PerformLayout();
+            this.panel184.ResumeLayout(false);
+            this.panel184.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            this.panel172.ResumeLayout(false);
+            this.panel172.PerformLayout();
+            this.panel150.ResumeLayout(false);
+            this.receiptHeader.ResumeLayout(false);
+            this.panel145.ResumeLayout(false);
+            this.panel145.PerformLayout();
+            this.panel132.ResumeLayout(false);
+            this.panel139.ResumeLayout(false);
+            this.panel135.ResumeLayout(false);
+            this.panel137.ResumeLayout(false);
+            this.panel133.ResumeLayout(false);
+            this.panel133.PerformLayout();
+            this.panel126.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.BdoUnibank)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.maya)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gCash)).EndInit();
+            this.panel124.ResumeLayout(false);
+            this.panel124.PerformLayout();
+            this.panel121.ResumeLayout(false);
+            this.panel206.ResumeLayout(false);
+            this.panel206.PerformLayout();
+            this.panel204.ResumeLayout(false);
+            this.panel204.PerformLayout();
+            this.panel203.ResumeLayout(false);
+            this.panel120.ResumeLayout(false);
+            this.panel120.PerformLayout();
+            this.panel118.ResumeLayout(false);
+            this.panel118.PerformLayout();
+            this.panel117.ResumeLayout(false);
+            this.panel142.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.mopChoice)).EndInit();
+            this.panel175.ResumeLayout(false);
+            this.panel175.PerformLayout();
+            this.panel207.ResumeLayout(false);
+            this.panel207.PerformLayout();
+            this.panel209.ResumeLayout(false);
+            this.panel209.PerformLayout();
+            this.panel211.ResumeLayout(false);
+            this.panel211.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.mopReceipt)).EndInit();
+            this.panel173.ResumeLayout(false);
+            this.panel213.ResumeLayout(false);
+            this.panel213.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -6378,6 +8207,146 @@
         private System.Windows.Forms.Panel panel115;
         private System.Windows.Forms.Panel panel116;
         private System.Windows.Forms.Panel panel50;
+        private System.Windows.Forms.Panel paymentPanel;
+        private System.Windows.Forms.Panel panel120;
+        private System.Windows.Forms.Panel panel119;
+        private System.Windows.Forms.Panel panel118;
+        private System.Windows.Forms.Label goBack;
+        private System.Windows.Forms.Panel panel117;
+        private System.Windows.Forms.Panel panel72;
         private System.Windows.Forms.Panel panel51;
+        private System.Windows.Forms.Panel panel121;
+        private System.Windows.Forms.Label label41;
+        private System.Windows.Forms.Panel panel123;
+        private System.Windows.Forms.Panel panel122;
+        private System.Windows.Forms.Panel panel126;
+        private System.Windows.Forms.PictureBox gCash;
+        private System.Windows.Forms.Panel panel125;
+        private System.Windows.Forms.Panel panel124;
+        private System.Windows.Forms.Label label43;
+        private System.Windows.Forms.PictureBox maya;
+        private System.Windows.Forms.PictureBox BdoUnibank;
+        private System.Windows.Forms.Panel panel130;
+        private System.Windows.Forms.Panel panel128;
+        private System.Windows.Forms.Panel panel129;
+        private System.Windows.Forms.Panel panel127;
+        private System.Windows.Forms.Panel panel132;
+        private ReaLTaiizor.Controls.CyberTextBox AccountNum;
+        private System.Windows.Forms.Panel panel135;
+        private System.Windows.Forms.Panel panel134;
+        private System.Windows.Forms.Panel panel133;
+        private System.Windows.Forms.Label label45;
+        private System.Windows.Forms.Panel panel131;
+        private System.Windows.Forms.Panel panel139;
+        private System.Windows.Forms.Panel panel138;
+        private System.Windows.Forms.Panel panel137;
+        private System.Windows.Forms.Panel panel136;
+        private ReaLTaiizor.Controls.CyberButton payNowBttn;
+        private System.Windows.Forms.Panel ReceiptPanel;
+        private System.Windows.Forms.Label label47;
+        private System.Windows.Forms.Panel receiptHeader;
+        private System.Windows.Forms.Panel panel140;
+        private System.Windows.Forms.Panel panel145;
+        private System.Windows.Forms.Panel panel146;
+        private System.Windows.Forms.Panel panel141;
+        private System.Windows.Forms.Panel mainReceipt;
+        private System.Windows.Forms.Panel panel176;
+        private System.Windows.Forms.Panel panel172;
+        private System.Windows.Forms.Label label51;
+        private System.Windows.Forms.Panel panel171;
+        private System.Windows.Forms.Panel panel150;
+        private System.Windows.Forms.Panel panel170;
+        private System.Windows.Forms.Panel panel169;
+        private System.Windows.Forms.Panel panel168;
+        private System.Windows.Forms.Panel panel167;
+        private System.Windows.Forms.Panel panel159;
+        private System.Windows.Forms.Panel panel160;
+        private System.Windows.Forms.Panel panel161;
+        private System.Windows.Forms.Panel panel162;
+        private System.Windows.Forms.Panel panel163;
+        private System.Windows.Forms.Panel panel164;
+        private System.Windows.Forms.Panel panel165;
+        private System.Windows.Forms.Panel panel166;
+        private System.Windows.Forms.Panel panel155;
+        private System.Windows.Forms.Panel panel156;
+        private System.Windows.Forms.Panel panel157;
+        private System.Windows.Forms.Panel panel158;
+        private System.Windows.Forms.Panel panel154;
+        private System.Windows.Forms.Panel panel153;
+        private System.Windows.Forms.Panel panel152;
+        private System.Windows.Forms.Panel panel151;
+        private System.Windows.Forms.Panel panel149;
+        private System.Windows.Forms.Panel panel177;
+        private System.Windows.Forms.PictureBox pictureBox7;
+        private System.Windows.Forms.Panel panel180;
+        private System.Windows.Forms.Panel panel179;
+        private System.Windows.Forms.Panel panel178;
+        private System.Windows.Forms.Panel panel181;
+        private System.Windows.Forms.Panel panel190;
+        private System.Windows.Forms.Label seatNoReceipt;
+        private System.Windows.Forms.Panel panel191;
+        private System.Windows.Forms.Label label60;
+        private System.Windows.Forms.Panel panel188;
+        private System.Windows.Forms.Label timeReceipt;
+        private System.Windows.Forms.Panel panel189;
+        private System.Windows.Forms.Label label58;
+        private System.Windows.Forms.Panel panel186;
+        private System.Windows.Forms.Label dateReceipt;
+        private System.Windows.Forms.Panel panel187;
+        private System.Windows.Forms.Label label56;
+        private System.Windows.Forms.Panel panel184;
+        private System.Windows.Forms.Label locationReceipt;
+        private System.Windows.Forms.Panel panel185;
+        private System.Windows.Forms.Label label53;
+        private System.Windows.Forms.Panel panel183;
+        private System.Windows.Forms.Panel panel182;
+        private System.Windows.Forms.Panel panel192;
+        private System.Windows.Forms.Panel panel194;
+        private System.Windows.Forms.Panel panel193;
+        private System.Windows.Forms.Label totTicketsReceipt;
+        private System.Windows.Forms.Label label61;
+        private System.Windows.Forms.Panel panel196;
+        private System.Windows.Forms.Panel panel195;
+        private System.Windows.Forms.PictureBox pictureBox8;
+        private System.Windows.Forms.Panel panel197;
+        private System.Windows.Forms.Panel panel201;
+        private System.Windows.Forms.Panel panel200;
+        private System.Windows.Forms.Panel panel199;
+        private System.Windows.Forms.Panel panel204;
+        private System.Windows.Forms.Label label64;
+        private System.Windows.Forms.Label label63;
+        private System.Windows.Forms.Panel panel203;
+        private System.Windows.Forms.Panel panel202;
+        private System.Windows.Forms.Panel panel206;
+        private System.Windows.Forms.Label totTicketsMOP;
+        private System.Windows.Forms.Label label66;
+        private System.Windows.Forms.Panel panel205;
+        private System.Windows.Forms.Label label62;
+        private System.Windows.Forms.Label label52;
+        private System.Windows.Forms.Panel panel142;
+        private System.Windows.Forms.Panel panel143;
+        private System.Windows.Forms.PictureBox mopChoice;
+        private System.Windows.Forms.Panel panel144;
+        private System.Windows.Forms.Panel panel175;
+        private System.Windows.Forms.Label totalAmount;
+        private System.Windows.Forms.Label label54;
+        private System.Windows.Forms.Panel panel174;
+        private System.Windows.Forms.Panel panel207;
+        private System.Windows.Forms.Panel panel211;
+        private System.Windows.Forms.PictureBox mopReceipt;
+        private System.Windows.Forms.Panel panel212;
+        private System.Windows.Forms.Label label55;
+        private System.Windows.Forms.Panel panel210;
+        private System.Windows.Forms.Panel panel209;
+        private System.Windows.Forms.Label label39;
+        private System.Windows.Forms.Label totAmountReceipt;
+        private System.Windows.Forms.Panel panel208;
+        private System.Windows.Forms.Panel panel147;
+        private System.Windows.Forms.Panel panel173;
+        private System.Windows.Forms.Panel panel213;
+        private System.Windows.Forms.Label label57;
+        private System.Windows.Forms.Panel panel148;
+        private System.Windows.Forms.Panel panel214;
+        private System.Windows.Forms.Panel panel198;
     }
 }

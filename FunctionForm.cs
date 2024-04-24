@@ -25,10 +25,21 @@ namespace PRIME3
         public FunctionFormbg()
         {
             InitializeComponent();
+
+            goBack.ForeColor = Color.FromArgb(84, 84, 84);              //Color of the Go Back Button
+            sidebarAccess1.ForeColor = Color.FromArgb(84, 84, 84);      //Color of the Upper Left Button
             ticketInfoPanel.Visible = false;
             breakDownList.Visible = false;
+            panel44.Visible = false;
+            receiptHeader.Visible = false;
+            ReceiptPanel.Visible = false;
+            paymentPanel.Visible = false;
+            panel145.Visible = false;
+
             sidebarAccess1.MouseEnter += sidebarAccess1_MouseEnter;
             sidebarAccess1.MouseLeave += sidebarAccess1_MouseLeave;
+            goBack.MouseEnter += goBack_MouseEnter;
+            goBack.MouseLeave += goBack_MouseLeave;
 
             add2CartText.MouseEnter += label5_MouseEnter;
             add2CartText.MouseLeave += label5_MouseLeave;
@@ -38,6 +49,7 @@ namespace PRIME3
 
             selectTheater.SelectedIndexChanged += selectTheater_SelectedIndexChanged;
             selectDate.SelectedIndexChanged += selectDate_SelectedIndexChanged;
+            
             timeBttn1.Click += timeBttn1_Click;
             timeBttn2.Click += timeBttn2_Click;
             timeBttn3.Click += timeBttn3_Click;
@@ -129,6 +141,10 @@ namespace PRIME3
                 button.Click += Button_Click;
             }
             proceedPayBttn.Click += proceedPayBttn_Click;
+
+            mopChoice.Click += gCash_Click;
+            mopChoice.Click += BdoUnibank_Click;
+            mopChoice.Click += maya_Click;
         }
         private void label5_MouseEnter(object sender, EventArgs e)
         {
@@ -148,6 +164,16 @@ namespace PRIME3
         {
             sidebarAccess1.ForeColor = Color.FromArgb(84, 84, 84);
         }
+        private void goBack_MouseEnter(object sender, EventArgs e)
+        {
+            goBack.ForeColor = Color.FromArgb(205, 205, 205);
+        }
+
+        private void goBack_MouseLeave(object sender, EventArgs e)
+        {
+            goBack.ForeColor = Color.FromArgb(84, 84, 84);
+        }
+
 
         private void StarSign_Click(object sender, EventArgs e)
         {
@@ -185,36 +211,44 @@ namespace PRIME3
         private void selectTheater_SelectedIndexChanged(object sender, EventArgs e)
         {
             labelLocation.Text = selectTheater.SelectedItem.ToString();
+            locationReceipt.Text = selectTheater.SelectedItem.ToString();
         }
 
         private void selectDate_SelectedIndexChanged(object sender, EventArgs e)
         {
             labelDate.Text = selectDate.SelectedItem.ToString();
+            dateReceipt.Text = selectDate.SelectedItem.ToString();
         }
 
         private void timeBttn1_Click(object sender, EventArgs e)
         {
             labelTime.Text = "12:00 PM - 1:30 PM";
+            timeReceipt.Text = "12:00 PM - 1:30 PM";
         }
         private void timeBttn2_Click(object sender, EventArgs e)
         {
             labelTime.Text = "2:00 PM - 3:30 PM";
+            timeReceipt.Text = "2:00 PM - 3:30 PM";
         }
         private void timeBttn3_Click(object sender, EventArgs e)
         {
             labelTime.Text = "4:00 PM - 5:30 PM";
+            timeReceipt.Text = "4:00 PM - 5:30 PM";
         }
         private void timeBttn4_Click(object sender, EventArgs e)
         {
             labelTime.Text = "6:00 PM - 7:30 PM";
+            timeReceipt.Text = "6:00 PM - 7:30 PM";
         }
         private void timeBttn5_Click(object sender, EventArgs e)
         {
             labelTime.Text = "8:00 PM - 9:30 PM";
+            timeReceipt.Text = "8:00 PM - 9:30 PM";
         }
         private void timeBttn6_Click(object sender, EventArgs e)
         {
             labelTime.Text = "10:00 PM - 11:30 PM";
+            timeReceipt.Text = "10:00 PM - 11:30 PM";
         }
         private void Button_Click(object sender, EventArgs e)
         {
@@ -239,19 +273,58 @@ namespace PRIME3
             // Update SeatNo label with the clicked button texts
             seatNumber.Text = string.Join(", ", clickedButtonTexts);
             SeatNo.Text = string.Join(", ", clickedButtonTexts);
-            
+            seatNoReceipt.Text = string.Join(", ", clickedButtonTexts);
+
             // Update ticketNum label with the count of clicked buttons
             ticketNum.Text = clickedButtonTexts.Count.ToString();
+            totTicketsReceipt.Text = clickedButtonTexts.Count.ToString();
+            totTicketsMOP.Text = clickedButtonTexts.Count.ToString();
+            // Total Amount
+            totalAmount.Text = (clickedButtonTexts.Count * 420).ToString();
+            totAmountReceipt.Text = (clickedButtonTexts.Count * 420).ToString();
         }
 
         private void proceedPayBttn_Click(object sender, EventArgs e)
         {
             
-            proceedPayBttn.Text = "↩ Return";
             ticketInfoPanel.Visible = false;
             breakDownList.Visible = false;
+            receiptHeader.Visible = true;
+            paymentPanel.Visible = true;
+            panel145.Visible = true;
 
 
+        }
+
+        private void payNowBttn_Click(object sender, EventArgs e)
+        {
+            panel44.Visible = true;
+            ReceiptPanel.Visible = true;
+        }
+
+        private void label39_Click(object sender, EventArgs e)
+        {
+            paymentPanel.Visible = false;
+            ticketInfoPanel.Visible = true;
+            breakDownList.Visible = true;
+        }
+
+        private void gCash_Click(object sender, EventArgs e)
+        {
+            mopChoice.Image = gCash.Image;
+            mopReceipt.Image = gCash.Image;
+        }
+
+        private void BdoUnibank_Click(object sender, EventArgs e)
+        {
+            mopChoice.Image = BdoUnibank.Image;
+            mopReceipt.Image = BdoUnibank.Image;
+        }
+
+        private void maya_Click(object sender, EventArgs e)
+        {
+            mopChoice.Image = maya.Image;
+            mopReceipt.Image = maya.Image;
         }
     }
 }
