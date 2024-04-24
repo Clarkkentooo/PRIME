@@ -29,14 +29,22 @@ namespace PRIME_FINAL
         private Size originalSize;
 
         private Form currentGodzillaForm;
+        public static Home instance;
+        public System.Windows.Forms.Panel paneldesk;
+        public PictureBox addtoCartImage;
+
         public Home()
         {
             InitializeComponent();
             CollapseMenu();
+            instance = this;
+            paneldesk = desktopPanel;
+            addtoCartImage = add2Cart;
+            addtoCartImage.Visible = false;
 
 
             this.Padding = new Padding(borderSize); //Border Size
-            this.BackColor = Color.FromArgb(3,3,3); //Border Color
+            this.BackColor = Color.FromArgb(3, 3, 3); //Border Color
 
             //Exit, Maximize and Minimize
             exitSign.MouseEnter += exitSign_MouseEnter;
@@ -341,8 +349,6 @@ namespace PRIME_FINAL
 
         private void mpictureGodzilla_Click(object sender, EventArgs e)
         {
-            
-
             // Open FunctionFormbg
             OpenGodzillaForm(new FunctionFormbg());
 

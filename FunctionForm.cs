@@ -17,17 +17,24 @@ namespace PRIME3
 
     public partial class FunctionFormbg : Form
     {
+
+
         //private Size formSize;
         //private int borderSize = 1;
         private Form currentBookingFormGD;
         private Dictionary<Button, string> buttonTextMap = new Dictionary<Button, string>();
         private HashSet<string> clickedButtonTexts = new HashSet<string>();
+        private ReaLTaiizor.Controls.MetroScrollBar metroScrollBar1;
+        public static FunctionFormbg instance;
+        public System.Windows.Forms.Panel paneldesk;
         public FunctionFormbg()
         {
             InitializeComponent();
+            instance = this;
 
             goBack.ForeColor = Color.FromArgb(84, 84, 84);              //Color of the Go Back Button
             sidebarAccess1.ForeColor = Color.FromArgb(84, 84, 84);      //Color of the Upper Left Button
+            
             ticketInfoPanel.Visible = false;
             breakDownList.Visible = false;
             panel44.Visible = false;
@@ -197,8 +204,8 @@ namespace PRIME3
 
         private void sidebarAccess1_Click(object sender, EventArgs e)
         {
-            Home homeForm = new Home();
-            homeForm.Show();
+            Home.instance.paneldesk.Visible = false;
+
         }
 
         
@@ -292,8 +299,14 @@ namespace PRIME3
             receiptHeader.Visible = true;
             paymentPanel.Visible = true;
             panel145.Visible = true;
-
-
+        }
+        private void proceedPayBttn_MouseEnter(object sender, EventArgs e)
+        {
+            proceedPayBttn.ForeColor = Color.FromArgb(205, 205, 205);
+        }
+        private void proceedPayBttn_MouseLeave(object sender, EventArgs e)
+        {
+            proceedPayBttn.ForeColor = Color.FromArgb(84, 84, 84);
         }
 
         private void payNowBttn_Click(object sender, EventArgs e)
@@ -325,6 +338,16 @@ namespace PRIME3
         {
             mopChoice.Image = maya.Image;
             mopReceipt.Image = maya.Image;
+        }
+
+        private void add2CartText_Click(object sender, EventArgs e)
+        {
+            if (Home.instance != null)
+            {
+                // Assuming "cartGodzilla" is the name of the image resource
+                Home.instance.addtoCartImage.Image = Properties.Resources.cartGodzilla;
+                Home.instance.addtoCartImage.Visible = true;
+            }
         }
     }
 }

@@ -75,6 +75,11 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel40 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.panel78 = new System.Windows.Forms.Panel();
+            this.panel77 = new System.Windows.Forms.Panel();
+            this.add2Cart = new System.Windows.Forms.PictureBox();
+            this.panel63 = new System.Windows.Forms.Panel();
+            this.panel100 = new System.Windows.Forms.Panel();
             this.panel20 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
             this.label6 = new System.Windows.Forms.Label();
@@ -200,6 +205,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel3.SuspendLayout();
             this.panel1.SuspendLayout();
+            this.panel77.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.add2Cart)).BeginInit();
             this.panel6.SuspendLayout();
             this.panel8.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -758,6 +765,10 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Transparent;
+            this.panel1.Controls.Add(this.panel78);
+            this.panel1.Controls.Add(this.panel77);
+            this.panel1.Controls.Add(this.panel63);
+            this.panel1.Controls.Add(this.panel100);
             this.panel1.Controls.Add(this.panel20);
             this.panel1.Controls.Add(this.panel6);
             this.panel1.Controls.Add(this.panel2);
@@ -767,6 +778,53 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(369, 832);
             this.panel1.TabIndex = 0;
+            // 
+            // panel78
+            // 
+            this.panel78.BackColor = System.Drawing.Color.Transparent;
+            this.panel78.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel78.Location = new System.Drawing.Point(14, 525);
+            this.panel78.Name = "panel78";
+            this.panel78.Size = new System.Drawing.Size(343, 19);
+            this.panel78.TabIndex = 173;
+            // 
+            // panel77
+            // 
+            this.panel77.BackColor = System.Drawing.Color.Transparent;
+            this.panel77.Controls.Add(this.add2Cart);
+            this.panel77.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel77.Location = new System.Drawing.Point(14, 72);
+            this.panel77.Name = "panel77";
+            this.panel77.Size = new System.Drawing.Size(343, 453);
+            this.panel77.TabIndex = 172;
+            // 
+            // add2Cart
+            // 
+            this.add2Cart.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.add2Cart.Dock = System.Windows.Forms.DockStyle.Top;
+            this.add2Cart.Image = global::PRIME3.Properties.Resources.cartGodzilla;
+            this.add2Cart.Location = new System.Drawing.Point(0, 0);
+            this.add2Cart.Name = "add2Cart";
+            this.add2Cart.Size = new System.Drawing.Size(343, 450);
+            this.add2Cart.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.add2Cart.TabIndex = 0;
+            this.add2Cart.TabStop = false;
+            // 
+            // panel63
+            // 
+            this.panel63.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel63.Location = new System.Drawing.Point(2, 72);
+            this.panel63.Name = "panel63";
+            this.panel63.Size = new System.Drawing.Size(12, 760);
+            this.panel63.TabIndex = 171;
+            // 
+            // panel100
+            // 
+            this.panel100.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel100.Location = new System.Drawing.Point(357, 72);
+            this.panel100.Name = "panel100";
+            this.panel100.Size = new System.Drawing.Size(12, 760);
+            this.panel100.TabIndex = 170;
             // 
             // panel20
             // 
@@ -1996,6 +2054,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
+            this.panel77.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.add2Cart)).EndInit();
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
             this.panel8.ResumeLayout(false);
@@ -2209,5 +2269,10 @@
         private System.Windows.Forms.Panel panel48;
         private System.Windows.Forms.Panel mainPanel;
         private System.Windows.Forms.Panel desktopPanel;
+        private System.Windows.Forms.Panel panel78;
+        private System.Windows.Forms.Panel panel77;
+        private System.Windows.Forms.PictureBox add2Cart;
+        private System.Windows.Forms.Panel panel63;
+        private System.Windows.Forms.Panel panel100;
     }
 }

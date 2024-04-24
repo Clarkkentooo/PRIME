@@ -418,5 +418,8 @@
   <ItemGroup>
     <None Include="Resources\godzQR.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cartGodzilla.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

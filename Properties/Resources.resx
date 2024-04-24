@@ -157,6 +157,9 @@
   <data name="video" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\video.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="godzQR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\godzQR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="2222radio" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\2222radio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -168,6 +171,9 @@
   </data>
   <data name="madamewebb" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\madamewebb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dune" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dune.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="GodzillaHeader" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\GodzillaHeader.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -280,14 +286,11 @@
   <data name="MicrosoftTeams-image-9-768x223" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MicrosoftTeams-image-9-768x223.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="A6 - 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\A6 - 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Mark" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Mark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="FIRST PAGE" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\FIRST PAGE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rectangle 1034" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rectangle 1034.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ticket" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ticket.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -313,8 +316,8 @@
   <data name="godzilla1212" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\godzilla1212.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Rectangle 1034" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Rectangle 1034.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="A6 - 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\A6 - 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Ellipsebg" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Ellipsebg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -331,10 +334,10 @@
   <data name="search222" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\search222.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="dune" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\dune.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Mark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="godzQR" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\godzQR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="cartGodzilla" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cartGodzilla.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
