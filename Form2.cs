@@ -40,6 +40,7 @@ namespace PRIME_FINAL
             instance = this;
             paneldesk = desktopPanel;
             addtoCartImage = add2Cart;
+            //addtoCartImage = add2CartText1;
             addtoCartImage.Visible = false;
 
 
@@ -79,26 +80,39 @@ namespace PRIME_FINAL
             //Hover Event for Movie Posters in panel
             moviePicture.MouseEnter += Picture_MouseEnter;
             moviePicture.MouseLeave += Picture_MouseLeave;
+            moviePicture.Click += moviePicture_Click;
+
             desktopPanel.Visible = false;
+
             mpictureGodzilla.MouseEnter += Picture_MouseEnter;
             mpictureGodzilla.MouseLeave += Picture_MouseLeave;
             mpictureGodzilla.Click += mpictureGodzilla_Click;
 
             mpictureKFPanda.MouseEnter += Picture_MouseEnter;
             mpictureKFPanda.MouseLeave += Picture_MouseLeave;
+            mpictureKFPanda.Click += mpictureKFPanda_Click;
 
             mpictureWeb.MouseEnter += Picture_MouseEnter;
             mpictureWeb.MouseLeave += Picture_MouseLeave;
+            mpictureWeb.Click += mpictureWeb_Click;
 
             mpictureHungerG.MouseEnter += Picture_MouseEnter;
             mpictureHungerG.MouseLeave += Picture_MouseLeave;
+            mpictureHungerG.Click += mpictureHungerG_Click;
 
             mpictureOppenH.MouseEnter += Picture_MouseEnter;
             mpictureOppenH.MouseLeave += Picture_MouseLeave;
+            mpictureOppenH.Click += mpictureOppenH_Click;
 
             mpictureSMario.MouseEnter += Picture_MouseEnter;
             mpictureSMario.MouseLeave += Picture_MouseLeave;
+            mpictureSMario.Click += mpictureSMario_Click;
 
+        }
+
+        private void MpictureHungerG_Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
         }
 
         private void LoadNextImage()
@@ -369,6 +383,144 @@ namespace PRIME_FINAL
             desktopPanel.Tag = godzillaForm;
             godzillaForm.BringToFront();
             godzillaForm.Show();
+        }
+        private void moviePicture_Click(object sender, EventArgs e)
+        {
+            // Open FunctionFormbg
+            OpenDuneForm(new FunctionFormDune());
+
+            // Show desktopPanel again after FunctionFormbg is closed
+            desktopPanel.Visible = true;
+        }
+        private void OpenDuneForm(Form duneForm)
+        {
+            if (currentGodzillaForm != null)
+            {
+                currentGodzillaForm.Close();
+            }
+            currentGodzillaForm = duneForm;
+            duneForm.TopLevel = false;
+            duneForm.FormBorderStyle = FormBorderStyle.None;
+            duneForm.Dock = DockStyle.Fill;
+            desktopPanel.Controls.Add(duneForm);
+            desktopPanel.Tag = duneForm;
+            duneForm.BringToFront();
+            duneForm.Show();
+        }
+        private void mpictureKFPanda_Click(object sender, EventArgs e)
+        {
+            // Open FunctionFormbg
+            OpenKFPandaForm(new FunctionFormKfPanda());
+
+            // Show desktopPanel again after FunctionFormbg is closed
+            desktopPanel.Visible = true;
+        }
+        private void OpenKFPandaForm(Form kfPandaForm)
+        {
+            if (currentGodzillaForm != null)
+            {
+                currentGodzillaForm.Close();
+            }
+            currentGodzillaForm = kfPandaForm;
+            kfPandaForm.TopLevel = false;
+            kfPandaForm.FormBorderStyle = FormBorderStyle.None;
+            kfPandaForm.Dock = DockStyle.Fill;
+            desktopPanel.Controls.Add(kfPandaForm);
+            desktopPanel.Tag = kfPandaForm;
+            kfPandaForm.BringToFront();
+            kfPandaForm.Show();
+        }
+        private void mpictureWeb_Click(object sender, EventArgs e)
+        {
+            // Open FunctionFormbg
+            OpenMWebForm(new FunctionFormMWebb());
+
+            // Show desktopPanel again after FunctionFormbg is closed
+            desktopPanel.Visible = true;
+        }
+        private void OpenMWebForm(Form mwebbForm)
+        {
+            if (currentGodzillaForm != null)
+            {
+                currentGodzillaForm.Close();
+            }
+            currentGodzillaForm = mwebbForm;
+            mwebbForm.TopLevel = false;
+            mwebbForm.FormBorderStyle = FormBorderStyle.None;
+            mwebbForm.Dock = DockStyle.Fill;
+            desktopPanel.Controls.Add(mwebbForm);
+            desktopPanel.Tag = mwebbForm;
+            mwebbForm.BringToFront();
+            mwebbForm.Show();
+        }
+        private void mpictureHungerG_Click(object sender, EventArgs e)
+        {
+            // Open FunctionFormbg
+            OpenHGamesForm(new FunctionFormHGames());
+
+            // Show desktopPanel again after FunctionFormbg is closed
+            desktopPanel.Visible = true;
+        }
+        private void OpenHGamesForm(Form hungerGForm)
+        {
+            if (currentGodzillaForm != null)
+            {
+                currentGodzillaForm.Close();
+            }
+            currentGodzillaForm = hungerGForm;
+            hungerGForm.TopLevel = false;
+            hungerGForm.FormBorderStyle = FormBorderStyle.None;
+            hungerGForm.Dock = DockStyle.Fill;
+            desktopPanel.Controls.Add(hungerGForm);
+            desktopPanel.Tag = hungerGForm;
+            hungerGForm.BringToFront();
+            hungerGForm.Show();
+        }
+        private void mpictureOppenH_Click(object sender, EventArgs e)
+        {
+            // Open FunctionFormbg
+            OpenOppenheimerForm(new FunctionFormOpp());
+
+            // Show desktopPanel again after FunctionFormbg is closed
+            desktopPanel.Visible = true;
+        }
+        private void OpenOppenheimerForm(Form oppenheimerForm)
+        {
+            if (currentGodzillaForm != null)
+            {
+                currentGodzillaForm.Close();
+            }
+            currentGodzillaForm = oppenheimerForm;
+            oppenheimerForm.TopLevel = false;
+            oppenheimerForm.FormBorderStyle = FormBorderStyle.None;
+            oppenheimerForm.Dock = DockStyle.Fill;
+            desktopPanel.Controls.Add(oppenheimerForm);
+            desktopPanel.Tag = oppenheimerForm;
+            oppenheimerForm.BringToFront();
+            oppenheimerForm.Show();
+        }
+        private void mpictureSMario_Click(object sender, EventArgs e)
+        {
+            // Open FunctionFormbg
+            OpenSuperMarioForm(new FunctionFormSMario());
+
+            // Show desktopPanel again after FunctionFormbg is closed
+            desktopPanel.Visible = true;
+        }
+        private void OpenSuperMarioForm(Form superMForm)
+        {
+            if (currentGodzillaForm != null)
+            {
+                currentGodzillaForm.Close();
+            }
+            currentGodzillaForm = superMForm;
+            superMForm.TopLevel = false;
+            superMForm.FormBorderStyle = FormBorderStyle.None;
+            superMForm.Dock = DockStyle.Fill;
+            desktopPanel.Controls.Add(superMForm);
+            desktopPanel.Tag = superMForm;
+            superMForm.BringToFront();
+            superMForm.Show();
         }
     }
 }

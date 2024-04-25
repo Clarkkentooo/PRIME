@@ -1186,7 +1186,7 @@
             this.panel76.Controls.Add(this.label24);
             this.panel76.Location = new System.Drawing.Point(0, 100);
             this.panel76.Name = "panel76";
-            this.panel76.Size = new System.Drawing.Size(166, 7);
+            this.panel76.Size = new System.Drawing.Size(166, 0);
             this.panel76.TabIndex = 2;
             // 
             // starSign_SMario
@@ -1287,7 +1287,7 @@
             this.panel65.Controls.Add(this.label15);
             this.panel65.Location = new System.Drawing.Point(0, 100);
             this.panel65.Name = "panel65";
-            this.panel65.Size = new System.Drawing.Size(166, 7);
+            this.panel65.Size = new System.Drawing.Size(166, 0);
             this.panel65.TabIndex = 2;
             // 
             // starSign_OppenH
@@ -1387,7 +1387,7 @@
             this.panel68.Controls.Add(this.label18);
             this.panel68.Location = new System.Drawing.Point(0, 100);
             this.panel68.Name = "panel68";
-            this.panel68.Size = new System.Drawing.Size(166, 7);
+            this.panel68.Size = new System.Drawing.Size(166, 0);
             this.panel68.TabIndex = 2;
             // 
             // starSign_HungerG
@@ -1488,7 +1488,7 @@
             this.panel71.Controls.Add(this.label21);
             this.panel71.Location = new System.Drawing.Point(0, 100);
             this.panel71.Name = "panel71";
-            this.panel71.Size = new System.Drawing.Size(166, 7);
+            this.panel71.Size = new System.Drawing.Size(166, 0);
             this.panel71.TabIndex = 2;
             // 
             // starSign_mWeb
@@ -2268,11 +2268,11 @@
         private System.Windows.Forms.Panel panel50;
         private System.Windows.Forms.Panel panel48;
         private System.Windows.Forms.Panel mainPanel;
-        private System.Windows.Forms.Panel desktopPanel;
         private System.Windows.Forms.Panel panel78;
         private System.Windows.Forms.Panel panel77;
         private System.Windows.Forms.PictureBox add2Cart;
         private System.Windows.Forms.Panel panel63;
         private System.Windows.Forms.Panel panel100;
+        private System.Windows.Forms.Panel desktopPanel;
     }
 }

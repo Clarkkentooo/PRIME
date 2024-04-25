@@ -1,12 +1,10 @@
 ﻿using PRIME_FINAL;
-using ReaLTaiizor.Controls;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
-using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -14,26 +12,21 @@ using Button = ReaLTaiizor.Controls.CyberButton;
 
 namespace PRIME3
 {
-
-    public partial class FunctionFormbg : Form
+    public partial class FunctionFormSMario : Form
     {
-
-
-        //private Size formSize;
-        //private int borderSize = 1;
         private Form currentBookingFormGD;
         private Dictionary<Button, string> buttonTextMap = new Dictionary<Button, string>();
         private HashSet<string> clickedButtonTexts = new HashSet<string>();
-        public static FunctionFormbg instance;
+        public static FunctionFormSMario instance2;
         public System.Windows.Forms.Panel paneldesk;
-        public FunctionFormbg()
+        public FunctionFormSMario()
         {
             InitializeComponent();
-            instance = this;
+            instance2 = this;
 
             goBack.ForeColor = Color.FromArgb(84, 84, 84);              //Color of the Go Back Button
-            sidebarAccess1.ForeColor = Color.FromArgb(84, 84, 84);      //Color of the Upper Left Button
-            
+            sidebarAccess2.ForeColor = Color.FromArgb(84, 84, 84);      //Color of the Upper Left Button
+            sidebarAccess2.Click += sidebarAccess1_Click;
             ticketInfoPanel.Visible = false;
             breakDownList.Visible = false;
             panel44.Visible = false;
@@ -42,20 +35,22 @@ namespace PRIME3
             paymentPanel.Visible = false;
             panel145.Visible = false;
 
-            sidebarAccess1.MouseEnter += sidebarAccess1_MouseEnter;
-            sidebarAccess1.MouseLeave += sidebarAccess1_MouseLeave;
+            sidebarAccess2.MouseEnter += sidebarAccess1_MouseEnter;
+            sidebarAccess2.MouseLeave += sidebarAccess1_MouseLeave;
             goBack.MouseEnter += goBack_MouseEnter;
             goBack.MouseLeave += goBack_MouseLeave;
+            goBack.Click += label39_Click;
 
-            add2CartText.MouseEnter += label5_MouseEnter;
-            add2CartText.MouseLeave += label5_MouseLeave;
+            add2CartText1.MouseEnter += label5_MouseEnter;
+            add2CartText1.MouseLeave += label5_MouseLeave;
+            add2CartText1.Click += add2CartText1_Click;
             starSign.Click += StarSign_Click;
 
             BookButton.Click += BookButton_Click;
 
             selectTheater.SelectedIndexChanged += selectTheater_SelectedIndexChanged;
             selectDate.SelectedIndexChanged += selectDate_SelectedIndexChanged;
-            
+
             timeBttn1.Click += timeBttn1_Click;
             timeBttn2.Click += timeBttn2_Click;
             timeBttn3.Click += timeBttn3_Click;
@@ -146,28 +141,28 @@ namespace PRIME3
             }
             proceedPayBttn.Click += proceedPayBttn_Click;
 
-            mopChoice.Click += gCash_Click;
-            mopChoice.Click += BdoUnibank_Click;
-            mopChoice.Click += maya_Click;
+            gCash1.Click += gCash_Click;
+            BdoUnibank1.Click += BdoUnibank_Click;
+            maya1.Click += maya_Click;
             payNowBttn.Click += payNowBttn_Click;
         }
         private void label5_MouseEnter(object sender, EventArgs e)
         {
-            add2CartText.Font = new Font(add2CartText.Font, FontStyle.Underline);
+            add2CartText1.Font = new Font(add2CartText1.Font, FontStyle.Underline);
         }
         private void label5_MouseLeave(object sender, EventArgs e)
         {
-            add2CartText.Font = new Font(add2CartText.Font, FontStyle.Regular);
+            add2CartText1.Font = new Font(add2CartText1.Font, FontStyle.Regular);
         }
 
         private void sidebarAccess1_MouseEnter(object sender, EventArgs e)
         {
-            sidebarAccess1.ForeColor = Color.FromArgb(205, 205, 205);
+            sidebarAccess2.ForeColor = Color.FromArgb(205, 205, 205);
         }
 
         private void sidebarAccess1_MouseLeave(object sender, EventArgs e)
         {
-            sidebarAccess1.ForeColor = Color.FromArgb(84, 84, 84);
+            sidebarAccess2.ForeColor = Color.FromArgb(84, 84, 84);
         }
         private void goBack_MouseEnter(object sender, EventArgs e)
         {
@@ -185,7 +180,7 @@ namespace PRIME3
             Label clickedLabel = sender as Label; //Casting the Sender to a Label
             if (clickedLabel != null)
             {
-                //Check the Text property of the clicked label.
+                //Check the Text Star property of the clicked label.
                 if (clickedLabel.Text == "☆")
                 {
                     clickedLabel.Text = "★";
@@ -255,7 +250,7 @@ namespace PRIME3
             Button clickedButton = (Button)sender;
             string buttonText = buttonTextMap[clickedButton];
 
-            // Toggle the visibility of the text in label1
+            // Toggle the visibility of the text
             if (clickedButtonTexts.Contains(buttonText))
             {
                 clickedButtonTexts.Remove(buttonText);
@@ -264,10 +259,8 @@ namespace PRIME3
             {
                 clickedButtonTexts.Add(buttonText);
             }
-
             UpdateLabels();
         }
-
         private void UpdateLabels()
         {
             // Update SeatNo label with the clicked button texts
@@ -280,12 +273,12 @@ namespace PRIME3
             totTicketsReceipt.Text = clickedButtonTexts.Count.ToString();
             totTicketsMOP.Text = clickedButtonTexts.Count.ToString();
             // Total Amount
-            totalAmount.Text = (clickedButtonTexts.Count * 420).ToString();
-            totAmountReceipt.Text = (clickedButtonTexts.Count * 420).ToString();
+            totalAmount.Text = (clickedButtonTexts.Count * 430).ToString();
+            totAmountReceipt.Text = (clickedButtonTexts.Count * 430).ToString();
         }
 
         private void proceedPayBttn_Click(object sender, EventArgs e)
-        {            
+        {
             ticketInfoPanel.Visible = false;
             breakDownList.Visible = false;
             receiptHeader.Visible = true;
@@ -305,6 +298,7 @@ namespace PRIME3
         {
             panel44.Visible = true;
             ReceiptPanel.Visible = true;
+            mainReceipt.Visible = true;
         }
 
         private void label39_Click(object sender, EventArgs e)
@@ -316,51 +310,30 @@ namespace PRIME3
 
         private void gCash_Click(object sender, EventArgs e)
         {
-            mopChoice.Image = gCash.Image;
-            mopReceipt.Image = gCash.Image;
+            mopChoice.Image = gCash1.Image;
+            mopReceipt.Image = gCash1.Image;
+
         }
 
         private void BdoUnibank_Click(object sender, EventArgs e)
         {
-            mopChoice.Image = BdoUnibank.Image;
-            mopReceipt.Image = BdoUnibank.Image;
+            mopChoice.Image = BdoUnibank1.Image;
+            mopReceipt.Image = BdoUnibank1.Image;
         }
 
         private void maya_Click(object sender, EventArgs e)
         {
-            mopChoice.Image = maya.Image;
-            mopReceipt.Image = maya.Image;
+            mopChoice.Image = maya1.Image;
+            mopReceipt.Image = maya1.Image;
         }
 
-        private void add2CartText_Click(object sender, EventArgs e)
+        private void add2CartText1_Click(object sender, EventArgs e)
         {
             if (Home.instance != null)
             {
-                Home.instance.addtoCartImage.Image = Properties.Resources.cartGodzilla;
+                Home.instance.addtoCartImage.Image = Properties.Resources.cartSmario;
                 Home.instance.addtoCartImage.Visible = true;
             }
         }
     }
 }
-
-
-
-/*[DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
-private extern static void ReleaseCapture();
-[DllImport("user32.DLL", EntryPoint = "SendMessage")]
-private extern static void SendMessage(System.IntPtr hWnd, int wMsg, int wParam, int lParam);
-private void panelHeaderBar_MouseDown(object sender, MouseEventArgs e)
-{
-ReleaseCapture();
-SendMessage(this.Handle, 0x112, 0xf012, 0);
-}
-//Form's responsiveness through different devices
-protected override void WndProc(ref Message m)
-{
-const int WM_NCCALCSIZE = 0x0083;
-if (m.Msg == WM_NCCALCSIZE && m.WParam.ToInt32() == 1)
-{
-return;
-}
-base.WndProc(ref m);
-}*/

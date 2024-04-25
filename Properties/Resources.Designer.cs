@@ -193,9 +193,69 @@ namespace PRIME3.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap cartDune {
+            get {
+                object obj = ResourceManager.GetObject("cartDune", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap cartGodzilla {
             get {
                 object obj = ResourceManager.GetObject("cartGodzilla", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap cartHG {
+            get {
+                object obj = ResourceManager.GetObject("cartHG", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap cartKfPanda {
+            get {
+                object obj = ResourceManager.GetObject("cartKfPanda", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap cartMWeb {
+            get {
+                object obj = ResourceManager.GetObject("cartMWeb", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap cartOppen {
+            get {
+                object obj = ResourceManager.GetObject("cartOppen", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap cartSmario {
+            get {
+                object obj = ResourceManager.GetObject("cartSmario", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -243,6 +303,16 @@ namespace PRIME3.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap dune2Poster {
+            get {
+                object obj = ResourceManager.GetObject("dune2Poster", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap dune3 {
             get {
                 object obj = ResourceManager.GetObject("dune3", resourceCulture);
@@ -256,6 +326,36 @@ namespace PRIME3.Properties {
         internal static System.Drawing.Bitmap dune4 {
             get {
                 object obj = ResourceManager.GetObject("dune4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap duneHeader {
+            get {
+                object obj = ResourceManager.GetObject("duneHeader", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap dunePoster {
+            get {
+                object obj = ResourceManager.GetObject("dunePoster", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap duneQr {
+            get {
+                object obj = ResourceManager.GetObject("duneQr", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -463,6 +563,16 @@ namespace PRIME3.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap HGamesHeader {
+            get {
+                object obj = ResourceManager.GetObject("HGamesHeader", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap home2 {
             get {
                 object obj = ResourceManager.GetObject("home2", resourceCulture);
@@ -476,6 +586,26 @@ namespace PRIME3.Properties {
         internal static System.Drawing.Bitmap hungerG {
             get {
                 object obj = ResourceManager.GetObject("hungerG", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap hungerGPoster {
+            get {
+                object obj = ResourceManager.GetObject("hungerGPoster", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap hungerGQr {
+            get {
+                object obj = ResourceManager.GetObject("hungerGQr", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -503,6 +633,16 @@ namespace PRIME3.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap kfPandaHeader {
+            get {
+                object obj = ResourceManager.GetObject("kfPandaHeader", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap kFPandaNamed {
             get {
                 object obj = ResourceManager.GetObject("kFPandaNamed", resourceCulture);
@@ -516,6 +656,36 @@ namespace PRIME3.Properties {
         internal static System.Drawing.Bitmap kFPandaNamed1 {
             get {
                 object obj = ResourceManager.GetObject("kFPandaNamed1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap kfPandaPoster {
+            get {
+                object obj = ResourceManager.GetObject("kfPandaPoster", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap kfpandaQr {
+            get {
+                object obj = ResourceManager.GetObject("kfpandaQr", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap kFPANDAQrc {
+            get {
+                object obj = ResourceManager.GetObject("kFPANDAQrc", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -633,6 +803,36 @@ namespace PRIME3.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap mwebbHeader {
+            get {
+                object obj = ResourceManager.GetObject("mwebbHeader", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap mwebPoster {
+            get {
+                object obj = ResourceManager.GetObject("mwebPoster", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap mWebQr {
+            get {
+                object obj = ResourceManager.GetObject("mWebQr", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap notif {
             get {
                 object obj = ResourceManager.GetObject("notif", resourceCulture);
@@ -643,9 +843,39 @@ namespace PRIME3.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap oppenHeader {
+            get {
+                object obj = ResourceManager.GetObject("oppenHeader", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap oppenheimer {
             get {
                 object obj = ResourceManager.GetObject("oppenheimer", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap oppenhPoster {
+            get {
+                object obj = ResourceManager.GetObject("oppenhPoster", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap oppenHQr {
+            get {
+                object obj = ResourceManager.GetObject("oppenHQr", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -743,6 +973,16 @@ namespace PRIME3.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap sMarioQr {
+            get {
+                object obj = ResourceManager.GetObject("sMarioQr", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap smart_home {
             get {
                 object obj = ResourceManager.GetObject("smart-home", resourceCulture);
@@ -756,6 +996,26 @@ namespace PRIME3.Properties {
         internal static System.Drawing.Bitmap spotlight {
             get {
                 object obj = ResourceManager.GetObject("spotlight", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap superMarioHeader {
+            get {
+                object obj = ResourceManager.GetObject("superMarioHeader", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap superMarioposter {
+            get {
+                object obj = ResourceManager.GetObject("superMarioposter", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

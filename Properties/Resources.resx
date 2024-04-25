@@ -127,8 +127,14 @@
   <data name="ARROW1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ARROW1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="HGamesHeader" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HGamesHeader.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="LOGO" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\LOGO.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="duneQr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\duneQr.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="finalHome1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\finalHome1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -138,6 +144,12 @@
   </data>
   <data name="kFPandaNamed" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\kFPandaNamed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mWebQr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mWebQr.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kfpandaQr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kfpandaQr.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="dune2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\dune2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -153,6 +165,9 @@
   </data>
   <data name="kung fu" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\kung fu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mwebbHeader" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mwebbHeader.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="video" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\video.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -172,9 +187,6 @@
   <data name="madamewebb" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\madamewebb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="dune" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\dune.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="GodzillaHeader" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\GodzillaHeader.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -193,11 +205,23 @@
   <data name="godzilla" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\godzilla.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="oppenhPoster" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\oppenhPoster.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="GCash-Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\GCash-Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="FIRST PAGE SIGNUP" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\FIRST PAGE SIGNUP.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="cartKfPanda" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cartKfPanda.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shopping-cart" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shopping-cart.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="superMarioposter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\superMarioposter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hungerGPoster" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hungerGPoster.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="bg" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -205,8 +229,11 @@
   <data name="background" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="spotlight" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\spotlight.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="kfPandaPoster" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kfPandaPoster.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mask group_GODZILLA1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mask group_GODZILLA1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="bgGodzilla" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bgGodzilla.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -214,20 +241,35 @@
   <data name="bgGodz" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bgGodz.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="superMarioHeader" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\superMarioHeader.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="godzillaPoster" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\godzillaPoster.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="godName" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\godName.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="godzilla_x_kong_the_new_empire_ver7 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\godzilla_x_kong_the_new_empire_ver7 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="kFPANDAQrc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kFPANDAQrc.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dune2Poster" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dune2Poster.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dune4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dune4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spotlight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spotlight.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="basket" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\basket.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="kFPandaNamed1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\kFPandaNamed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FIRST PAGE SIGNUP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FIRST PAGE SIGNUP.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="bdo_unibank_horz_cmyk_pos_01_thu.ZAMPTA7z7s575klK" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bdo_unibank_horz_cmyk_pos_01_thu.ZAMPTA7z7s575klK.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -237,6 +279,15 @@
   </data>
   <data name="KfPanda" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\KfPanda.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shopping-cart1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shopping-cart1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tab" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tab.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dunePoster" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dunePoster.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="dune3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\dune3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -250,14 +301,20 @@
   <data name="godzilla_x_kong_the_new_empire_ver7" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\godzilla_x_kong_the_new_empire_ver7.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="tab" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\tab.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="cartOppen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cartOppen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="godzilla1212" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\godzilla1212.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="x" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="smario" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\smario.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="cartMWeb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cartMWeb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="oppenHeader" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\oppenHeader.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="LOADING part" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\LOADING part.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -265,11 +322,14 @@
   <data name="notif" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\notif.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Mask group_GODZILLA1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Mask group_GODZILLA1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="smario" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\smario.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="godName1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\godName1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="search" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\search.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="MWebb" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MWebb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -280,11 +340,14 @@
   <data name="final box" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\final box.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="sMarioQr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sMarioQr.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Mask group_GODZILLA" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Mask group_GODZILLA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="MicrosoftTeams-image-9-768x223" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\MicrosoftTeams-image-9-768x223.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="oppenheimer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\oppenheimer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="FIRST PAGE" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\FIRST PAGE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -292,17 +355,26 @@
   <data name="Rectangle 1034" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Rectangle 1034.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ticket" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ticket.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="dune" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dune.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cartDune" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cartDune1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mwebPoster" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mwebPoster.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="duneHeader" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\duneHeader.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="godzilla_x_kong_the_new_empire_ver7 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\godzilla_x_kong_the_new_empire_ver7 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="dune1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\dune1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="dune4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\dune4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="shopping-cart" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\shopping-cart.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="MicrosoftTeams-image-9-768x223" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MicrosoftTeams-image-9-768x223.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="radio" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\radio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -313,8 +385,11 @@
   <data name="bgbgbg" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bgbgbg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="godzilla1212" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\godzilla1212.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="oppenHQr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\oppenHQr.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ticket" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ticket.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="A6 - 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\A6 - 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -322,14 +397,17 @@
   <data name="Ellipsebg" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Ellipsebg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="shopping-cart1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\shopping-cart1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="kfPandaHeader" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kfPandaHeader.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="search" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\search.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="cartGodzilla" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cartGodzilla.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="oppenheimer" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\oppenheimer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="cartHG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cartHG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hungerGQr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hungerGQr.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="search222" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\search222.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -337,7 +415,7 @@
   <data name="Mark" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Mark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="cartGodzilla" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cartGodzilla.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="cartSmario" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cartSmario.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

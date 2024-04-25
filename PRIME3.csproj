@@ -73,6 +73,42 @@
     <Compile Include="FunctionForm.Designer.cs">
       <DependentUpon>FunctionForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="FunctionFormDune.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FunctionFormDune.Designer.cs">
+      <DependentUpon>FunctionFormDune.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FunctionFormHGames.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FunctionFormHGames.Designer.cs">
+      <DependentUpon>FunctionFormHGames.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FunctionFormKfPanda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FunctionFormKfPanda.Designer.cs">
+      <DependentUpon>FunctionFormKfPanda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FunctionFormMWebb.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FunctionFormMWebb.Designer.cs">
+      <DependentUpon>FunctionFormMWebb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FunctionFormOpp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FunctionFormOpp.Designer.cs">
+      <DependentUpon>FunctionFormOpp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FunctionFormSMario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FunctionFormSMario.Designer.cs">
+      <DependentUpon>FunctionFormSMario.cs</DependentUpon>
+    </Compile>
     <Compile Include="godzillaTicketInfo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -128,12 +164,6 @@
     <Compile Include="Widget.Designer.cs">
       <DependentUpon>Widget.cs</DependentUpon>
     </Compile>
-    <Compile Include="zzzzZ.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="zzzzZ.Designer.cs">
-      <DependentUpon>zzzzZ.cs</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Form11.Designer.cs</LastGenOutput>
@@ -143,6 +173,24 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FunctionForm.resx">
       <DependentUpon>FunctionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FunctionFormDune.resx">
+      <DependentUpon>FunctionFormDune.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FunctionFormHGames.resx">
+      <DependentUpon>FunctionFormHGames.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FunctionFormKfPanda.resx">
+      <DependentUpon>FunctionFormKfPanda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FunctionFormMWebb.resx">
+      <DependentUpon>FunctionFormMWebb.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FunctionFormOpp.resx">
+      <DependentUpon>FunctionFormOpp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FunctionFormSMario.resx">
+      <DependentUpon>FunctionFormSMario.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="godzillaTicketInfo.resx">
       <DependentUpon>godzillaTicketInfo.cs</DependentUpon>
@@ -172,9 +220,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Widget.resx">
       <DependentUpon>Widget.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="zzzzZ.resx">
-      <DependentUpon>zzzzZ.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -420,6 +465,87 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\cartGodzilla.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dunePoster.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\duneQr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kfPandaPoster.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kfpandaQr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kFPANDAQrc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\duneHeader.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\cartDune.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cartDune1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dune2Poster.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kfPandaHeader.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cartKfPanda.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mwebbHeader.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mwebPoster.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mWebQr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cartMWeb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HGamesHeader.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hungerGPoster.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hungerGQr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cartHG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\oppenhPoster.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\oppenHQr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\oppenHeader.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cartOppen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\superMarioposter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\superMarioHeader.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sMarioQr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cartSmario.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
