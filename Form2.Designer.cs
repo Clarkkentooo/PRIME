@@ -84,7 +84,6 @@
             this.panel6 = new System.Windows.Forms.Panel();
             this.label6 = new System.Windows.Forms.Label();
             this.panel8 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel14 = new System.Windows.Forms.Panel();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
@@ -107,6 +106,11 @@
             this.panel42 = new System.Windows.Forms.Panel();
             this.panel41 = new System.Windows.Forms.Panel();
             this.panel47 = new System.Windows.Forms.Panel();
+            this.panel81 = new System.Windows.Forms.Panel();
+            this.panel83 = new System.Windows.Forms.Panel();
+            this.panel82 = new System.Windows.Forms.Panel();
+            this.pictureBox13 = new System.Windows.Forms.PictureBox();
+            this.panel80 = new System.Windows.Forms.Panel();
             this.MovieBox2 = new System.Windows.Forms.Panel();
             this.panel75 = new System.Windows.Forms.Panel();
             this.label22 = new System.Windows.Forms.Label();
@@ -180,6 +184,15 @@
             this.panel48 = new System.Windows.Forms.Panel();
             this.mainPanel = new System.Windows.Forms.Panel();
             this.desktopPanel = new System.Windows.Forms.Panel();
+            this.panel79 = new System.Windows.Forms.Panel();
+            this.panel86 = new System.Windows.Forms.Panel();
+            this.panel85 = new System.Windows.Forms.Panel();
+            this.pictureBox15 = new System.Windows.Forms.PictureBox();
+            this.panel84 = new System.Windows.Forms.Panel();
+            this.panel87 = new System.Windows.Forms.Panel();
+            this.panel88 = new System.Windows.Forms.Panel();
+            this.panel89 = new System.Windows.Forms.Panel();
+            this.panel90 = new System.Windows.Forms.Panel();
             this.panelHeaderBar.SuspendLayout();
             this.minimizePanel.SuspendLayout();
             this.resizePanel.SuspendLayout();
@@ -218,6 +231,9 @@
             this.headerPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             this.panel47.SuspendLayout();
+            this.panel81.SuspendLayout();
+            this.panel82.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
             this.MovieBox2.SuspendLayout();
             this.panel75.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
@@ -251,6 +267,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.mpictureGodzilla)).BeginInit();
             this.panel49.SuspendLayout();
             this.mainPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
+            this.panel84.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelHeaderBar
@@ -864,25 +882,12 @@
             // panel8
             // 
             this.panel8.BackColor = System.Drawing.Color.Transparent;
-            this.panel8.Controls.Add(this.label1);
             this.panel8.Controls.Add(this.pictureBox2);
             this.panel8.Dock = System.Windows.Forms.DockStyle.Right;
             this.panel8.Location = new System.Drawing.Point(303, 0);
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(64, 31);
             this.panel8.TabIndex = 5;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label1.Font = new System.Drawing.Font("SF Pro Text", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label1.Location = new System.Drawing.Point(15, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(28, 29);
-            this.label1.TabIndex = 7;
-            this.label1.Text = "×";
             // 
             // pictureBox2
             // 
@@ -1070,7 +1075,7 @@
             this.headerPanel.Controls.Add(this.panel41);
             this.headerPanel.Location = new System.Drawing.Point(0, 122);
             this.headerPanel.Name = "headerPanel";
-            this.headerPanel.Size = new System.Drawing.Size(655, 241);
+            this.headerPanel.Size = new System.Drawing.Size(655, 279);
             this.headerPanel.TabIndex = 13;
             // 
             // pictureBox8
@@ -1079,7 +1084,7 @@
             this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
             this.pictureBox8.Location = new System.Drawing.Point(10, 0);
             this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(635, 241);
+            this.pictureBox8.Size = new System.Drawing.Size(635, 279);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox8.TabIndex = 13;
             this.pictureBox8.TabStop = false;
@@ -1089,7 +1094,7 @@
             this.panel42.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel42.Location = new System.Drawing.Point(0, 0);
             this.panel42.Name = "panel42";
-            this.panel42.Size = new System.Drawing.Size(10, 241);
+            this.panel42.Size = new System.Drawing.Size(10, 279);
             this.panel42.TabIndex = 12;
             // 
             // panel41
@@ -1097,13 +1102,14 @@
             this.panel41.Dock = System.Windows.Forms.DockStyle.Right;
             this.panel41.Location = new System.Drawing.Point(645, 0);
             this.panel41.Name = "panel41";
-            this.panel41.Size = new System.Drawing.Size(10, 241);
+            this.panel41.Size = new System.Drawing.Size(10, 279);
             this.panel41.TabIndex = 11;
             // 
             // panel47
             // 
             this.panel47.AutoScroll = true;
             this.panel47.BackColor = System.Drawing.Color.Transparent;
+            this.panel47.Controls.Add(this.panel81);
             this.panel47.Controls.Add(this.MovieBox2);
             this.panel47.Controls.Add(this.panel62);
             this.panel47.Controls.Add(this.panel60);
@@ -1119,9 +1125,56 @@
             this.panel47.Size = new System.Drawing.Size(655, 440);
             this.panel47.TabIndex = 17;
             // 
+            // panel81
+            // 
+            this.panel81.Controls.Add(this.panel84);
+            this.panel81.Controls.Add(this.panel83);
+            this.panel81.Controls.Add(this.panel82);
+            this.panel81.Controls.Add(this.panel80);
+            this.panel81.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel81.Location = new System.Drawing.Point(0, 479);
+            this.panel81.Name = "panel81";
+            this.panel81.Size = new System.Drawing.Size(638, 869);
+            this.panel81.TabIndex = 26;
+            // 
+            // panel83
+            // 
+            this.panel83.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel83.Location = new System.Drawing.Point(0, 333);
+            this.panel83.Name = "panel83";
+            this.panel83.Size = new System.Drawing.Size(638, 17);
+            this.panel83.TabIndex = 27;
+            // 
+            // panel82
+            // 
+            this.panel82.Controls.Add(this.pictureBox13);
+            this.panel82.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel82.Location = new System.Drawing.Point(0, 160);
+            this.panel82.Name = "panel82";
+            this.panel82.Size = new System.Drawing.Size(638, 173);
+            this.panel82.TabIndex = 26;
+            // 
+            // pictureBox13
+            // 
+            this.pictureBox13.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox13.Image = global::PRIME3.Properties.Resources.comingSoon;
+            this.pictureBox13.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox13.Name = "pictureBox13";
+            this.pictureBox13.Size = new System.Drawing.Size(638, 173);
+            this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox13.TabIndex = 0;
+            this.pictureBox13.TabStop = false;
+            // 
+            // panel80
+            // 
+            this.panel80.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel80.Location = new System.Drawing.Point(0, 0);
+            this.panel80.Name = "panel80";
+            this.panel80.Size = new System.Drawing.Size(638, 160);
+            this.panel80.TabIndex = 25;
+            // 
             // MovieBox2
             // 
-            this.MovieBox2.AutoScroll = true;
             this.MovieBox2.Controls.Add(this.panel75);
             this.MovieBox2.Controls.Add(this.panel74);
             this.MovieBox2.Controls.Add(this.panel64);
@@ -1134,7 +1187,7 @@
             this.MovieBox2.Dock = System.Windows.Forms.DockStyle.Top;
             this.MovieBox2.Location = new System.Drawing.Point(0, 303);
             this.MovieBox2.Name = "MovieBox2";
-            this.MovieBox2.Size = new System.Drawing.Size(638, 150);
+            this.MovieBox2.Size = new System.Drawing.Size(638, 176);
             this.MovieBox2.TabIndex = 25;
             // 
             // panel75
@@ -1147,7 +1200,7 @@
             this.panel75.ForeColor = System.Drawing.Color.Transparent;
             this.panel75.Location = new System.Drawing.Point(597, 0);
             this.panel75.Name = "panel75";
-            this.panel75.Size = new System.Drawing.Size(166, 133);
+            this.panel75.Size = new System.Drawing.Size(166, 176);
             this.panel75.TabIndex = 23;
             // 
             // label22
@@ -1172,7 +1225,7 @@
             this.pictureBox18.Image = global::PRIME3.Properties.Resources.video;
             this.pictureBox18.Location = new System.Drawing.Point(4, 127);
             this.pictureBox18.Name = "pictureBox18";
-            this.pictureBox18.Size = new System.Drawing.Size(20, 0);
+            this.pictureBox18.Size = new System.Drawing.Size(20, 17);
             this.pictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox18.TabIndex = 5;
             this.pictureBox18.TabStop = false;
@@ -1182,11 +1235,12 @@
             this.panel76.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel76.Controls.Add(this.panel90);
             this.panel76.Controls.Add(this.starSign_SMario);
             this.panel76.Controls.Add(this.label24);
             this.panel76.Location = new System.Drawing.Point(0, 100);
             this.panel76.Name = "panel76";
-            this.panel76.Size = new System.Drawing.Size(166, 0);
+            this.panel76.Size = new System.Drawing.Size(166, 60);
             this.panel76.TabIndex = 2;
             // 
             // starSign_SMario
@@ -1235,7 +1289,7 @@
             this.panel74.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel74.Location = new System.Drawing.Point(587, 0);
             this.panel74.Name = "panel74";
-            this.panel74.Size = new System.Drawing.Size(10, 133);
+            this.panel74.Size = new System.Drawing.Size(10, 176);
             this.panel74.TabIndex = 22;
             // 
             // panel64
@@ -1248,7 +1302,7 @@
             this.panel64.ForeColor = System.Drawing.Color.Transparent;
             this.panel64.Location = new System.Drawing.Point(421, 0);
             this.panel64.Name = "panel64";
-            this.panel64.Size = new System.Drawing.Size(166, 133);
+            this.panel64.Size = new System.Drawing.Size(166, 176);
             this.panel64.TabIndex = 20;
             // 
             // label12
@@ -1273,7 +1327,7 @@
             this.pictureBox11.Image = global::PRIME3.Properties.Resources.video;
             this.pictureBox11.Location = new System.Drawing.Point(4, 127);
             this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(20, 0);
+            this.pictureBox11.Size = new System.Drawing.Size(20, 17);
             this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox11.TabIndex = 5;
             this.pictureBox11.TabStop = false;
@@ -1283,11 +1337,12 @@
             this.panel65.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel65.Controls.Add(this.panel89);
             this.panel65.Controls.Add(this.starSign_OppenH);
             this.panel65.Controls.Add(this.label15);
             this.panel65.Location = new System.Drawing.Point(0, 100);
             this.panel65.Name = "panel65";
-            this.panel65.Size = new System.Drawing.Size(166, 0);
+            this.panel65.Size = new System.Drawing.Size(166, 60);
             this.panel65.TabIndex = 2;
             // 
             // starSign_OppenH
@@ -1335,7 +1390,7 @@
             this.panel66.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel66.Location = new System.Drawing.Point(411, 0);
             this.panel66.Name = "panel66";
-            this.panel66.Size = new System.Drawing.Size(10, 133);
+            this.panel66.Size = new System.Drawing.Size(10, 176);
             this.panel66.TabIndex = 21;
             // 
             // panel67
@@ -1348,7 +1403,7 @@
             this.panel67.ForeColor = System.Drawing.Color.Transparent;
             this.panel67.Location = new System.Drawing.Point(245, 0);
             this.panel67.Name = "panel67";
-            this.panel67.Size = new System.Drawing.Size(166, 133);
+            this.panel67.Size = new System.Drawing.Size(166, 176);
             this.panel67.TabIndex = 16;
             // 
             // label16
@@ -1373,7 +1428,7 @@
             this.pictureBox14.Image = global::PRIME3.Properties.Resources.video;
             this.pictureBox14.Location = new System.Drawing.Point(4, 127);
             this.pictureBox14.Name = "pictureBox14";
-            this.pictureBox14.Size = new System.Drawing.Size(20, 0);
+            this.pictureBox14.Size = new System.Drawing.Size(20, 17);
             this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox14.TabIndex = 5;
             this.pictureBox14.TabStop = false;
@@ -1383,11 +1438,12 @@
             this.panel68.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel68.Controls.Add(this.panel87);
             this.panel68.Controls.Add(this.starSign_HungerG);
             this.panel68.Controls.Add(this.label18);
             this.panel68.Location = new System.Drawing.Point(0, 100);
             this.panel68.Name = "panel68";
-            this.panel68.Size = new System.Drawing.Size(166, 0);
+            this.panel68.Size = new System.Drawing.Size(166, 60);
             this.panel68.TabIndex = 2;
             // 
             // starSign_HungerG
@@ -1436,7 +1492,7 @@
             this.panel69.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel69.Location = new System.Drawing.Point(235, 0);
             this.panel69.Name = "panel69";
-            this.panel69.Size = new System.Drawing.Size(10, 133);
+            this.panel69.Size = new System.Drawing.Size(10, 176);
             this.panel69.TabIndex = 19;
             // 
             // panel70
@@ -1449,7 +1505,7 @@
             this.panel70.ForeColor = System.Drawing.Color.Transparent;
             this.panel70.Location = new System.Drawing.Point(69, 0);
             this.panel70.Name = "panel70";
-            this.panel70.Size = new System.Drawing.Size(166, 133);
+            this.panel70.Size = new System.Drawing.Size(166, 176);
             this.panel70.TabIndex = 17;
             // 
             // label19
@@ -1474,7 +1530,7 @@
             this.pictureBox16.Image = global::PRIME3.Properties.Resources.video;
             this.pictureBox16.Location = new System.Drawing.Point(4, 127);
             this.pictureBox16.Name = "pictureBox16";
-            this.pictureBox16.Size = new System.Drawing.Size(20, 0);
+            this.pictureBox16.Size = new System.Drawing.Size(20, 17);
             this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox16.TabIndex = 5;
             this.pictureBox16.TabStop = false;
@@ -1484,11 +1540,12 @@
             this.panel71.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel71.Controls.Add(this.panel88);
             this.panel71.Controls.Add(this.starSign_mWeb);
             this.panel71.Controls.Add(this.label21);
             this.panel71.Location = new System.Drawing.Point(0, 100);
             this.panel71.Name = "panel71";
-            this.panel71.Size = new System.Drawing.Size(166, 0);
+            this.panel71.Size = new System.Drawing.Size(166, 60);
             this.panel71.TabIndex = 2;
             // 
             // starSign_mWeb
@@ -1537,7 +1594,7 @@
             this.panel72.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel72.Location = new System.Drawing.Point(59, 0);
             this.panel72.Name = "panel72";
-            this.panel72.Size = new System.Drawing.Size(10, 133);
+            this.panel72.Size = new System.Drawing.Size(10, 176);
             this.panel72.TabIndex = 18;
             // 
             // panel73
@@ -1545,7 +1602,7 @@
             this.panel73.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel73.Location = new System.Drawing.Point(0, 0);
             this.panel73.Name = "panel73";
-            this.panel73.Size = new System.Drawing.Size(59, 133);
+            this.panel73.Size = new System.Drawing.Size(59, 176);
             this.panel73.TabIndex = 17;
             // 
             // panel62
@@ -2004,6 +2061,89 @@
             this.desktopPanel.Size = new System.Drawing.Size(655, 832);
             this.desktopPanel.TabIndex = 5;
             // 
+            // panel79
+            // 
+            this.panel79.BackColor = System.Drawing.Color.Transparent;
+            this.panel79.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel79.Location = new System.Drawing.Point(237, 37);
+            this.panel79.Name = "panel79";
+            this.panel79.Size = new System.Drawing.Size(655, 17);
+            this.panel79.TabIndex = 9;
+            // 
+            // panel86
+            // 
+            this.panel86.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel86.Location = new System.Drawing.Point(645, 0);
+            this.panel86.Name = "panel86";
+            this.panel86.Size = new System.Drawing.Size(10, 179);
+            this.panel86.TabIndex = 11;
+            // 
+            // panel85
+            // 
+            this.panel85.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel85.Location = new System.Drawing.Point(0, 0);
+            this.panel85.Name = "panel85";
+            this.panel85.Size = new System.Drawing.Size(10, 179);
+            this.panel85.TabIndex = 12;
+            // 
+            // pictureBox15
+            // 
+            this.pictureBox15.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox15.Image = global::PRIME3.Properties.Resources.footer;
+            this.pictureBox15.Location = new System.Drawing.Point(10, 0);
+            this.pictureBox15.Name = "pictureBox15";
+            this.pictureBox15.Size = new System.Drawing.Size(635, 179);
+            this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox15.TabIndex = 13;
+            this.pictureBox15.TabStop = false;
+            // 
+            // panel84
+            // 
+            this.panel84.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel84.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.panel84.BackColor = System.Drawing.Color.Transparent;
+            this.panel84.Controls.Add(this.pictureBox15);
+            this.panel84.Controls.Add(this.panel85);
+            this.panel84.Controls.Add(this.panel86);
+            this.panel84.Location = new System.Drawing.Point(6, 598);
+            this.panel84.Name = "panel84";
+            this.panel84.Size = new System.Drawing.Size(655, 179);
+            this.panel84.TabIndex = 28;
+            // 
+            // panel87
+            // 
+            this.panel87.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel87.Location = new System.Drawing.Point(0, 50);
+            this.panel87.Name = "panel87";
+            this.panel87.Size = new System.Drawing.Size(166, 10);
+            this.panel87.TabIndex = 23;
+            // 
+            // panel88
+            // 
+            this.panel88.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel88.Location = new System.Drawing.Point(0, 50);
+            this.panel88.Name = "panel88";
+            this.panel88.Size = new System.Drawing.Size(166, 10);
+            this.panel88.TabIndex = 24;
+            // 
+            // panel89
+            // 
+            this.panel89.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel89.Location = new System.Drawing.Point(0, 50);
+            this.panel89.Name = "panel89";
+            this.panel89.Size = new System.Drawing.Size(166, 10);
+            this.panel89.TabIndex = 24;
+            // 
+            // panel90
+            // 
+            this.panel90.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel90.Location = new System.Drawing.Point(0, 50);
+            this.panel90.Name = "panel90";
+            this.panel90.Size = new System.Drawing.Size(166, 10);
+            this.panel90.TabIndex = 24;
+            // 
             // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -2011,8 +2151,9 @@
             this.BackgroundImage = global::PRIME3.Properties.Resources.finalHome;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1261, 869);
-            this.Controls.Add(this.desktopPanel);
+            this.Controls.Add(this.panel79);
             this.Controls.Add(this.mainPanel);
+            this.Controls.Add(this.desktopPanel);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panelHeaderBar);
             this.Controls.Add(this.panelMenu);
@@ -2059,7 +2200,6 @@
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
             this.panel8.ResumeLayout(false);
-            this.panel8.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel14.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
@@ -2070,6 +2210,9 @@
             this.headerPanel.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             this.panel47.ResumeLayout(false);
+            this.panel81.ResumeLayout(false);
+            this.panel82.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
             this.MovieBox2.ResumeLayout(false);
             this.panel75.ResumeLayout(false);
             this.panel75.PerformLayout();
@@ -2119,6 +2262,8 @@
             this.panel49.ResumeLayout(false);
             this.panel49.PerformLayout();
             this.mainPanel.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
+            this.panel84.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -2171,7 +2316,6 @@
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Panel panel8;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Panel panel14;
         private System.Windows.Forms.PictureBox pictureBox3;
@@ -2274,5 +2418,19 @@
         private System.Windows.Forms.Panel panel63;
         private System.Windows.Forms.Panel panel100;
         private System.Windows.Forms.Panel desktopPanel;
+        private System.Windows.Forms.Panel panel79;
+        private System.Windows.Forms.Panel panel81;
+        private System.Windows.Forms.Panel panel82;
+        private System.Windows.Forms.PictureBox pictureBox13;
+        private System.Windows.Forms.Panel panel80;
+        private System.Windows.Forms.Panel panel83;
+        private System.Windows.Forms.Panel panel84;
+        private System.Windows.Forms.PictureBox pictureBox15;
+        private System.Windows.Forms.Panel panel85;
+        private System.Windows.Forms.Panel panel86;
+        private System.Windows.Forms.Panel panel90;
+        private System.Windows.Forms.Panel panel89;
+        private System.Windows.Forms.Panel panel87;
+        private System.Windows.Forms.Panel panel88;
     }
 }

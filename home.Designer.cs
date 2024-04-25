@@ -290,7 +290,7 @@
             this.panel9.Controls.Add(this.panel11);
             this.panel9.Location = new System.Drawing.Point(192, 128);
             this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(1014, 497);
+            this.panel9.Size = new System.Drawing.Size(1068, 591);
             this.panel9.TabIndex = 14;
             // 
             // pictureBox2
@@ -299,7 +299,7 @@
             this.pictureBox2.Image = global::PRIME3.Properties.Resources.godName;
             this.pictureBox2.Location = new System.Drawing.Point(10, 0);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(994, 497);
+            this.pictureBox2.Size = new System.Drawing.Size(1048, 591);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 13;
             this.pictureBox2.TabStop = false;
@@ -309,15 +309,15 @@
             this.panel10.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel10.Location = new System.Drawing.Point(0, 0);
             this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(10, 497);
+            this.panel10.Size = new System.Drawing.Size(10, 591);
             this.panel10.TabIndex = 12;
             // 
             // panel11
             // 
             this.panel11.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel11.Location = new System.Drawing.Point(1004, 0);
+            this.panel11.Location = new System.Drawing.Point(1058, 0);
             this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(10, 497);
+            this.panel11.Size = new System.Drawing.Size(10, 591);
             this.panel11.TabIndex = 11;
             // 
             // panel12
@@ -1206,7 +1206,7 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Name = "HomeVer2";
-            this.Size = new System.Drawing.Size(1226, 857);
+            this.Size = new System.Drawing.Size(1209, 840);
             this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel6.ResumeLayout(false);

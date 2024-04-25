@@ -40,7 +40,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.userNameBox = new ReaLTaiizor.Controls.CrownTextBox();
+            this.userNameTB = new ReaLTaiizor.Controls.CrownTextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.exitPanel.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -88,7 +88,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(282, 331);
             this.panel1.TabIndex = 8;
-            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint_1);
             // 
             // signUpBox
             // 
@@ -141,6 +140,7 @@
             this.passwordBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(220)))), ((int)(((byte)(220)))));
             this.passwordBox.Location = new System.Drawing.Point(13, 3);
             this.passwordBox.Name = "passwordBox";
+            this.passwordBox.PasswordChar = '●';
             this.passwordBox.Size = new System.Drawing.Size(171, 14);
             this.passwordBox.TabIndex = 11;
             // 
@@ -194,25 +194,25 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(16)))), ((int)(((byte)(32)))));
-            this.panel2.Controls.Add(this.userNameBox);
+            this.panel2.Controls.Add(this.userNameTB);
             this.panel2.Location = new System.Drawing.Point(41, 100);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(198, 26);
             this.panel2.TabIndex = 10;
             // 
-            // userNameBox
+            // userNameTB
             // 
-            this.userNameBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.userNameTB.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.userNameBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(16)))), ((int)(((byte)(32)))));
-            this.userNameBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.userNameBox.Font = new System.Drawing.Font("SF Pro Text", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.userNameBox.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(220)))), ((int)(((byte)(220)))));
-            this.userNameBox.Location = new System.Drawing.Point(14, 3);
-            this.userNameBox.Name = "userNameBox";
-            this.userNameBox.Size = new System.Drawing.Size(171, 14);
-            this.userNameBox.TabIndex = 9;
+            this.userNameTB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(16)))), ((int)(((byte)(32)))));
+            this.userNameTB.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.userNameTB.Font = new System.Drawing.Font("SF Pro Text", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.userNameTB.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(220)))), ((int)(((byte)(220)))));
+            this.userNameTB.Location = new System.Drawing.Point(14, 3);
+            this.userNameTB.Name = "userNameTB";
+            this.userNameTB.Size = new System.Drawing.Size(171, 14);
+            this.userNameTB.TabIndex = 9;
             // 
             // label1
             // 
@@ -269,7 +269,7 @@
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Label label3;
-        private ReaLTaiizor.Controls.CrownTextBox userNameBox;
+        private ReaLTaiizor.Controls.CrownTextBox userNameTB;
         private System.Windows.Forms.Button signUpBox;
         private ReaLTaiizor.Controls.CrownTextBox passwordBox;
         private ReaLTaiizor.Controls.CrownTextBox emailBox;

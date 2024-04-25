@@ -263,6 +263,16 @@ namespace PRIME3.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap comingSoon {
+            get {
+                object obj = ResourceManager.GetObject("comingSoon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap dune {
             get {
                 object obj = ResourceManager.GetObject("dune", resourceCulture);
@@ -446,6 +456,16 @@ namespace PRIME3.Properties {
         internal static System.Drawing.Bitmap FIRST_PAGE1 {
             get {
                 object obj = ResourceManager.GetObject("FIRST PAGE1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap footer {
+            get {
+                object obj = ResourceManager.GetObject("footer", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -21,19 +21,6 @@ namespace PRIME_FINAL
 
             
         }
-        
-
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void panel1_Paint_1(object sender, PaintEventArgs e)
-        {
-            
-
-        }
-
         private void exitSign_Click(object sender, EventArgs e)
         {
             Application.Exit();
@@ -69,7 +56,8 @@ namespace PRIME_FINAL
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-           Home log =  new Home();
+           string text = userNameTB.Text;
+           Home log =  new Home(text);
            this.Hide();
            log.Show();
         }

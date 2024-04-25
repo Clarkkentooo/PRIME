@@ -33,10 +33,12 @@ namespace PRIME_FINAL
         public System.Windows.Forms.Panel paneldesk;
         public PictureBox addtoCartImage;
 
-        public Home()
+        public Home(string text)
         {
             InitializeComponent();
             CollapseMenu();
+            usernameData.Text = text;
+            desktopPanel.BringToFront();
             instance = this;
             paneldesk = desktopPanel;
             addtoCartImage = add2Cart;
@@ -122,7 +124,7 @@ namespace PRIME_FINAL
                 imageNum = 0; // Reset imageNum if it exceeds the array length
             }
 
-            pictureBox8.ImageLocation = "Resources/" + imageNames[imageNum]; // Assuming the images are located in a folder named "HeaderImage"
+            pictureBox8.ImageLocation = "Resources/" + imageNames[imageNum]; 
 
             imageNum++;
         }
@@ -156,21 +158,6 @@ namespace PRIME_FINAL
             //originalPanelSize = new Rectangle(pictureBox8.Location.X, pictureBox8.Location.Y, pictureBox8.Width, pictureBox8.Height);
 
         }
-        /*private void resizeControl(Rectangle r, Control c) 
-        {
-            float xRatio = (float)(this.Width) / (float)(originalFormSize.Width);
-            float yRatio = (float)(this.Height) / (float)(originalFormSize.Height);
-
-            int newX = (int)(r.Width * xRatio);
-            int newY = (int)(r.Height * yRatio);
-
-            int newWidth = (int)(r.Width * xRatio);
-            int newHeight = (int)(r.Height * yRatio);
-
-            c.Location = new Point(newX, newY);
-            c.Size = new Size(newWidth, newHeight);
-
-        }*/
         //Method for adjusting the Home Page Layout
         private void Home_Resize(object sender, EventArgs e)
         {
@@ -386,10 +373,8 @@ namespace PRIME_FINAL
         }
         private void moviePicture_Click(object sender, EventArgs e)
         {
-            // Open FunctionFormbg
             OpenDuneForm(new FunctionFormDune());
 
-            // Show desktopPanel again after FunctionFormbg is closed
             desktopPanel.Visible = true;
         }
         private void OpenDuneForm(Form duneForm)
@@ -409,10 +394,8 @@ namespace PRIME_FINAL
         }
         private void mpictureKFPanda_Click(object sender, EventArgs e)
         {
-            // Open FunctionFormbg
             OpenKFPandaForm(new FunctionFormKfPanda());
 
-            // Show desktopPanel again after FunctionFormbg is closed
             desktopPanel.Visible = true;
         }
         private void OpenKFPandaForm(Form kfPandaForm)
@@ -432,10 +415,8 @@ namespace PRIME_FINAL
         }
         private void mpictureWeb_Click(object sender, EventArgs e)
         {
-            // Open FunctionFormbg
             OpenMWebForm(new FunctionFormMWebb());
 
-            // Show desktopPanel again after FunctionFormbg is closed
             desktopPanel.Visible = true;
         }
         private void OpenMWebForm(Form mwebbForm)
@@ -455,10 +436,8 @@ namespace PRIME_FINAL
         }
         private void mpictureHungerG_Click(object sender, EventArgs e)
         {
-            // Open FunctionFormbg
             OpenHGamesForm(new FunctionFormHGames());
 
-            // Show desktopPanel again after FunctionFormbg is closed
             desktopPanel.Visible = true;
         }
         private void OpenHGamesForm(Form hungerGForm)
@@ -478,10 +457,8 @@ namespace PRIME_FINAL
         }
         private void mpictureOppenH_Click(object sender, EventArgs e)
         {
-            // Open FunctionFormbg
             OpenOppenheimerForm(new FunctionFormOpp());
 
-            // Show desktopPanel again after FunctionFormbg is closed
             desktopPanel.Visible = true;
         }
         private void OpenOppenheimerForm(Form oppenheimerForm)
@@ -501,10 +478,8 @@ namespace PRIME_FINAL
         }
         private void mpictureSMario_Click(object sender, EventArgs e)
         {
-            // Open FunctionFormbg
             OpenSuperMarioForm(new FunctionFormSMario());
 
-            // Show desktopPanel again after FunctionFormbg is closed
             desktopPanel.Visible = true;
         }
         private void OpenSuperMarioForm(Form superMForm)
